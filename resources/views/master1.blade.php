@@ -79,6 +79,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<span class="layer mid"></span>
 							<span class="layer btm"></span>
 						</a> 
+						<br><br><br>
 						<div class="shy-menu-panel">
 							<nav class="menu menu--horatio link-effect-8" id="link-effect-8">
 								<ul class="w3layouts_menu__list">
