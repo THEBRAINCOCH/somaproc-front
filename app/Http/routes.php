@@ -14,3 +14,22 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get ("index","clientcontroller@index");
+
+Route::get ("/contact","clientcontroller@contact");
+
+Route::get ("/about","clientcontroller@about");
+
+Route::get ("/blog","clientcontroller@blog");
+
+Route::get ("/gallery","clientcontroller@gallery");
+
+Route::get ("/icons","clientcontroller@icons");
+
+Route::get ("/products","clientcontroller@products");
+
+Route::get ("/services","clientcontroller@services");
+
+Route::get ("/typography","clientcontroller@typography");
