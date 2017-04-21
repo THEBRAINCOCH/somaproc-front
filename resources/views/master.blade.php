@@ -38,6 +38,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			   
 
 				<div class="w3_agile_logo">
+				<br>
 				<h1><a href="index"><span>S</span>OMAPROC<i><hr  style="color: #00e600";>Sté des Marchés de Production</i></a></h1>
 				</div>
 				
@@ -58,7 +59,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
-				<span><br><br><br><br></span>
+				<span><br><br><br><br><br></span>
 
 				<div class="agileits_w3layouts_menu">
 					<div class="shy-menu">
@@ -88,12 +89,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			
 			<div class="w3_banner_info">
-			<br>
+			<br><br>
 				<div class="w3_banner_info_grid">
 					<h3 style="font-size: 250%;color: #fff;" align="center">Société des Marchés de production<br> du centre</h3>
 				    <h3 class="test" align="center">Votre meilleur choix</h3>
 				   
-					<br><br>
+					<br><br><br>
 					<ul>
 						<li><a href="contact" class="w3l_contact">Contactez nous</a></li>
 						<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal">Lire la suite</a></li>
