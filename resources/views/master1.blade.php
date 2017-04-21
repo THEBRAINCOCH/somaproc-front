@@ -62,7 +62,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3_agileits_banner_main_grid">
 				<div class="w3_agile_logo">
 				<br><br><br><br><br><br><br>
-					<h1><a href="index"><span>S</span>OMAPROC<i><hr  style="color: #00b300";>Sté des Marchés de Production</i></a></h1>
+					<h1><a href="/"><span>S</span>OMAPROC<i><hr  style="color: #00b300";>Sté des Marchés de Production</i></a></h1>
 				</div>
 				<div class="agile_social_icons_banner">
 					<ul class="agileits_social_list">
@@ -134,7 +134,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3agile_footer_grids">
 				<div class="col-md-3 agileinfo_footer_grid">
 					<div class="agileits_w3layouts_footer_logo">
-						<h2><a href="index"><span>G</span>erminate<i>Grow healthy products</i></a></h2>
+						<h2><a href="/"><span>G</span>erminate<i>Grow healthy products</i></a></h2>
 					</div>
 				</div>
 				<div class="col-md-4 agileinfo_footer_grid">
@@ -151,7 +151,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-2 agileinfo_footer_grid agileinfo_footer_grid1">
 					<h3>La Navigation</h3>
 					<ul class="w3layouts_footer_nav">
-						<li><a href="index"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Accueil</a></li>
+						<li><a href="/"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Accueil</a></li>
 						<li><a href="Actualité"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Actualité</a></li>
 						<li><a href="icons"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Icônes Web</a></li>
 						<li><a href="typography"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Typographie</a></li>
