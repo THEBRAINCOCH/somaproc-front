@@ -47,6 +47,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul >
 						<li ><a href="https://Somaproc.com.tn/ar" class="w3l_contact">Ar</a></li>
 						<li><a href="https://Somaproc.com.tn/fr" class="w3l_contact">FR</a></li>
+						<li><a href="https://Somaproc.com.tn/fr" class="w3l_contact">FR</a></li>
 					</ul>
 				   </div>
 				   <br>
