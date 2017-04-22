@@ -40,8 +40,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="w3_agile_logo">
 				
 				<h1>
-				   <a href="/"><span>S</span>OMAPROC<i><hr  style="color: #00e600";>Sté des Marchés de Production</i></a>
-				    <h3 class="test" align="center">Votre meilleur choix</h3>
+				   <a href="/"><span>S</span>OMAPROC<i><hr  style="color: #00e600";>Sté des Marchés de Production</i></a><br>
+				    <h3 class="test" align="center" style="color: #fff">Votre meilleur choix</h3>
 				</h1>
 				</div>
 				
@@ -92,13 +92,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 				<!-- welcome -->
 	<div class="welcome">
-		<div class="container">
-			<h3 class="agileits_w3layouts_head"  style="font-size: 250%;color: #fff;">Bienvenue à <span>Somaproc</span> Produits</h3>
-			<div class="w3_agile_image">
-				<img src="images/1.png" alt=" " class="img-responsive" />
-			</div>
-			
-		</div>
 		<div class="mis-stage w3_agileits_welcome_grids"> 
 			<!-- The element to select and apply miSlider to - the class is optional -->
 			<ol class="mis-slider">
