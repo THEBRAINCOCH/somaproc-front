@@ -81,22 +81,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</ul>
 							</nav>
 						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-
-				<div class="clearfix"> </div>
-			</div>
-			<!-- welcome -->
-	<div class="welcome">
-		<div class="container">
-			<h3 class="agileits_w3layouts_head"  style="font-size: 250%;color: #fff;">Bienvenue à <span>Somaproc</span> Produits</h3>
-			<div class="w3_agile_image">
-				<img src="images/1.png" alt=" " class="img-responsive" />
-			</div>
-			
-		</div>
-		<div class="mis-stage w3_agileits_welcome_grids"> 
+						<div class="mis-stage w3_agileits_welcome_grids"> 
 			<!-- The element to select and apply miSlider to - the class is optional -->
 			<ol class="mis-slider">
 			    
@@ -138,8 +123,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</li>
 			</ol>
 		</div>
-	</div>
-<!-- //welcome -->
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+
+				<div class="clearfix"> </div>
+			</div>
+		
 			
 			<div class="w3_banner_info">
 			<br><br>
