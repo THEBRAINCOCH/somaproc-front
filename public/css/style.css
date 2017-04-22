@@ -476,8 +476,8 @@ button.close {
   transform: scale(2);
 }
 /*-- //banner-bottom --*/
-/*-- welcome  hetha win badel css--*/
-.banner.welcome,.newsletter,.about-bottom,.services-bottom{
+/*-- welcome --*/
+.welcome,.newsletter,.about-bottom,.services-bottom{
 	padding:5em 0;
 }
 .agileits_w3layouts_head{
@@ -500,7 +500,7 @@ button.close {
 }
 /*-- //welcome --*/
 /*-- welcome-bottom --*/
-.banner.welcome-bottom{
+.welcome-bottom{
 	background:#aeb09f;
 }
 .wthree_welcome_bottom_right{
