@@ -102,6 +102,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 
+
+<br><br><br>
+			<div class="thim-click-to-bottom">
+				<a href="#welcome_bottom" class="scroll">
+					<i class="fa  fa-chevron-down"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+<!-- banner -->
 	<!-- welcome -->
 	<div class="welcome">
 		<div class="container">
@@ -155,16 +165,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 <!-- //welcome -->
-<br><br><br>
-			<div class="thim-click-to-bottom">
-				<a href="#welcome_bottom" class="scroll">
-					<i class="fa  fa-chevron-down"></i>
-				</a>
-			</div>
-		</div>
-	</div>
-<!-- banner -->
-
 <!-- bootstrap-pop-up -->
 	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
 		<div class="modal-dialog" role="document">
