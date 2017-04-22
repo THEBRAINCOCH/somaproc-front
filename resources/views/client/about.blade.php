@@ -20,7 +20,7 @@
 <!-- about -->
 	<div class="welcome">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">Pourquoi<span>nous</span>choisir</h3>
+			<h3 class="agileits_w3layouts_head">Pourquoi <span> nous </span> choisir</h3>
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive" />
 			</div>
