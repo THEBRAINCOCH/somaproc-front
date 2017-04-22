@@ -156,6 +156,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 				</div>
 			</div>
+			</div>
+			</div>
 <!-- banner -->
 
 
