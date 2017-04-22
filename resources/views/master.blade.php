@@ -144,7 +144,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 <!-- //welcome -->
 <div class="w3_banner_info">
-			<br><br>
+			
 				<div class="w3_banner_info_grid">
 					<h3 style="font-size: 250%;color: #fff;" align="center">Société des Marchés de production<br> du centre</h3>
 				    <h3 class="test" align="center">Votre meilleur choix</h3>
