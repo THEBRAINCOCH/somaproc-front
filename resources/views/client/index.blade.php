@@ -2,59 +2,6 @@
 
 @section('content')
 
-	<!-- welcome -->
-	<div class="welcome">
-		<div class="container">
-			<h3 class="agileits_w3layouts_head"  style="font-size: 250%;color: #fff;">Bienvenue à <span>Somaproc</span> Produits</h3>
-			<div class="w3_agile_image">
-				<img src="images/1.png" alt=" " class="img-responsive" />
-			</div>
-			
-		</div>
-		<div class="mis-stage w3_agileits_welcome_grids"> 
-			<!-- The element to select and apply miSlider to - the class is optional -->
-			<ol class="mis-slider">
-			    
-				<li class="mis-slide"> 
-					<figure> 
-						<img src="images/2.png" alt=" " class="img-responsive" />
-						<figcaption>Strawberry </figcaption>
-					</figure>
-				</li>
-				<li class="mis-slide"> 
-					<figure> 
-						<img src="images/3.png" alt=" " class="img-responsive" />
-						<figcaption>Orange</figcaption>
-					</figure>
-				</li>
-				<li class="mis-slide"> 
-					<figure> 
-						<img src="images/4.png" alt=" " class="img-responsive" />
-						<figcaption>Pomegranates</figcaption>
-					</figure>
-				</li>
-				<li class="mis-slide"> 
-					<figure> 
-						<img src="images/5.png" alt=" " class="img-responsive" />
-						<figcaption>Lemon</figcaption>
-					</figure>
-				</li>
-				<li class="mis-slide"> 
-					<figure> 
-						<img src="images/6.png" alt=" " class="img-responsive" />
-						<figcaption>Kiwi Fruits</figcaption>
-					</figure>
-				</li>
-				<li class="mis-slide"> 
-					<figure> 
-						<img src="images/7.png" alt=" " class="img-responsive" />
-						<figcaption>Apples</figcaption>
-					</figure>
-				</li>
-			</ol>
-		</div>
-	</div>
-<!-- //welcome -->
 
 <!-- banner-bottom -->
 	<div class="banner-bottom">

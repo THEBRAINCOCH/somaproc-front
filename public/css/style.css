@@ -477,7 +477,7 @@ button.close {
 }
 /*-- //banner-bottom --*/
 /*-- welcome --*/
-.welcome,.newsletter,.about-bottom,.services-bottom{
+.banner.welcome,.newsletter,.about-bottom,.services-bottom{
 	padding:5em 0;
 }
 .agileits_w3layouts_head{
@@ -500,7 +500,7 @@ button.close {
 }
 /*-- //welcome --*/
 /*-- welcome-bottom --*/
-.welcome-bottom{
+.banner.welcome-bottom{
 	background:#aeb09f;
 }
 .wthree_welcome_bottom_right{
