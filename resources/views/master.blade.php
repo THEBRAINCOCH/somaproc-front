@@ -30,7 +30,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 <body>
 
-
 <!-- banner -->
 	<div class="banner">
 
@@ -89,24 +88,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="clearfix"> </div>
 			</div>
 			
-		
-
-
-<br><br><br>
-			<div class="thim-click-to-bottom">
-				<a href="#welcome_bottom" class="scroll">
-					<i class="fa  fa-chevron-down"></i>
-				</a>
-			</div>
-		</div>
-	</div>
-<!-- banner -->
-
-<!-- banner -->
-	<div class="banner">
-
-		<div class="container">
-			<div class="w3_agileits_banner_main_grid">
 			<div class="w3_banner_info">
 			<br><br>
 				<div class="w3_banner_info_grid">
