@@ -20,43 +20,40 @@
 <!-- about -->
 	<div class="welcome">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">Why <span>Choose</span> Us</h3>
+			<h3 class="agileits_w3layouts_head">Pourquoi<span>nous</span>choisir</h3>
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive" />
 			</div>
-			<p class="agile_para">Morbi viverra lacus commodo felis semper, eu iaculis lectus nulla at sapien blandit sollicitudin.</p>
+			<p class="agile_para">Présentation</p>
 			<div class="w3ls_news_grids"> 
 				<div class="col-md-6 w3_agile_about_grid_left">
-					<h3>Pellentesque a ligula nec dui ornare pulvinar in non sem condimentum erat</h3>
-					<p><i>In eleifend nisl fermentum bibendum euismod. Pellentesque ac mi quis tortor 
-						consequat scelerisque.</i> Sed eros urna, rhoncus nec tortor quis, pretium vestibulum
-						purus. Nunc quis augue nibh. Proin non enim non nulla scelerisque scelerisque 
-						vitae non est. Quisque iaculis leo at lacus malesuada mattis.</p>
+					<h3>Somaproc def</h3>
+					<p><i>Déscription</p>
 				</div>
 				<div class="col-md-6 w3_agile_about_grid_right">
 					<div class="skillbar" data-percent="78">
-					  <span class="skillbar-title" style="background: #f1703a;">Seeds</span>
+					  <span class="skillbar-title" style="background: #f1703a;">Des graines</span>
 					  <p class="skillbar-bar" style="background: #f88c5e;"></p>
 					  <span class="skill-bar-percent"></span>
 					</div>
 					<!-- End Skill Bar -->
 					
 					<div class="skillbar" data-percent="54">
-					  <span class="skillbar-title" style="background: #2980b9;">Growth</span>
+					  <span class="skillbar-title" style="background: #2980b9;">Croissance</span>
 					  <p class="skillbar-bar" style="background: #3498db;"></p>
 					  <span class="skill-bar-percent"></span>
 					</div>
 					<!-- End Skill Bar -->
 					
 					<div class="skillbar" data-percent="76">
-					  <span class="skillbar-title" style="background: #a0d034;">Economy</span>
+					  <span class="skillbar-title" style="background: #a0d034;">Économie</span>
 					  <p class="skillbar-bar" style="background: #b2ec2f;"></p>
 					  <span class="skill-bar-percent"></span>
 					</div>
 					<!-- End Skill Bar -->
 					
 					<div class="skillbar" data-percent="80">
-					  <span class="skillbar-title" style="background: #e7cc2c;">Planting</span>
+					  <span class="skillbar-title" style="background: #e7cc2c;">Plantation</span>
 					  <p class="skillbar-bar" style="background: #f5d410;"></p>
 					  <span class="skill-bar-percent"></span>
 					</div>
