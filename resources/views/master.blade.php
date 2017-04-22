@@ -143,25 +143,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 <!-- //welcome -->
-
-<br><br><br>
-			<div class="thim-click-to-bottom">
-				<a href="#welcome_bottom" class="scroll">
-					<i class="fa  fa-chevron-down"></i>
-				</a>
-			</div>
-		</div>
-		
-	</div>
-<!-- banner -->
-
-<!-- banner -->
-	<div class="banner">
-
-		<div class="container">
-
-			<div class="w3_agileits_banner_main_grid">
-			<div class="w3_banner_info">
+<div class="w3_banner_info">
 			<br><br>
 				<div class="w3_banner_info_grid">
 					<h3 style="font-size: 250%;color: #fff;" align="center">Société des Marchés de production<br> du centre</h3>
@@ -174,17 +156,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 				</div>
 			</div>
-
-	
-
-			<div class="thim-click-to-bottom">
-				<a href="#welcome_bottom" class="scroll">
-					<i class="fa  fa-chevron-down"></i>
-				</a>
-			</div>
-		</div>
-	</div>
 <!-- banner -->
+
+
 
 <!-- bootstrap-pop-up -->
 	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
