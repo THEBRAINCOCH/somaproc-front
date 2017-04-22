@@ -99,14 +99,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</a>
 			</div>
 		</div>
-	</div>
-<!-- banner -->
-
-<!-- banner -->
-	<div class="banner">
-
-		<div class="container">
-		<!-- welcome -->
+				<!-- welcome -->
 	<div class="welcome">
 		<div class="container">
 			<h3 class="agileits_w3layouts_head"  style="font-size: 250%;color: #fff;">Bienvenue à <span>Somaproc</span> Produits</h3>
@@ -159,6 +152,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 <!-- //welcome -->
+	</div>
+<!-- banner -->
+
+<!-- banner -->
+	<div class="banner">
+
+		<div class="container">
+
 			<div class="w3_agileits_banner_main_grid">
 			<div class="w3_banner_info">
 			<br><br>
