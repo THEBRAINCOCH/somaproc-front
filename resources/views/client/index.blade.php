@@ -1,8 +1,6 @@
 @extends('master')
 
 @section('content')
-
-
 <!-- banner-bottom -->
 	<div class="banner-bottom">
 		<div class="col-md-4 agileits_banner_bottom_left">
