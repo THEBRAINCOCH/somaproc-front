@@ -30,6 +30,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 <body>
 
+
 <!-- banner -->
 	<div class="banner">
 
@@ -88,19 +89,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="clearfix"> </div>
 			</div>
 			
-			<div class="w3_banner_info">
-			<br><br>
-				<div class="w3_banner_info_grid">
-					<h3 style="font-size: 250%;color: #fff;" align="center">Société des Marchés de production<br> du centre</h3>
-				    <h3 class="test" align="center">Votre meilleur choix</h3>
-				   
-					<br><br><br>
-					<ul>
-						<li><a href="contact" class="w3l_contact">Contactez nous</a></li>
-						<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal">Lire la suite</a></li>
-					</ul>
-				</div>
-			</div>
+		
 
 
 <br><br><br>
@@ -112,7 +101,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 <!-- banner -->
-	<!-- welcome -->
+
+<!-- banner -->
+	<div class="banner">
+
+		<div class="container">
+		<!-- welcome -->
 	<div class="welcome">
 		<div class="container">
 			<h3 class="agileits_w3layouts_head"  style="font-size: 250%;color: #fff;">Bienvenue à <span>Somaproc</span> Produits</h3>
@@ -165,6 +159,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 <!-- //welcome -->
+			<div class="w3_agileits_banner_main_grid">
+			<div class="w3_banner_info">
+			<br><br>
+				<div class="w3_banner_info_grid">
+					<h3 style="font-size: 250%;color: #fff;" align="center">Société des Marchés de production<br> du centre</h3>
+				    <h3 class="test" align="center">Votre meilleur choix</h3>
+				   
+					<br><br><br>
+					<ul>
+						<li><a href="contact" class="w3l_contact">Contactez nous</a></li>
+						<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal">Lire la suite</a></li>
+					</ul>
+				</div>
+			</div>
+
+	
+
+			<div class="thim-click-to-bottom">
+				<a href="#welcome_bottom" class="scroll">
+					<i class="fa  fa-chevron-down"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+<!-- banner -->
+
 <!-- bootstrap-pop-up -->
 	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
 		<div class="modal-dialog" role="document">
