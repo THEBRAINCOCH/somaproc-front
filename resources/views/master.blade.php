@@ -99,7 +99,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<br><br> 
 	<!-- welcome -->
 	<div class="welcome">
-		<div class="container">
+	
 			
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive" />
@@ -148,7 +148,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</li>
 			</ol>
 		</div>
-	</div>
+
 <!-- //welcome -->
 	<div class="w3_banner_info">
 			
