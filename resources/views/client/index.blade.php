@@ -60,15 +60,7 @@
 				<div class="clearfix"> </div>
 			</div>
 			
-			<div class="w3_banner_info">
-			
-				<div class="w3_banner_info_grid">
-					<h3 style="font-size: 200%;color: #fff;" align="center">Société des Marchés de production<br> du centre</h3>
-				    <h3 class="test" align="center">Votre meilleur choix</h3>
-		
-				</div>
-			</div>
-	<br><br> 
+	
 	<!-- welcome -->
 		<div class="mis-stage w3_agileits_welcome_grids"> 
 			<!-- The element to select and apply miSlider to - the class is optional -->
