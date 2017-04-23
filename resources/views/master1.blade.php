@@ -5,7 +5,7 @@ author URL: http://Riatica.com
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Germinate an Agriculture Category Flat Bootstrap Responsive Website Template | Contact Us :: w3layouts</title>
+<title>SOMAPROC : Sté des marchésde Production du Centre </title>
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -65,8 +65,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="w3_agileits_banner_main_grid">
 				<div class="w3_agile_logo">
-				
-					<h1><a href="/"><span>S</span>OMAPROC</a></h1>
+				<a href="/"><img src="logo.png" style="  height:100px; width:150px;  margin-left:2px;" class="img-responsive"/></a>
 				</div><br><br><br><br>
 				<div class="agile_social_icons_banner">
 					<ul class="agileits_social_list">

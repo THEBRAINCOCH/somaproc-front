@@ -5,7 +5,7 @@ author URL: http://Riatica.com
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Germinate an Agriculture Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<title>SOMAPROC : Sté des marchésde Production du Centre </title>
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -27,10 +27,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="//fonts.googleapis.com/css?family=Bree+Serif&amp;subset=latin-ext" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 </head>
-	
 <body>
-
-
 <!-- //bootstrap-pop-up -->
 @yield('content')
 <!-- footer -->
