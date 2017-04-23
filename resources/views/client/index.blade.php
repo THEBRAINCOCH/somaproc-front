@@ -107,12 +107,21 @@
 		</div>
 
 <!-- //welcome -->
-<div class="w3_banner_info">
-				<div class="w3_banner_info_grid">
-					<center><h3 style="font-size: 200%;color: #fff;" align="center">Société des Marchés de production<br> du centre</h3>
-				    <h3 class="test" align="center">Votre meilleur choix</h3></center>
-				</div>
-</div>
+<br><br>
+					<center>
+					        <h3 style="font-size: 300%;
+	                                   color: #fff;
+	                                   margin: 0;" >Société des Marchés de production<br> du centre
+	                         </h3>
+	                </center>
+				    <h3 style="font-size: 200%;
+	                                   color: #fff;
+	                                   margin: 0;" 
+	                     class="test" 
+	                     align="center">Votre meilleur choix
+	                </h3>
+				
+
 <div class="w3_banner_info">
 	            <div class="w3_banner_info_grid">
 					<ul>
