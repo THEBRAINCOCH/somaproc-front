@@ -4,6 +4,19 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
+  @media (max-width: @screen-xs) {h3{font-size: 10px;}}
+
+    @media (max-width: @screen-sm)
+      {
+        h3{font-size: 14px;}
+      }
+    h3{
+        font-size: 1.4em;
+      }   
+
+
+
 html, body{
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
@@ -32,6 +45,7 @@ input[type="submit"],input[type="reset"],a{
     -o-transition: 0.5s ease-in;
     transition:0.5s ease-in;
 }
+
 /*-- banner --*/
 .banner{
 	background: url(../images/banner.jpg) no-repeat 0px 0px;

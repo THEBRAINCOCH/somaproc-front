@@ -108,17 +108,17 @@
 
 <!-- //welcome -->
 <br><br>
-					<center>
-					        <h3 style="font-size: 300%;
+					
+					<h3 align="center" style="font-size: 300%;
 	                                   color: #fff;
 	                                   margin: 0;" >Société des Marchés de production<br> du centre
-	                         </h3>
-	                </center>
-				    <h3 style="font-size: 200%;
+	                </h3>
+<br>        
+				    <h3 align="center" style="font-size: 200%;
 	                                   color: #fff;
 	                                   margin: 0;" 
 	                     class="test" 
-	                     align="center">Votre meilleur choix
+	                     >Votre meilleur choix
 	                </h3>
 				
 
