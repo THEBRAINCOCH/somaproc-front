@@ -56,9 +56,11 @@
 						<div class="clearfix"> </div>
 					</div>
 				</div>
-
+<h3 style="font-size: 200%;color: #fff;" align="center">Société des Marchés de production<br> du centre</h3>
+				    <h3 class="test" align="center">Votre meilleur choix</h3>
 				<div class="clearfix"> </div>
 			</div>
+			
 			
 	
 	<!-- welcome -->
