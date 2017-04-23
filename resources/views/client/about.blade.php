@@ -117,7 +117,7 @@
 				</div>
 				<div class="col-md-3 w3_agileits_team_grid"> 
 					<div class="w3layouts_news_grid">
-						<img src="images/11.jpg" alt=" " class="img-responsive" />
+						<img src="images/10.jpg" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
 							<div class="wthree_text agileinfo_about_text">
 								<ul class="agileits_social_list">
@@ -133,7 +133,7 @@
 				</div>
 				<div class="col-md-3 w3_agileits_team_grid"> 
 					<div class="w3layouts_news_grid">
-						<img src="images/12.jpg" alt=" " class="img-responsive" />
+						<img src="images/10.jpg" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
 							<div class="wthree_text agileinfo_about_text">
 								<ul class="agileits_social_list">
@@ -149,7 +149,7 @@
 				</div>
 				<div class="col-md-3 w3_agileits_team_grid"> 
 					<div class="w3layouts_news_grid">
-						<img src="images/13.jpg" alt=" " class="img-responsive" />
+						<img src="images/10.jpg" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
 							<div class="wthree_text agileinfo_about_text">
 								<ul class="agileits_social_list">
