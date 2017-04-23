@@ -6,12 +6,12 @@
 		<div class="container">
 			<div class="w3layouts_breadcrumbs_left">
 				<ul>
-					<li><i class="fa fa-home" aria-hidden="true"></i><a href="index">Accueil</a><span>/</span></li>
-					<li><i class="fa fa-picture-o" aria-hidden="true"></i>Galerie</li>
+					<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.html">Home</a><span>/</span></li>
+					<li><i class="fa fa-picture-o" aria-hidden="true"></i>Gallery</li>
 				</ul>
 			</div>
 			<div class="w3layouts_breadcrumbs_right">
-				<h2>Gallerie</h2>
+				<h2>Gallery</h2>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -120,7 +120,13 @@
 			</div>
 		</div>
 	</div>
-        
+<!-- //gallery -->
+	<script src="js/lsb.min.js"></script>
+	<script>
+	$(window).load(function() {
+		  $.fn.lightspeedBox();
+		});
+	</script>
 <!-- menu -->
 	<script>
 		$(function() {
