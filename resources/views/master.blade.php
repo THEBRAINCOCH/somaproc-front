@@ -98,14 +98,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 	<br><br> 
 	<!-- welcome -->
-	<div class="welcome">
-	
-			
-			<div class="w3_agile_image">
-				<img src="images/1.png" alt=" " class="img-responsive" />
-			</div>
-			
-		</div>
 		<div class="mis-stage w3_agileits_welcome_grids"> 
 			<!-- The element to select and apply miSlider to - the class is optional -->
 			<ol class="mis-slider">
