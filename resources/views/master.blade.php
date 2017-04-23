@@ -39,7 +39,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 				<div class="w3_agile_logo">
 				
-				<h1><a href="/"><span>S</span>OMAPROC<i><hr  style="color: #00e600";>Sté des Marchés de Production</i></a></h1>
+				<h1><a href="/"><span>S</span>OMAPROC</a></h1>
 				</div>
 				
 				<div class="agile_social_icons_banner">
@@ -48,10 +48,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul >
 						<li ><a href="https://Somaproc.com.tn/ar" class="w3l_contact">Ar</a></li>
 						<li><a href="https://Somaproc.com.tn/fr" class="w3l_contact">FR</a></li>
-						<li><a href="https://Somaproc.com.tn/fr" class="w3l_contact">FR</a></li>
+						<li><a href="https://Somaproc.com.tn/en" class="w3l_contact">EN</a></li>
 					</ul>
 				   </div>
-				   <br>
+				   <br><br>
 					<ul class="agileits_social_list">
 						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -59,7 +59,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
-				<span><br><br><br><br><br></span>
+				<span><br><br><br></span>
 
 				<div class="agileits_w3layouts_menu">
 					<div class="shy-menu">
@@ -89,23 +89,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			
 			<div class="w3_banner_info">
-			<br><br>
+			
 				<div class="w3_banner_info_grid">
-					<h3 style="font-size: 250%;color: #fff;" align="center">Société des Marchés de production<br> du centre</h3>
+					<h3 style="font-size: 200%;color: #fff;" align="center">Société des Marchés de production<br> du centre</h3>
 				    <h3 class="test" align="center">Votre meilleur choix</h3>
-				   
-					<br><br><br>
-					<ul>
-						<li><a href="contact" class="w3l_contact">Contactez nous</a></li>
-						<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal">Lire la suite</a></li>
-					</ul>
+		
 				</div>
 			</div>
-			<br><br>
+			
 	<!-- welcome -->
 	<div class="welcome">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head"  style="font-size: 250%;color: #fff;">Bienvenue à <span>Somaproc</span> Produits</h3>
+			
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive" />
 			</div>
@@ -155,7 +150,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 <!-- //welcome -->
-<br><br><br>
+	<div class="w3_banner_info">
+			
+				<div class="w3_banner_info_grid">
+					
+					<ul>
+						<li><a href="contact" class="w3l_contact">Contactez nous</a></li>
+						<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal">Lire la suite</a></li>
+					</ul>
+				</div>
+	</div>
+<br><br>
 			<div class="thim-click-to-bottom">
 				<a href="#welcome_bottom" class="scroll">
 					<i class="fa  fa-chevron-down"></i>

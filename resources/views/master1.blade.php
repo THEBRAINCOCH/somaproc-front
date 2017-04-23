@@ -61,9 +61,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="w3_agileits_banner_main_grid">
 				<div class="w3_agile_logo">
-				<br><br><br><br><br><br><br>
-					<h1><a href="/"><span>S</span>OMAPROC<i><hr  style="color: #00b300";>Sté des Marchés de Production</i></a></h1>
-				</div>
+				
+					<h1><a href="/"><span>S</span>OMAPROC</a></h1>
+				</div><br><br><br><br>
 				<div class="agile_social_icons_banner">
 					<ul class="agileits_social_list">
 						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -72,7 +72,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
-				<br><br><br>
+				
 				<div class="agileits_w3layouts_menu">
 					<div class="shy-menu">
 						<a class="shy-menu-hamburger">
