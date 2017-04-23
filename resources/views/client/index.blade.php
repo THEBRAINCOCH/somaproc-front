@@ -60,12 +60,7 @@
 				<div class="clearfix"> </div>
 			</div>
 			
-			<div class="w3_banner_info">
-				<div class="w3_banner_info_grid">
-					<h3 style="font-size: 200%;color: #fff;" align="center">Société des Marchés de production<br> du centre</h3>
-				    <h3 class="test" align="center">Votre meilleur choix</h3>
-				</div>
-			</div>
+			
 	
 	<!-- welcome -->
 		<div class="mis-stage w3_agileits_welcome_grids"> 
@@ -112,14 +107,20 @@
 		</div>
 
 <!-- //welcome -->
-	<div class="w3_banner_info">
+<div class="w3_banner_info">
+				<div class="w3_banner_info_grid">
+					<center><h3 style="font-size: 200%;color: #fff;" align="center">Société des Marchés de production<br> du centre</h3>
+				    <h3 class="test" align="center">Votre meilleur choix</h3></center>
+				</div>
+</div>
+<div class="w3_banner_info">
 	            <div class="w3_banner_info_grid">
 					<ul>
 						<li><a href="contact" class="w3l_contact">Contactez nous</a></li>
 						<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal">Lire la suite</a></li>
 					</ul>
 				</div>
-	</div>
+</div>
 <br><br><br><br><br><br><br>
 			<div class="thim-click-to-bottom">
 				<a href="#welcome_bottom" class="scroll">
