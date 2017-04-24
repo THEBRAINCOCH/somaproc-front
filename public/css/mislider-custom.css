@@ -1,7 +1,7 @@
 ﻿/*  Custom miSlider CSS ========================================= */
 
 .mis-stage {
-	background-color: rgba(0, 0, 0, .075);
+	background-color: rgba(0, 0, 0, 0);
 }
 .mis-slider {
 /*  Slider element does not need to be a specific height
