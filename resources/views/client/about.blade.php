@@ -37,7 +37,12 @@
 					  <span class="skill-bar-percent"></span>
 					</div>
 					<!-- End Skill Bar -->
-					
+					<div class="skillbar" data-percent="99">
+					  <span class="skillbar-title" style="background: #2980b9;">Croissance</span>
+					  <p class="skillbar-bar" style="background: #3498db;"></p>
+					  <span class="skill-bar-percent"></span>
+					</div>
+					<!-- End Skill Bar -->
 					<div class="skillbar" data-percent="54">
 					  <span class="skillbar-title" style="background: #2980b9;">Croissance</span>
 					  <p class="skillbar-bar" style="background: #3498db;"></p>
@@ -93,7 +98,7 @@
 <!-- team -->
 	<div class="welcome">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">Meet Our <span>Amazing</span> Team</h3>
+			<h3 class="agileits_w3layouts_head">Rencontrez <span>notre</span> équipe</h3>
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive" />
 			</div>
@@ -101,7 +106,7 @@
 			<div class="w3ls_news_grids w3_agileits_team_grids"> 
 				<div class="col-md-3 w3_agileits_team_grid"> 
 					<div class="w3layouts_news_grid">
-						<img src="images/10.jpg" alt=" " class="img-responsive" />
+						<img src="images/a17.jpg" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
 							<div class="wthree_text agileinfo_about_text">
 								<ul class="agileits_social_list">
@@ -112,12 +117,12 @@
 							</div>
 						</div>
 					</div>
-					<h4>Andria Carl</h4>
-					<p>Field Manager</p>
+					<h4>PDG</h4>
+					<p>LOTFI HAMDI</p>
 				</div>
 				<div class="col-md-3 w3_agileits_team_grid"> 
 					<div class="w3layouts_news_grid">
-						<img src="images/10.jpg" alt=" " class="img-responsive" />
+						<img src="images/a17.jpg" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
 							<div class="wthree_text agileinfo_about_text">
 								<ul class="agileits_social_list">
@@ -128,12 +133,12 @@
 							</div>
 						</div>
 					</div>
-					<h4>Laura Doe</h4>
-					<p>Farmer</p>
+					<h4>Direction Technique</h4>
+					<p>HAMMADI ACHOURI</p>
 				</div>
 				<div class="col-md-3 w3_agileits_team_grid"> 
 					<div class="w3layouts_news_grid">
-						<img src="images/10.jpg" alt=" " class="img-responsive" />
+						<img src="images/a17.jpg" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
 							<div class="wthree_text agileinfo_about_text">
 								<ul class="agileits_social_list">
@@ -144,12 +149,12 @@
 							</div>
 						</div>
 					</div>
-					<h4>Rosy Paul</h4>
-					<p>Co-Founder</p>
+					<h4>secrétaire général</h4>
+					<p>ISSLEM BADRI</p>
 				</div>
 				<div class="col-md-3 w3_agileits_team_grid"> 
 					<div class="w3layouts_news_grid">
-						<img src="images/10.jpg" alt=" " class="img-responsive" />
+						<img src="images/a17.jpg" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
 							<div class="wthree_text agileinfo_about_text">
 								<ul class="agileits_social_list">
@@ -167,7 +172,146 @@
 			</div>
 		</div>
 	</div>
-<!-- //team -->
+	
+
+	<!-- team -->
+<!-- ACTIONNAIRES -->
+
+
+	<div class="welcome" style="background: url(../images/21.jpg) no-repeat 0px 0px;
+    background-size:;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+	text-align: center;">
+		<div class="container">
+			<h3 class="agileits_w3layouts_head">Rencontrez <span>notre</span> ACTIONNAIRES</h3>
+			<div class="w3_agile_image">
+				<img src="images/1.png" alt=" " class="img-responsive" />
+	        </div>
+  <div class="project-section wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">	
+			<div class="w3ls_news_grids w3_agileits_team_grids" style="background-color: rgb(0, 0, 0, 0.75);"> 
+				<div class="col-md-3 w3_agileits_team_grid"> 
+					<div class="w3layouts_news_grid">
+						<img src="images/a10.jpg" alt=" " class="img-responsive" />
+						<div class="w3layouts_news_grid_pos">
+							<div class="wthree_text agileinfo_about_text">
+								<ul class="agileits_social_list">
+									<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<h4>Conseil Régional<h5>Gouvernorat SBZ</h5></h4>
+					
+				</div>
+				<div class="col-md-3 w3_agileits_team_grid"> 
+					<div class="w3layouts_news_grid">
+						<img src="images/10.jpg" alt=" " class="img-responsive" />
+						<div class="w3layouts_news_grid_pos">
+							<div class="wthree_text agileinfo_about_text">
+								<ul class="agileits_social_list">
+									<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<h4>CPSCL<h5>Caisse des Prets et de Soutien des Collectivités Locales</h5></h4>
+					
+				</div>
+				<div class="col-md-3 w3_agileits_team_grid"> 
+					<div class="w3layouts_news_grid">
+						<img src="images/a11.jpg" alt=" " class="img-responsive" />
+						<div class="w3layouts_news_grid_pos">
+							<div class="wthree_text agileinfo_about_text">
+								<ul class="agileits_social_list">
+									<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<h4>CDC<h5>Caisse de Dépots et de Consignations</h5></h4>
+					
+				</div>
+				<div class="col-md-3 w3_agileits_team_grid"> 
+					<div class="w3layouts_news_grid">
+						<img src="images/a12.jpg" alt=" " class="img-responsive" />
+						<div class="w3layouts_news_grid_pos">
+							<div class="wthree_text agileinfo_about_text">
+								<ul class="agileits_social_list">
+									<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<h4>Municipalité<h5>SBZ</h5></h4>
+				</div>
+				
+				<div class="clearfix"> </div>
+				<br>
+				<div class="col-md-3 w3_agileits_team_grid"> 
+					<div class="w3layouts_news_grid">
+						<img src="images/a13.jpg" alt=" " class="img-responsive" />
+						<div class="w3layouts_news_grid_pos">
+							<div class="wthree_text agileinfo_about_text">
+								<ul class="agileits_social_list">
+									<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<h4>SODESIB SICAR<h5>La Société de Développement Economique de Sidi Bouzid</h5></h4>
+					
+				</div>
+				<div class="col-md-3 w3_agileits_team_grid"> 
+					<div class="w3layouts_news_grid">
+						<img src="images/a14.jpg" alt=" " class="img-responsive" />
+						<div class="w3layouts_news_grid_pos">
+							<div class="wthree_text agileinfo_about_text">
+								<ul class="agileits_social_list">
+									<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<h4>Citech<h5>SBZ</h5></h4>
+				</div>
+				<div class="col-md-3 w3_agileits_team_grid"> 
+					<div class="w3layouts_news_grid">
+						<img src="images/a15.jpg" alt=" " class="img-responsive" />
+						<div class="w3layouts_news_grid_pos">
+							<div class="wthree_text agileinfo_about_text">
+								<ul class="agileits_social_list">
+									<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<h4>Municipalité Regueb<h5>SBZ</h5></h4>
+				</div>
+				<div class="col-md-3 w3_agileits_team_grid"> 
+					<div class="w3layouts_news_grid">
+						<img src="images/a16.jpg" alt=" " class="img-responsive" />
+						<div class="w3layouts_news_grid_pos">
+							<div class="wthree_text agileinfo_about_text">
+								<ul class="agileits_social_list">
+									<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<h4>Municipalité Jelma<h5>SBZ</h5></h4>	
+				</div>
+
+				<div class="clearfix"> </div>
+			</div><br>
+
+		</div>
+	</div>
+</div>
+<!-- //ACTIONNAIRES -->
 <!-- menu -->
 	<script>
 		$(function() {
