@@ -11,7 +11,7 @@
 				</ul>
 			</div>
 			<div class="w3layouts_breadcrumbs_right">
-				<h2></h2>
+				<h2>À propos</h2>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
