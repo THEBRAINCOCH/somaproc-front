@@ -16,7 +16,8 @@
 			<div class="clearfix"> </div>
 		</div>
 	</div>
-<!-- //breadcrumbs -->
+<!-- //breadcrumbs -- >
+
 <!-- about -->
 	<div class="welcome">
 		<div class="container">
@@ -69,6 +70,7 @@
 		</div>
 	</div>
 <!-- //about -->
+
 <!-- skills -->
 	<script src="js/skill.bars.jquery.js"></script>
 	<script>
@@ -87,94 +89,104 @@
 <!-- about-bottom -->
 	<div class="about-bottom">
 		<div class="container">
-			<h3><span>Agriculture</span> not only gives riches to a nation, but the
-				only riches she can call her own</h3>
+			<h3><span>SOMAPROC</span> est la solution la plus appropriée pour les produits agricoles en <span>Tunisie</span>.</h3>
 			<div class="agileits_w3layouts_learn_more agileits_learn_more hvr-radial-out">
 				<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
 			</div>
 		</div>
 	</div>
 <!-- //about-bottom -->
+
 <!-- team -->
-	<div class="welcome">
+	<div class="testimonials">
 		<div class="container">
 			<h3 class="agileits_w3layouts_head">Rencontrez <span>notre</span> équipe</h3>
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive" />
 			</div>
-			<p class="agile_para">Morbi viverra lacus commodo felis semper, eu iaculis lectus nulla at sapien blandit sollicitudin.</p>
-			<div class="w3ls_news_grids w3_agileits_team_grids"> 
-				<div class="col-md-3 w3_agileits_team_grid"> 
-					<div class="w3layouts_news_grid">
-						<img src="images/a17.jpg" alt=" " class="img-responsive" />
-						<div class="w3layouts_news_grid_pos">
-							<div class="wthree_text agileinfo_about_text">
-								<ul class="agileits_social_list">
-									<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
+			<div class="w3ls_news_grids">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="agile_testimonials_grid">
+									<div class="col-md-4 agile_testimonials_grid_left">
+										<img src="images/a17.jpg" alt=" " class="img-responsive" />
+									</div>
+									<div class="col-md-8 agile_testimonials_grid_right">
+										<h5>Vivamus malesuada <span>pellentesque</span> nunc id <i>'condim'</i></h5>
+										<div class="wthree_stars">
+											<ul>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star-half-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+											</ul>
+										</div>
+										<p>Duis porttitor magna leo, ac feugiat nibh bibendum at. Duis porttitor 
+											placerat ex a fermentum. Praesent et dolor dignissim, fringilla enim vitae, 
+											tristique enim.</p><br>
+										
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+							</li>
+							<li>
+								<div class="agile_testimonials_grid">
+									<div class="col-md-4 agile_testimonials_grid_left">
+										<img src="images/a17.jpg" alt=" " class="img-responsive" />
+									</div>
+									<div class="col-md-8 agile_testimonials_grid_right">
+										<h5>Quisque eu aliquam <span>dignissim</span> ex a <i>'fringilla'</i></h5>
+										<div class="wthree_stars">
+											<ul>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+											</ul>
+										</div>
+										<p>Duis porttitor magna leo, ac feugiat nibh bibendum at. Duis porttitor 
+											placerat ex a fermentum. Praesent et dolor dignissim, fringilla enim vitae, 
+											tristique enim.</p><br>
+								
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+							</li>
+							<li>
+								<div class="agile_testimonials_grid">
+									<div class="col-md-4 agile_testimonials_grid_left">
+										<img src="images/a17.jpg" alt=" " class="img-responsive" />
+									</div>
+									<div class="col-md-8 agile_testimonials_grid_right">
+										<h5>Vivamus malesuada <span>pellentesque</span> nunc id <i>'condim'</i></h5>
+										<div class="wthree_stars">
+											<ul>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star-half-o"></i></li>
+												<li><i class="fa fa-star-half-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+											</ul>
+										</div>
+										<p>Duis porttitor magna leo, ac feugiat nibh bibendum at. Duis porttitor 
+											placerat ex a fermentum. Praesent et dolor dignissim, fringilla enim vitae, 
+											tristique enim.</p>
+										
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+							</li>
+						</ul>
 					</div>
-					<h4>PDG</h4>
-					<p>LOTFI HAMDI</p>
-				</div>
-				<div class="col-md-3 w3_agileits_team_grid"> 
-					<div class="w3layouts_news_grid">
-						<img src="images/a17.jpg" alt=" " class="img-responsive" />
-						<div class="w3layouts_news_grid_pos">
-							<div class="wthree_text agileinfo_about_text">
-								<ul class="agileits_social_list">
-									<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<h4>Direction Technique</h4>
-					<p>HAMMADI ACHOURI</p>
-				</div>
-				<div class="col-md-3 w3_agileits_team_grid"> 
-					<div class="w3layouts_news_grid">
-						<img src="images/a17.jpg" alt=" " class="img-responsive" />
-						<div class="w3layouts_news_grid_pos">
-							<div class="wthree_text agileinfo_about_text">
-								<ul class="agileits_social_list">
-									<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<h4>secrétaire général</h4>
-					<p>ISSLEM BADRI</p>
-				</div>
-				<div class="col-md-3 w3_agileits_team_grid"> 
-					<div class="w3layouts_news_grid">
-						<img src="images/a17.jpg" alt=" " class="img-responsive" />
-						<div class="w3layouts_news_grid_pos">
-							<div class="wthree_text agileinfo_about_text">
-								<ul class="agileits_social_list">
-									<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<h4>Christopher Lii</h4>
-					<p>Senior Staff</p>
-				</div>
-				<div class="clearfix"> </div>
+				</section>
 			</div>
 		</div>
 	</div>
-	
-
-	<!-- team -->
+<!-- //team -->
 <!-- ACTIONNAIRES -->
 
 
@@ -187,8 +199,8 @@
     background-attachment: fixed;
 	text-align: center;">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">Rencontrez <span>notre</span> ACTIONNAIRES</h3>
-			<div class="w3_agile_image">
+			<h3 class="agileits_w3layouts_head">Rencontrez <span>notre</span> Actionnaires</h3>
+			<div class="w3_agile_image">                                      
 				<img src="images/1.png" alt=" " class="img-responsive" />
 	        </div>
   <div class="project-section wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">	
@@ -312,6 +324,19 @@
 	</div>
 </div>
 <!-- //ACTIONNAIRES -->
+<!-- flexSlider -->
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+		$(window).load(function(){
+		  $('.flexslider').flexslider({
+			animation: "slide",
+			start: function(slider){
+			  $('body').removeClass('loading');
+			}
+		  });
+		});
+  </script>
+<!-- //flexSlider -->
 <!-- menu -->
 	<script>
 		$(function() {
