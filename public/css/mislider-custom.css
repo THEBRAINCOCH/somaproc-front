@@ -1,8 +1,6 @@
 ﻿/*  Custom miSlider CSS ========================================= */
 
-.mis-stage {
-	background-color: rgba(0, 0, 0, .075);
-}
+
 .mis-slider {
 /*  Slider element does not need to be a specific height
             Here we use it to create a stylish bar behind slides */
