@@ -133,7 +133,7 @@
 
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(33.6, 49.966667),
+                    position: new google.maps.LatLng(35.034030, 9.473782),
                     map: map,
                     title: 'Snazzy!'
                 });

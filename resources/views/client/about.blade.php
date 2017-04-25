@@ -27,9 +27,73 @@
 			</div>
 			<p class="agile_para">Présentation</p>
 			<div class="w3ls_news_grids"> 
+				<div class="col-md-4 w3_agile_about_grid_left">
+					<h3 style=" font-size:20px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;" >Somaproc
+	                </h3>
+					<p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                           La Société a pour objet l'implantation et la gestion des marchés de production de Sidi Bouzid destiné à la vente en gros des produits agricole destinés aux producteurs afin de faciliter la collecte, la standardisation, le conditionnement, la conservation et la formation des prix des produits agricoles ainsi que l'exercice de toute activité rentrant dans le cadre de l'objet social précité ou qui lui sont connexes et généralement toutes opérations industrielles commerciales ou financières, mobilières ou immobilières se rattachant directement ou indirectement à l'objet social ainsi que toutes opérations annexes pouvant présenter de l'utilité pour la société, favoriser ou développer ses intérêts.
+	                </p>
+				</div>
+				<div class="col-md-4 w3_agile_about_grid_left">
+					<h3 style=" font-size:20px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;" >Somaproc
+	                </h3>
+					<p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                           La Société a pour objet l'implantation et la gestion des marchés de production de Sidi Bouzid destiné à la vente en gros des produits agricole destinés aux producteurs afin de faciliter la collecte, la standardisation, le conditionnement, la conservation et la formation des prix des produits agricoles ainsi que l'exercice de toute activité rentrant dans le cadre de l'objet social précité ou qui lui sont connexes et généralement toutes opérations industrielles commerciales ou financières, mobilières ou immobilières se rattachant directement ou indirectement à l'objet social ainsi que toutes opérations annexes pouvant présenter de l'utilité pour la société, favoriser ou développer ses intérêts.
+	                </p>
+				</div>
+				<div class="col-md-4 w3_agile_about_grid_left">
+					<h3 style=" font-size:20px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;" >Somaproc
+	                </h3>
+					<p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                           La Société a pour objet l'implantation et la gestion des marchés de production de Sidi Bouzid destiné à la vente en gros des produits agricole destinés aux producteurs afin de faciliter la collecte, la standardisation, le conditionnement, la conservation et la formation des prix des produits agricoles ainsi que l'exercice de toute activité rentrant dans le cadre de l'objet social précité ou qui lui sont connexes et généralement toutes opérations industrielles commerciales ou financières, mobilières ou immobilières se rattachant directement ou indirectement à l'objet social ainsi que toutes opérations annexes pouvant présenter de l'utilité pour la société, favoriser ou développer ses intérêts.
+	                </p>
+				</div>
 				<div class="col-md-6 w3_agile_about_grid_left">
-					<h3>Somaproc def</h3>
-					<p><i>Déscription</p>
+					<h3 style=" font-size:20px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;" >Somaproc
+	                </h3>
+					<p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                           La Société a pour objet l'implantation et la gestion des marchés de production de Sidi Bouzid destiné à la vente en gros des produits agricole destinés aux producteurs afin de faciliter la collecte, la standardisation, le conditionnement, la conservation et la formation des prix des produits agricoles ainsi que l'exercice de toute activité rentrant dans le cadre de l'objet social précité ou qui lui sont connexes et généralement toutes opérations industrielles commerciales ou financières, mobilières ou immobilières se rattachant directement ou indirectement à l'objet social ainsi que toutes opérations annexes pouvant présenter de l'utilité pour la société, favoriser ou développer ses intérêts.
+	                </p>
 				</div>
 				<div class="col-md-6 w3_agile_about_grid_right">
 					<div class="skillbar" data-percent="78">
