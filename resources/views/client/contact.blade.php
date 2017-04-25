@@ -117,7 +117,7 @@
                     zoom: 11,
 
                     // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(33.6, 49.966667), // New York
+                    center: new google.maps.LatLng(35.034002379071545, 9.473803639411926), // New York
 
                     // How you would like to style the map. 
                     // This is where you would paste any style found on Snazzy Maps.
@@ -133,9 +133,9 @@
 
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(35.034030, 9.473782),
+                    position: new google.maps.LatLng(35.034002379071545, 9.473803639411926),
                     map: map,
-                    title: 'Snazzy!'
+                    title: 'SOMAPROC'
                 });
             }
         </script>
