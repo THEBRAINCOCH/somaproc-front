@@ -63,11 +63,12 @@ class clientcontroller extends Controller
       return view("client.typography");
     }
 
-/*public function news()
+public function news()
     {
       return view("client.news");
     }
-*/
+
+
     /**
      * Show the form for creating a new resource.
      *
