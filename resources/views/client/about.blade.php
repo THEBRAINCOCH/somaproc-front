@@ -219,7 +219,7 @@
 							<li>
 								<div class="agile_testimonials_grid">
 									<div class="col-md-4 agile_testimonials_grid_left">
-										<img src="images/a17.jpg" alt=" " class="img-responsive" />
+										<img src="images/team/PDG.jpg" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-8 agile_testimonials_grid_right">
 										<h5>Vivamus malesuada <span>pellentesque</span> nunc id <i>'condim'</i></h5>
@@ -243,7 +243,7 @@
 							<li>
 								<div class="agile_testimonials_grid">
 									<div class="col-md-4 agile_testimonials_grid_left">
-										<img src="images/a17.jpg" alt=" " class="img-responsive" />
+										<img src="images/team/PDG.jpg" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-8 agile_testimonials_grid_right">
 										<h5>Quisque eu aliquam <span>dignissim</span> ex a <i>'fringilla'</i></h5>
@@ -267,7 +267,7 @@
 							<li>
 								<div class="agile_testimonials_grid">
 									<div class="col-md-4 agile_testimonials_grid_left">
-										<img src="images/a17.jpg" alt=" " class="img-responsive" />
+										<img src="images/team/PDG.jpg" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-8 agile_testimonials_grid_right">
 										<h5>Vivamus malesuada <span>pellentesque</span> nunc id <i>'condim'</i></h5>
