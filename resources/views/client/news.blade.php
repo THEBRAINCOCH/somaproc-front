@@ -1,6 +1,7 @@
 @extends('master1')
 
 @section('content')
+
 <h3 class="agileits_w3layouts_head">Our <span>Gallery</span></h3>
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive" />
