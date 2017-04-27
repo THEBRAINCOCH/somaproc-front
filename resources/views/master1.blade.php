@@ -151,7 +151,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
-				
+				<div class="col-md-2 agileinfo_footer_grid agileinfo_footer_grid1">
+					<h3>La Navigation</h3>
+					<ul class="w3layouts_footer_nav">
+						<li><a href="/"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Accueil</a></li>
+						<li><a href="news"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Actualité</a></li>
+						<li><a href="icons"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Icônes Web</a></li>
+						<li><a href="typography"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Typographie</a></li>
+						<li><a href="contact"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Contactez Nous</a></li>
+
+					</ul>
+				</div>
 				<div class="col-md-3 agileinfo_footer_grid">
 					<h3>Postes de blog</h3>
 					<div class="agileinfo_footer_grid_left">
