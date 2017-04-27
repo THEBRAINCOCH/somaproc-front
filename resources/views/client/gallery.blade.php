@@ -17,6 +17,7 @@
 		</div>
 	</div>
 <!-- //breadcrumbs -->
+
 <!-- gallery -->
 	<div class="welcome">
 		<div class="container">
