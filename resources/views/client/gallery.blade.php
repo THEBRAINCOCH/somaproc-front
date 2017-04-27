@@ -97,7 +97,7 @@
 
 							</li>
 							<li>
-								
+								<h3 class="agileits_w3layouts_head">Produits</h3>
 								<div class="w3layouts_gallery_grids">	
 				                  <div class="col-md-4 w3layouts_gallery_grid">
 					                <a href="images/3.jpg" class="lsb-preview" data-lsb-group="header">
@@ -159,76 +159,7 @@
 						              </div>
 					                </a>
 				                  </div>
-
 									<div class="clearfix"> </div>
-								
-							</li>
-							<li>
-								
-								<div class="w3layouts_gallery_grids">	
-				                  <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/3.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/3.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-				                  <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/3.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/3.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-				                  <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/3.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/3.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-				                   <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/3.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/3.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-				                   <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/3.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/3.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-				                   <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/3.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/3.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-
-									<div class="clearfix"> </div>
-								
 							</li>
 						</ul>
 					</div>
