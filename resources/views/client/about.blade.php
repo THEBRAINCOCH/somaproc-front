@@ -1,4 +1,4 @@
-@extends('master1')
+ @extends('master1')
 
 @section('content')
 <!-- breadcrumbs -->
@@ -6,7 +6,7 @@
 		<div class="container">
 			<div class="w3layouts_breadcrumbs_left">
 				<ul>
-					<li><i class="fa fa-home" aria-hidden="true"></i><a href="index">Accueil</a><span>/</span></li>
+					<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">Accueil</a><span>/</span></li>
 					<li><i class="fa fa-info-circle" aria-hidden="true"></i>À propos</li>
 				</ul>
 			</div>
@@ -294,6 +294,7 @@
 			</div>
 		</div>
 	</div>
+	<br><br><br>
 <!-- //team -->
 <!-- ACTIONNAIRES -->
 

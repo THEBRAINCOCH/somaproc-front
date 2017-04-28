@@ -6,12 +6,12 @@
 		<div class="container">
 			<div class="w3layouts_breadcrumbs_left">
 				<ul>
-					<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.html">Home</a><span>/</span></li>
-					<li><i class="fa fa-picture-o" aria-hidden="true"></i>Gallery</li>
+					<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">Accueil</a><span>/</span></li>
+					<li><i class="fa fa-picture-o" aria-hidden="true"></i>Gallerie</li>
 				</ul>
 			</div>
 			<div class="w3layouts_breadcrumbs_right">
-				<h2>Gallery</h2>
+				<h2>Gallerie</h2>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -19,15 +19,20 @@
 <!-- //breadcrumbs -->
 
 <!-- gallery -->
-	<div class="welcome">
+	<div class="welcome" style="background: url(../images/21.jpg) no-repeat 0px 0px;
+    background-size:;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+	text-align: center;">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">Our <span>Gallery</span></h3>
+			<h3 class="agileits_w3layouts_head">Notre <span>Gallerie</span></h3>
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive" />
 			</div>
-			<p class="agile_para">Morbi viverra lacus commodo felis semper, eu iaculis lectus nulla at sapien blandit sollicitudin.</p>
-
-				<div class="w3ls_news_grids">
+			<div class="w3ls_news_grids">
 				<section class="slider">
 					<div class="flexslider">
 						<ul class="slides">
@@ -159,16 +164,16 @@
 						              </div>
 					                </a>
 				                  </div>
-									<div class="clearfix"> </div>
+				                  <div class="clearfix"> </div>
 							</li>
 						</ul>
+						<br><br>
 					</div>
 				</section>
 			</div>
 		</div>
 	</div>
-
-<!--*//-->
+<!--//gallery-->
 <!-- flexSlider -->
 	<script defer src="js/jquery.flexslider.js"></script>
 	<script type="text/javascript">

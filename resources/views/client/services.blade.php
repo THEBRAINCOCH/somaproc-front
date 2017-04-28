@@ -1,5 +1,4 @@
 
-
 @extends('master1')
 
 @section('content')
@@ -48,11 +47,11 @@
 <!-- services -->
 	<div class="welcome">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">Our <span>Featured</span> Services</h3>
+			<h3 class="agileits_w3layouts_head">Notre <span>Future</span> Services</h3>
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive" />
 			</div>
-			<p class="agile_para">Morbi viverra lacus commodo felis semper, eu iaculis lectus nulla at sapien blandit sollicitudin.</p>
+			
 			<div class="w3_agile_services_grids"> 
 				<div class="col-md-6 w3_agile_services_grid"> 
 					<div class="col-xs-4 w3_agile_services_grid_left"> 
@@ -170,11 +169,11 @@
 <!-- testimonials -->
 	<div class="testimonials">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">Our <span>Featured</span> Services</h3>
+			<h3 class="agileits_w3layouts_head">Notre <span>Future</span> Services</h3>
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive">
 			</div>
-			<p class="agile_para">Morbi viverra lacus commodo felis semper, eu iaculis lectus nulla at sapien blandit sollicitudin.</p>
+			
 			<div class="w3ls_news_grids">
 				<section class="slider">
 					<div class="flexslider">
@@ -198,7 +197,7 @@
 										<p>Duis porttitor magna leo, ac feugiat nibh bibendum at. Duis porttitor 
 											placerat ex a fermentum. Praesent et dolor dignissim, fringilla enim vitae, 
 											tristique enim.</p>
-										<h6>:- Laura More <span>Customer</span></h6>
+										<br>
 									</div>
 									<div class="clearfix"> </div>
 								</div>
@@ -222,7 +221,7 @@
 										<p>Duis porttitor magna leo, ac feugiat nibh bibendum at. Duis porttitor 
 											placerat ex a fermentum. Praesent et dolor dignissim, fringilla enim vitae, 
 											tristique enim.</p>
-										<h6>:- Henry Paul <span>Customer</span></h6>
+										<br>
 									</div>
 									<div class="clearfix"> </div>
 								</div>
@@ -246,7 +245,7 @@
 										<p>Duis porttitor magna leo, ac feugiat nibh bibendum at. Duis porttitor 
 											placerat ex a fermentum. Praesent et dolor dignissim, fringilla enim vitae, 
 											tristique enim.</p>
-										<h6>:- Andria Carl <span>Customer</span></h6>
+										<br>
 									</div>
 									<div class="clearfix"> </div>
 								</div>
@@ -256,7 +255,7 @@
 				</section>
 			</div>
 		</div>
-	</div>
+	</div><br><br><br>
 <!-- //testimonials -->
 <!-- flexSlider -->
 	<script defer src="js/jquery.flexslider.js"></script>
