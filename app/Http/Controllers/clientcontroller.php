@@ -63,6 +63,10 @@ class clientcontroller extends Controller
       return view("client.typography");
     }
 
+public function News()
+    {
+      return view("client.News");
+    }
 
 
 

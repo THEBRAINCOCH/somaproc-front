@@ -16,6 +16,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //custom-theme -->
 <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
 <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{ asset('css/NewsCarousel.css') }}" rel="stylesheet" type="text/css" media="all" />
+
 <!-- js -->
 <script type="text/javascript" src="{{ asset('js/jquery-2.1.4.min.js') }}"></script>
 <!-- //js -->
@@ -55,7 +57,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h3>La Navigation</h3>
 					<ul class="w3layouts_footer_nav">
 						<li><a href="/"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Accueil</a></li>
-						
+						<li><a href="News"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Actualité</a></li>
 						<li><a href="icons"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Icônes Web</a></li>
 						<li><a href="typography"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Typographie</a></li>
 						<li><a href="contact"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Contactez Nous</a></li>

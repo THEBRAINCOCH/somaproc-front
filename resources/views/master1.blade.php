@@ -17,11 +17,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
-<link href="css/news.css" rel="stylesheet" type="text/css" media="all" />
-<!-- js -->
+<link href="css/bootstrap1.css" rel="stylesheet" id="bootstrap-css">
+
 <!-- gallery -->
 <link href="css/lsb.css" rel="stylesheet" type="text/css">
 <!-- //gallery -->
+<!-- js -->
+   <!--newsCarousel.js-->
+ <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+ <script src="//cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+   <!---//newsCarousel.js-->
+
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <!-- //js -->
 <script type="text/javascript" src="//maps.googleapis.com/maps/api/js"></script>

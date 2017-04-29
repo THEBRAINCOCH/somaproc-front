@@ -37,7 +37,7 @@
 					<div class="flexslider">
 						<ul class="slides">
 							<li>
-                                <h3 class="agileits_w3layouts_head">Diréction</h3>
+                                <h3 class="agileits_w3layouts_head">Administration</h3>
 								<div class="w3layouts_gallery_grids">	
 				                  <div class="col-md-4 w3layouts_gallery_grid">
 					                <a href="images/Direction/d1.jpg" class="lsb-preview" data-lsb-group="header">
@@ -173,7 +173,7 @@
 			</div>
 		</div>
 	</div>
-<!--//gallery-->
+
 <!-- flexSlider -->
 	<script defer src="js/jquery.flexslider.js"></script>
 	<script type="text/javascript">
@@ -265,5 +265,4 @@
 			});
 	</script>
 <!-- //here ends scrolling icon -->
-
 @stop

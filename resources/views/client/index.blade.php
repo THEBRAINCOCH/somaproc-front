@@ -220,17 +220,17 @@
 <!-- news -->
 	<div class="welcome">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">Latest <span>News</span> from plantation</h3>
+			<h3 class="agileits_w3layouts_head">Dernières <span>nouvelles</span> de la Somaproc</h3>
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive">
 			</div>
-			<p class="agile_para">Morbi viverra lacus commodo felis semper, eu iaculis lectus nulla at sapien blandit sollicitudin.</p>
+		
 			<div class="w3ls_news_grids">
 				<div class="col-md-4 w3ls_news_grid">
 					<div class="w3layouts_news_grid">
 						<img src="images/3.jpg" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
-							<div class="wthree_text"><h3>plantation</h3></div>
+							<div class="wthree_text"><h3>Somaproc</h3></div>
 						</div>
 					</div>
 					<div class="agileits_w3layouts_news_grid">
@@ -355,23 +355,5 @@
 		<div class="clearfix"> </div>
 	</div>
 <!-- //welcome-bottom -->
-<!-- newsletter -->
-	<div class="newsletter">
 
-		<div class="container">
-			<h3 class="agileits_w3layouts_head agileinfo_head"><span>Abonnez-vous</span>  à notre newsletter</h3>
-			<div class="w3_agile_image">
-				<img src="images/12.png" alt=" " class="img-responsive">
-			</div>
-			
-			<div class="w3ls_news_grids w3ls_newsletter_grids">
-				<form action="#" method="post">
-					<input name="Votre Nom" placeholder="Votre Nom" type="text" required="">
-					<input name="Votre Email" placeholder="Votre Email" type="email" required="">
-					<input type="submit" value="Souscrire">
-				</form>
-			</div>
-		</div>
-	</div>
-<!-- //newsletter -->
 @stop

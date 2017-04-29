@@ -32,4 +32,6 @@ Route::get ("/services","clientcontroller@services");
 
 Route::get ("/typography","clientcontroller@typography");
 
+Route::get ("/News","clientcontroller@News");
+
 
