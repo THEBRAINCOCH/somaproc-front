@@ -32,7 +32,7 @@
 		<div class="container">
 			<div class="w3layouts_breadcrumbs_left">
 				<ul>
-					<li><i class="fa fa-home" aria-hidden="true"></i><a href="index">Accueil</a><span>/</span></li>
+					<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">Accueil</a><span>/</span></li>
 					<li><i class="fa fa-cogs" aria-hidden="true"></i>Produits</li>
 				</ul>
 			</div>
