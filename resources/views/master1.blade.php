@@ -16,6 +16,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //custom-theme -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
 <link href="css/bootstrap1.css" rel="stylesheet" id="bootstrap-css">
 
@@ -67,13 +70,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 <body>
 <!-- banner -->
-	<div class="banner1">
-		<div class="container">
-			<div class="w3_agileits_banner_main_grid">
-				<div class="w3_agile_logo">
-				<a href="/"><img src="logo.png" style="  height:100px; width:150px;  margin-left:2px;" class="img-responsive"/></a>
-				</div><br><br><br><br>
-				<div class="agile_social_icons_banner">
+<div class="banner1">
+<div id="header-wrapper">
+	 <div class="agile_social_icons_banner">
+                  <div class="w3_banner_info_grid">
+                   <div class="w3_agile_logo">
+				      <h1><a href="/"><img src="images/logo.png"  style="position: absolute;
+                                                                         top: 0;
+                                                                         width: 250px;
+                                                                         height: 200px;
+                                                                         left: 100px;" ></a></h1>
+	                </div>
+					<ul >
+						<li ><a href="https://Somaproc.com.tn/ar" class="w3l_contact">Ar</a></li>
+						<li><a href="https://Somaproc.com.tn/fr" class="w3l_contact">FR</a></li>
+						<li><a href="https://Somaproc.com.tn/en" class="w3l_contact">EN</a></li>
+					</ul>
+				   </div>
+				   <br><br>
 					<ul class="agileits_social_list">
 						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -81,35 +95,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
-				
-				<div class="agileits_w3layouts_menu">
-					<div class="shy-menu">
-						<a class="shy-menu-hamburger">
-							<span class="layer top"></span>
-							<span class="layer mid"></span>
-							<span class="layer btm"></span>
-						</a> 
-
-						<div class="shy-menu-panel">
-							<nav class="menu menu--horatio link-effect-8" id="link-effect-8">
-								<ul class="w3layouts_menu__list">
-									<li class="active"><a href="/">Accueil</a></li>
-									<li><a href="about">À propos</a></li> 
-									<li><a href="services">Services</a></li>
-									<li><a href="blog">Blog</a></li>
-									<li><a href="products">Produits</a></li>
-									<li><a href="gallery">Galerie</a></li> 
-									<li><a href="contact">Contactez Nous</a></li>
-								</ul>
-							</nav>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
+<div id="header" class="container">
+		<div id="menu">
+			<ul>
+				<li class="active"><a href="/">Accueil</a></li>
+				<li><a href="about">À propos</a></li> 
+				<li><a href="services">Services</a></li>
+				<li><a href="blog">Blog</a></li>
+				<li><a href="products">Produits</a></li>
+				<li><a href="gallery">Galerie</a></li> 
+				<li><a href="contact">Contactez Nous</a></li>
+			</ul>
 		</div>
 	</div>
+</div>
+</div>
 <!-- banner -->
 <!-- bootstrap-pop-up -->
 	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
