@@ -173,7 +173,7 @@
 			</div>
 		</div>
 	</div>
-
+<!--//-->
 <!-- flexSlider -->
 	<script defer src="js/jquery.flexslider.js"></script>
 	<script type="text/javascript">
@@ -265,4 +265,5 @@
 			});
 	</script>
 <!-- //here ends scrolling icon -->
+
 @stop
