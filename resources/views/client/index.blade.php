@@ -4,17 +4,10 @@
 
 
 <!-- banner -->
-<div class="banner1">
+<div class="banner">
    <div class="container">
 	 <div id="header-wrapper">
 	 <div class="agile_social_icons_banner">
-	               <div class="w3_agile_logo">
-				      <h1><a href="/"><img src="images/logo.png"  style="position: absolute;
-                                                                         top: 0;
-                                                                         width: 250px;
-                                                                         height: 200px;
-                                                                         left: 100px;" ></a></h1>
-	                </div>
                   <div class="w3_banner_info_grid">
 					<ul >
 						<li ><a href="https://Somaproc.com.tn/ar" class="w3l_contact">Ar</a></li>
@@ -30,7 +23,8 @@
 						<li><a href="#" class="100_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
-<div id="header" class="container">
+<div id="header" class="container" style="overflow: hidden;
+	margin: 0em auto;">
     <div id="menu">
 			<ul>
 				<li class="active"><a href="/">Accueil</a></li>

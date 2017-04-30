@@ -16,9 +16,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //custom-theme -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
 <link href="css/bootstrap1.css" rel="stylesheet" id="bootstrap-css">
 
@@ -74,13 +72,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div id="header-wrapper">
 	 <div class="agile_social_icons_banner">
                   <div class="w3_banner_info_grid">
-                   <div class="w3_agile_logo">
-				      <h1><a href="/"><img src="images/logo.png"  style="position: absolute;
-                                                                         top: 0;
-                                                                         width: 250px;
-                                                                         height: 200px;
-                                                                         left: 100px;" ></a></h1>
-	                </div>
 					<ul >
 						<li ><a href="https://Somaproc.com.tn/ar" class="w3l_contact">Ar</a></li>
 						<li><a href="https://Somaproc.com.tn/fr" class="w3l_contact">FR</a></li>
@@ -95,7 +86,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
-<div id="header" class="container">
+<div id="header" class="container" style="overflow: hidden;
+	margin: 0em auto;" >
 		<div id="menu">
 			<ul>
 				<li class="active"><a href="/">Accueil</a></li>
