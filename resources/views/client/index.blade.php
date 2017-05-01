@@ -35,32 +35,29 @@
 				<li><a href="gallery">Galerie</a></li> 
 				<li><a href="contact">Contactez Nous</a></li>
 			</ul>
-		</div>
 	</div>
+</div>
 </div>		
-	
-					<h3 align="center" style="font-size: 300%;
-	                                   color: #fff;
-	                                   margin: 0;" >Société des Marchés de production<br> du centre
-	                </h3>
-<br>        
-				    <h3 align="center" style="font-size: 200%;
-	                                   color: #fff;
-	                                   margin: 0;" 
-	                     class="test" 
-	                     >Votre meilleur choix
-	                </h3>
+<h3 align="center" style="font-size: 300%;
+	                      color: #fff;
+	                      margin: 0;" >Société des Marchés de production<br> du centre
+</h3><br>        
+<h3 align="center" style="font-size: 200%;
+	                      color: #fff;
+	                      margin: 0;" 
+	                     class="test" >Votre meilleur choix
+</h3>
 				
 
 <div class="w3_banner_info">
-	            <div class="w3_banner_info_grid">
-					<ul>
-						<li><a href="contact" class="w3l_contact">Contactez nous</a></li>
-						<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal">Lire la suite</a></li>
-					</ul>
-				</div>
+ <div class="w3_banner_info_grid">
+	<ul>
+		<li><a href="contact" class="w3l_contact">Contactez nous</a></li>
+		<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal">Lire la suite</a></li>
+	</ul>
+ </div>
 </div>
-<br><br><br><br><br><br><br>
+<br><br>
 			<div class="thim-click-to-bottom">
 				<a href="#welcome_bottom" class="scroll">
 					<i class="fa  fa-chevron-down"></i>

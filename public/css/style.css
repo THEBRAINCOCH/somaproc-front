@@ -38,12 +38,12 @@ input[type="submit"],input[type="reset"],a{
 /*-- banner --*/
 .banner{
 	background: url(../images/banner.jpg) no-repeat 0px 0px;
-    background-size: cover;
+     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 770px;
+    min-height: 300px;
 	position: relative;
 }
 .banner1{
@@ -354,6 +354,7 @@ span.char3 {
 }
 .modal-body {
     padding:0;
+    background: aliceblue;
 }
 .modal-content {
     border-radius: 0;
