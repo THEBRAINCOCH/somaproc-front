@@ -135,7 +135,8 @@
                 var marker = new google.maps.Marker({
                     position: new google.maps.LatLng(35.034002379071545, 9.473803639411926),
                     map: map,
-                    title: 'SOMAPROC'
+                    
+                    title: 'SOMAPROC Avenu Habib Bourguiba - immeuble de lentreprise - 3ème étage sidi bouzid',
                 });
             }
         </script>
