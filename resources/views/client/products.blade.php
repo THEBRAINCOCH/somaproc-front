@@ -41,7 +41,7 @@
 			</div>
 			<div class="clearfix"> </div>
 		</div>
-	</div>
+	</div><br><br>
 <!-- //breadcrumbs -->
 <h3 class="agileits_w3layouts_head">Observer<span> Notre </span>Produits</h3>
 			<div class="w3_agile_image">

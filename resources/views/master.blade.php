@@ -19,6 +19,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="{{ asset('css/NewsCarousel.css') }}" rel="stylesheet" type="text/css" media="all" />
 <link href="css/default.css" rel="stylesheet" type="text/css" media="all" />
 
+<!--//menu -->
+<link href="css/menu.css" rel="stylesheet" type="text/css" media="all" />
+<!--// menu-->
 
 <!-- js -->
 <script type="text/javascript" src="{{ asset('js/jquery-2.1.4.min.js') }}"></script>
@@ -203,6 +206,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								
 			});
 	</script>
+
 <!-- //here ends scrolling icon -->
+<!--//menu-->
+<script type="text/javascript">
+		$(document).ready(function() {
+    $('a[href="#navbar-more-show"], .navbar-more-overlay').on('click', function(event) {
+		event.preventDefault();
+		$('body').toggleClass('navbar-more-show');
+		if ($('body').hasClass('navbar-more-show'))	{
+			$('a[href="#navbar-more-show"]').closest('li').addClass('active');
+		}else{
+			$('a[href="#navbar-more-show"]').closest('li').removeClass('active');
+		}
+		return false;
+	});
+});
+</script>
+<!--//-->
 </body>
 </html>
