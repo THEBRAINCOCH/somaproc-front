@@ -78,10 +78,8 @@
                    </div>
                 </div>
 				</div>
-				
-				
 				<div class="clearfix"></div>
-				</div><br>
+				</div>
 				<div class="port2">
 				<div class="col-md-4 port-grid">
 				<div class="well">
