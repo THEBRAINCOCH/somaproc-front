@@ -917,7 +917,7 @@ figure.agileits_effect_moses:hover img {
     left: 0%;
 }
 .w3_agileits_footer_copy{
-	background:#cc0000;
+	background:rgba(60, 60, 60, 0.63);
 	padding:1.5em 0;
 	text-align:center;
 	margin:5em 0 0;
@@ -964,7 +964,7 @@ figure.agileits_effect_moses:hover img {
 /*-- breadcrumbs --*/
 .breadcrumbs{
 	padding:1em 0;
-	background:#cc0000;
+	background:#f5f5f5;
 }
 .w3layouts_breadcrumbs_left{
 	float:left;
@@ -972,7 +972,7 @@ figure.agileits_effect_moses:hover img {
 }
 .w3layouts_breadcrumbs_left ul li{
 	display:inline-block;
-	color:#fff;
+	color:#212121;
 	text-transform:uppercase;
 	font-weight:600;
 }
@@ -992,10 +992,10 @@ figure.agileits_effect_moses:hover img {
 }
 .w3layouts_breadcrumbs_right h2{
 	font-size:2em;
-	color:#fff;
+	color:#212121;
 }
 .w3layouts_breadcrumbs_left ul li a:hover{
-	color:#fff;
+	color:#000;
 }
 .w3_agile_about_grid_left h3{
 	font-size:1.4em;
