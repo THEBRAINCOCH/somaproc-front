@@ -15,7 +15,7 @@
       </div>
       <div class="clearfix"> </div>
     </div>
-  </div>
+  </div> 
 <!-- //breadcrumbs -->
    <!--newsCarousel.css-->
  <link href="//cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" rel="stylesheet" id="bootstrap-css">

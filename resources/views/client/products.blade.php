@@ -43,6 +43,11 @@
 		</div>
 	</div>
 <!-- //breadcrumbs -->
+<h3 class="agileits_w3layouts_head">Observer<span> Notre </span>Produits</h3>
+			<div class="w3_agile_image">
+				<img src="images/1.png" alt=" " class="img-responsive" />
+			</div>
+			<br>
 <div class="content">
 		<div class="project-section wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
 			<div class="container">
@@ -50,43 +55,85 @@
 				<div class="port-grids">
 				<div class="port1">
 				<div class="col-md-4 port-grid">
+				<div class="well">
 <a href="images/p10.jpg" class="swipebox"><img src="images/p10.jpg" class="img-responsive" alt="" /></a>
-					</div>
+                    <div class="grid_2 grid_5 agile">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                   </div>
+                </div>
+				</div>
 				<div class="col-md-4 port-grid">
+				<div class="well">
 <a href="images/p11.jpg" class="swipebox"><img src="images/p11.jpg" class="img-responsive" alt="" /></a>
-						
+                    <div class="grid_2 grid_5 agile">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                   </div>
+                </div>
 				</div>
 				<div class="col-md-4 port-grid">
+				<div class="well">
 <a href="images/p12.jpg" class="swipebox"><img src="images/p12.jpg" class="img-responsive" alt="" /></a>
-						
+                    <div class="grid_2 grid_5 agile">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                   </div>
+                </div>
 				</div>
+				
+				
 				<div class="clearfix"></div>
-				</div>
+				</div><br>
 				<div class="port2">
 				<div class="col-md-4 port-grid">
+				<div class="well">
 <a href="images/p13.jpg" class="swipebox"><img src="images/p13.jpg" class="img-responsive" alt="" /></a>
-			</div>
-				<div class="col-md-4 port-grid">
-<a href="images/p14.jpg" class="swipebox"><img src="images/p14.jpg" class="img-responsive" alt="" /></a>
-						
+                    <div class="grid_2 grid_5 agile">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                   </div>
+                </div>
 				</div>
 				<div class="col-md-4 port-grid">
+				<div class="well">
+<a href="images/p14.jpg" class="swipebox"><img src="images/p14.jpg" class="img-responsive" alt="" /></a>
+                    <div class="grid_2 grid_5 agile">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                   </div>
+                </div>
+				</div>
+				<div class="col-md-4 port-grid">
+				<div class="well">
 <a href="images/p15.jpg" class="swipebox"><img src="images/p15.jpg" class="img-responsive" alt="" /></a>
-					</div>
+                    <div class="grid_2 grid_5 agile">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                   </div>
+                </div>
+				</div>
 				<div class="clearfix"></div>
 				</div>
 				<div class="port3">
 				<div class="col-md-4 port-grid">
-<a href="images/p16.jpg" class="swipebox"><img src="images/p16.jpg" class="img-responsive" alt="" /></a>					
-					
+				<div class="well">
+<a href="images/p16.jpg" class="swipebox"><img src="images/p16.jpg" class="img-responsive" alt="" /></a>
+                    <div class="grid_2 grid_5 agile">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                   </div>
+                </div>
 				</div>
 				<div class="col-md-4 port-grid">
-<a href="images/p17.jpg" class="swipebox"><img src="images/p17.jpg" class="img-responsive" alt="" /></a>						
-					
+				<div class="well">
+<a href="images/p17.jpg" class="swipebox"><img src="images/p17.jpg" class="img-responsive" alt="" /></a>
+                    <div class="grid_2 grid_5 agile">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                   </div>
+                </div>
 				</div>
 				<div class="col-md-4 port-grid">
-<a href="images/p18.jpg" class="swipebox"><img src="images/p18.jpg" class="img-responsive" alt="" /></a>						
-					</div>
+				<div class="well">
+<a href="images/p18.jpg" class="swipebox"><img src="images/p18.jpg" class="img-responsive" alt="" /></a>
+                    <div class="grid_2 grid_5 agile">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                   </div>
+                </div>
+				</div>
 				<div class="clearfix"></div>
 				</div>
 				<div class="clearfix"></div>
@@ -94,7 +141,7 @@
 			</div>
 			</div>
 	</div>
-
+<br><br><br>
 <!-- //testimonials -->
 <!-- flexSlider -->
 	<script defer src="js/jquery.flexslider.js"></script>
