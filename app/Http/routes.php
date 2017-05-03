@@ -42,7 +42,7 @@ Route::get ("/News","clientcontroller@News");
 
 
 //************************* Change Language route ***************//
-Route::get('/language-chooser/{lang}',['as' =>  'language-choose','uses' =>'clientController@languageChooser'
+Route::get('/language-chooser/{lang}',['as' =>'language-choose','uses' =>'clientcontroller@languageChooser'
 ]);
 
 
