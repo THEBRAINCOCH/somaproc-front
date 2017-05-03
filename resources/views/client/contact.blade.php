@@ -174,6 +174,8 @@
 			});
 		}
 	</script>
+	   <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcPr8-cPFViW2XMU82Yi5MalOoi__IrMc"></script>
 <!-- //menu -->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
