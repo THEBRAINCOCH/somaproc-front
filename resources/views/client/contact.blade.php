@@ -104,8 +104,12 @@
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div>
+		<br/>
+		<div class="container">
 	<div id="map"></div>
+	</div>
+	</div>
+
 <!-- //contact -->
 	 
         
