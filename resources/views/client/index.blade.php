@@ -11,9 +11,9 @@
 	
                   <div class="w3_banner_info_grid">
 					<ul >
-						<li ><a href="https://Somaproc.com.tn/ar" class="w3l_contact">Ar</a></li>
-						<li><a href="https://Somaproc.com.tn/fr" class="w3l_contact">FR</a></li>
-						<li><a href="https://Somaproc.com.tn/en" class="w3l_contact">EN</a></li>
+						<li ><a href="{{route('language-choose','ar')}}" class="w3l_contact">{{trans('languages.ar')}}</a></li>
+						<li><a href="{{route('language-choose','fr')}}" class="w3l_contact">{{trans('languages.fr')}}</a></li>
+						<li><a href="{{route('language-choose','en')}}}" class="w3l_contact">{{trans('languages.en')}}</a></li>
 					</ul>
 				   </div>
 				
