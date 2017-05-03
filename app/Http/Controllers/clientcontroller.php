@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use Session;
 
 class clientcontroller extends Controller
 {
@@ -135,4 +136,11 @@ public function News()
     {
         //
     }
+
+      public function languageChooser($lang)
+    {
+        Session::set('locale', $lang);
+        return redirect()->back();
+    }
+
 }
