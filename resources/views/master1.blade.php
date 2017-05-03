@@ -17,7 +17,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
-<link href="css/news.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
 <!-- gallery -->
 <link href="css/lsb.css" rel="stylesheet" type="text/css">
@@ -145,7 +144,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-4 agileinfo_footer_grid">
 					<h3>Informations de contact</h3>
-					<h4>Appelez-nous <span>+(216)76 63 04 70</span></h4>
+					<h4>Appelez-nous <h3>+(216)76 63 04 70</h3></h4>
 					<p>Société des Marchés de Production Du Centre SOMAPROC Avenu Habib bourguiba -Immeuble de l'entreprise - 3 ème étage <span>Sidi Bouzid 9100</span></p>
 					<ul class="agileits_social_list">
 						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>

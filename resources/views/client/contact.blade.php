@@ -48,7 +48,7 @@
 								<textarea name="Message" placeholder=" " required=""></textarea>
 							</span>
 							<div class="w3_submit">
-								<input type="submit" value="Soumettre Maintenant">
+								<input type="submit" value="Soumettre">
 							</div>
 						</form>
 					</div>
@@ -65,7 +65,7 @@
 							<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 						</ul>
 						<div class="w3_agileits_mail_right_grid_pos">
-							<img src="images/12.jpg" alt=" " class="img-responsive" />
+							<img src="images/12.png" alt=" " class="img-responsive" />
 						</div>
 					</div>
 					<div class="w3_agileits_mail_right_grid_main">
