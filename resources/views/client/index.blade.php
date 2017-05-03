@@ -16,6 +16,7 @@
 						<li><a href="https://Somaproc.com.tn/en" class="w3l_contact">EN</a></li>
 					</ul>
 				   </div>
+				
 				   <br><br>
 					<ul class="agileits_social_list">
 						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -23,22 +24,35 @@
 						<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
 						<li><a href="#" class="100_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 					</ul>
+					
+				
+				</div><br><br><br><br><br><br><br><br><br><br>
+				<div class="agileits_w3layouts_menu">
+					<div class="shy-menu">
+						<a class="shy-menu-hamburger">
+							<span class="layer top"></span>
+							<span class="layer mid"></span>
+							<span class="layer btm"></span>
+						</a>
+
+						<div class="shy-menu-panel">
+							<nav class="menu menu--horatio link-effect-8" id="link-effect-8">
+								<ul class="w3layouts_menu__list">
+									<li class="active"><a href="/">Accueil</a></li>
+									<li><a href="about">À propos</a></li> 
+									<li><a href="services">Services</a></li>
+									<li><a href="blog">Blog</a></li>
+									<li><a href="products">Produits</a></li>
+									<li><a href="gallery">Galerie</a></li> 
+									<li><a href="contact">Contactez Nous</a></li>
+								</ul>
+							</nav>
+						</div>	
+						<div class="clearfix"> </div>
+					</div>
 				</div>
-<div id="header" class="container" style="overflow: hidden;
-	margin: 0em auto;">
-    <div id="menu">
-			<ul>
-				<li class="active"><a href="/">Accueil</a></li>
-				<li><a href="about">À propos</a></li> 
-				<li><a href="services">Services</a></li>
-				<li><a href="blog">Blog</a></li>
-				<li><a href="products">Produits</a></li>
-				<li><a href="gallery">Galerie</a></li> 
-				<li><a href="contact">Contactez Nous</a></li>
-			</ul>
-	</div>
-</div>
 </div>		
+	<br><br><br><br>
 <h3 align="center" style="font-size: 300%;
 	                      color: #fff;
 	                      margin: 0;" >Société des Marchés de production<br> du centre

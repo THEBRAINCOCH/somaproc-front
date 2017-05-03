@@ -16,19 +16,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //custom-theme -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/default.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
-<link href="css/bootstrap1.css" rel="stylesheet" id="bootstrap-css">
-
+<link href="css/news.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
 <!-- gallery -->
 <link href="css/lsb.css" rel="stylesheet" type="text/css">
 <!-- //gallery -->
-<!-- js -->
-   <!--newsCarousel.js-->
- <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
- <script src="//cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
-   <!---//newsCarousel.js-->
-
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <!-- //js -->
 <script type="text/javascript" src="//maps.googleapis.com/maps/api/js"></script>
@@ -67,10 +60,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 	
 <body>
-
 <!-- banner -->
-<div class="banner1">
-<div id="header-wrapper">
+	<div class="banner1">
+		<div class="container">
+			<div id="header-wrapper">
 	 <div class="agile_social_icons_banner">
                   <div class="w3_banner_info_grid">
 					<ul >
@@ -86,23 +79,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
 						<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 					</ul>
+				</div><br><br><br><br><br><br><br><br>
+<div class="agileits_w3layouts_menu">
+					<div class="shy-menu">
+						<a class="shy-menu-hamburger">
+							<span class="layer top"></span>
+							<span class="layer mid"></span>
+							<span class="layer btm"></span>
+						</a> 
+
+						<div class="shy-menu-panel">
+							<nav class="menu menu--horatio link-effect-8" id="link-effect-8">
+								<ul class="w3layouts_menu__list">
+									<li class="active"><a href="/">Accueil</a></li>
+									<li><a href="about">À propos</a></li> 
+									<li><a href="services">Services</a></li>
+									<li><a href="blog">Blog</a></li>
+									<li><a href="products">Produits</a></li>
+									<li><a href="gallery">Galerie</a></li> 
+									<li><a href="contact">Contactez Nous</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
 				</div>
-<div id="header" class="container" style="overflow: hidden;
-	margin: 0em auto;" >
-		<div id="menu">
-			<ul>
-				<li class="active"><a href="/">Accueil</a></li>
-				<li><a href="about">À propos</a></li> 
-				<li><a href="services">Services</a></li>
-				<li><a href="blog">Blog</a></li>
-				<li><a href="products">Produits</a></li>
-				<li><a href="gallery">Galerie</a></li> 
-				<li><a href="contact">Contactez Nous</a></li>
-			</ul>
+				<div class="clearfix"> </div>
+</div>
 		</div>
 	</div>
-</div>
-</div>
 <!-- banner -->
 <!-- bootstrap-pop-up -->
 	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">

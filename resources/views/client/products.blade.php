@@ -33,17 +33,7 @@
 			<div class="w3layouts_breadcrumbs_left">
 				<ul>
 					<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">Accueil</a><span>/</span></li>
-				    <li><div class="input-group-btn">
-							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cogs" aria-hidden="true"></i>  Produits</button>
-							<ul class="dropdown-menu">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
-								<li role="separator" class="divider"></li>
-								<li><a href="#">Separated link</a></li>
-							</ul>
-				    </div>
-				    </li>
+					<li><i class="fa fa-cogs" aria-hidden="true"></i>Produits</li>
 				</ul>
 			</div>
 			<div class="w3layouts_breadcrumbs_right">
