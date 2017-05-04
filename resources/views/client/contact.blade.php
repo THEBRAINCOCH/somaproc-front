@@ -8,12 +8,12 @@
 		<div class="container">
 			<div class="w3layouts_breadcrumbs_left">
 				<ul>
-					<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">Accueil</a><span>/</span></li>
-					<li><i class="fa fa-envelope-o" aria-hidden="true"></i>Contactez Nous</li>
+					<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">{{trans('menus.home')}}</a><span>/</span></li>
+					<li><i class="fa fa-envelope-o" aria-hidden="true"></i>{{trans('menus.contact')}}</li>
 				</ul>
 			</div>
 			<div class="w3layouts_breadcrumbs_right">
-				<h2>Contactez Nous</h2>
+				<h2>{{trans('menus.contact')}}</h2>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -22,7 +22,7 @@
 <!-- contact -->
 	<div class="welcome">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">Prenez<span> contact</span> avec nous</h3>
+			<h3 class="agileits_w3layouts_head">{{trans('contact.contactUs')}}</h3>
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive" />
 			</div>
@@ -32,23 +32,23 @@
 					<div class="agileits_mail_grid_right1 agile_mail_grid_right1">
 						<form action="#" method="post">
 							<span>
-								<i>Name</i>
+								<i>{{trans('contact.name')}}</i>
 								<input type="text" name="Name" placeholder=" " required="">
 							</span>
 							<span>
-								<i>Email</i>
+								<i>{{trans('contact.email')}}</i>
 								<input type="email" name="Email" placeholder=" " required="">
 							</span>
 							<span>
-								<i>Subject</i>
+								<i>{{trans('contact.subject')}}</i>
 								<input type="text" name="Subject" placeholder=" " required="">
 							</span>
 							<span>
-								<i>Message</i>
+								<i>{{trans('contact.message')}}</i>
 								<textarea name="Message" placeholder=" " required=""></textarea>
 							</span>
 							<div class="w3_submit">
-								<input type="submit" value="Soumettre">
+								<input type="submit" value="{{trans('contact.submit')}}">
 							</div>
 						</form>
 					</div>

@@ -6,12 +6,12 @@
 		<div class="container">
 			<div class="w3layouts_breadcrumbs_left">
 				<ul>
-					<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">Accueil</a><span>/</span></li>
-					<li><i class="fa fa-info-circle" aria-hidden="true"></i>À propos</li>
+					<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">{{trans('menus.home')}}</a><span>/</span></li>
+					<li><i class="fa fa-info-circle" aria-hidden="true"></i>{{trans('menus.about')}}</li>
 				</ul>
 			</div>
 			<div class="w3layouts_breadcrumbs_right">
-				<h2>À propos</h2>
+				<h2>{{trans('menus.about')}}</h2>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -21,7 +21,7 @@
 <!-- about -->
 	<div class="welcome">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">Pourquoi <span> nous </span> choisir</h3>
+			<h3 class="agileits_w3layouts_head">{{trans('about.whyChooseUs')}} </h3>
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive" />
 			</div>
@@ -33,7 +33,7 @@
 	                           font-weight:400;
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
-	                           text-align: justify;" >
+	                           text-align: justify;" > 
 	                           <span >Somaproc</span>
 	                </h3>
 					<p style=" font-size:14px;
