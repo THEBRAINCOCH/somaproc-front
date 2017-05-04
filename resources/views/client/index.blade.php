@@ -55,12 +55,12 @@
 	<br><br><br><br>
 <h3 align="center" style="font-size: 300%;
 	                      color: #fff;
-	                      margin: 0;" >Société des Marchés de production<br> du centre
+	                      margin: 0;" >{{trans('home.Société')}} {{trans('home.des Marchés')}} {{trans('home.de production')}}<br>{{trans('home.du centre')}}
 </h3><br>        
 <h3 align="center" style="font-size: 200%;
 	                      color: #fff;
 	                      margin: 0;" 
-	                     class="test" >Votre meilleur choix
+	                      >{{trans('home.votre')}} {{trans('home.meilleur')}} {{trans('home.choix')}}
 </h3>
 				
 
@@ -90,37 +90,37 @@
 				<li class="mis-slide"> 
 					<figure> 
 						<img src="images/2.png" alt=" " class="img-responsive" />
-						<figcaption>Strawberry </figcaption>
+						<figcaption>{{trans('home.Strawberry')}} </figcaption>
 					</figure>
 				</li>
 				<li class="mis-slide"> 
 					<figure> 
 						<img src="images/3.png" alt=" " class="img-responsive" />
-						<figcaption>Orange</figcaption>
+						<figcaption>{{trans('home.Orange')}}</figcaption>
 					</figure>
 				</li>
 				<li class="mis-slide"> 
 					<figure> 
 						<img src="images/4.png" alt=" " class="img-responsive" />
-						<figcaption>Pomegranates</figcaption>
+						<figcaption>{{trans('home.Pomegranates')}}</figcaption>
 					</figure>
 				</li>
 				<li class="mis-slide"> 
 					<figure> 
 						<img src="images/5.png" alt=" " class="img-responsive" />
-						<figcaption>Lemon</figcaption>
+						<figcaption>{{trans('home.Lemon')}}</figcaption>
 					</figure>
 				</li>
 				<li class="mis-slide"> 
 					<figure> 
 						<img src="images/6.png" alt=" " class="img-responsive" />
-						<figcaption>Kiwi Fruits</figcaption>
+						<figcaption>{{trans('home.Kiwi Fruits')}}</figcaption>
 					</figure>
 				</li>
 				<li class="mis-slide"> 
 					<figure> 
 						<img src="images/7.png" alt=" " class="img-responsive" />
-						<figcaption>Apples</figcaption>
+						<figcaption>{{trans('home.Apples')}}</figcaption>
 					</figure>
 				</li>
 			</ol>

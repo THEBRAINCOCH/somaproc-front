@@ -1,7 +1,7 @@
 <?php
 
 return [
-'whyChooseUs'=>' لماذا تختارنا نحن ؟'
+'whyChooseUs'=>' لماذا تختارنا نحن ؟',
 
 
 
