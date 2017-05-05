@@ -31,7 +31,8 @@ Route::get ("/gallery","clientcontroller@gallery");
 
 Route::get ("/icons","clientcontroller@icons");
 
-Route::get ("/products","clientcontroller@products");
+
+Route::get ("/products/{id}","clientcontroller@products");
 
 Route::get ("/services","clientcontroller@services");
 

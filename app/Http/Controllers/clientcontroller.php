@@ -15,7 +15,21 @@ class clientcontroller extends Controller
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
+
      */
+
+         public function index()
+     {
+       
+        $products=Product::where('language_id','=',config('languages.'.session()->get('locale')))->inRandomOrder()->get();
+     
+        $params=[
+        'products'=>$products
+     
+        ];
+       
+        return view("client.index")->with($params);
+     }
     public function about()
     {
       return view("client.about");
@@ -26,12 +40,10 @@ class clientcontroller extends Controller
       return view("client.Company");
     }
 
- public function Statistics()
+     public function Statistics()
     {
       return view("client.Statistics");
     }
-
-
 
      public function blog()
     {
@@ -56,24 +68,13 @@ class clientcontroller extends Controller
       return view("client.icons");
     }
 
-     public function index()
-     {
-
-      
-        $params=[
-     
-
-        ];
-       
-        return view("client.index")->with($params);
-     }
-
-
-     public function products()
+     public function products($id)
     {
+  $products=Product::where('language_id','=',config('languages.'.session()->get('locale')))->where('category_id','=',$id)->get();
 
-
-       $params=[];
+       $params=[
+       'products'=>$products
+     ];
 
          
       return view("client.products")->with($params);
@@ -83,18 +84,18 @@ class clientcontroller extends Controller
     {
       return view("client.services");
     }
-
-   
+ 
   public function typography()
     {
       return view("client.typography");
     }
 
-public function News()
+    public function News()
     {
       return view("client.News");
     }
 
+<<<<<<< HEAD
 
 
     /**
@@ -181,6 +182,8 @@ public function News()
         //
     }
 
+=======
+>>>>>>> 8c0c0ddf5dc3905576d3f25a5db12eab882cae74
       public function languageChooser($lang)
     {
         Session::set('locale', $lang);
