@@ -46,10 +46,10 @@
 								<ul class="w3layouts_menu__list">
 										<li class="active"><a href="/">{{trans('menus.home')}}</a></li>
 									<li><a href="about">{{trans('menus.about')}}</a>
-                                        <ul class="">
+                                        
                                           <li><a href="Company">{{trans('menus.Company')}}</a></li>
                                           <li><a href="Statistics">{{trans('menus.Statistics')}}</a></li>
-                                        </ul>
+                                        
                                     </li> 
 									<li><a href="services">{{trans('menus.services')}}</a></li>	
 									<li><a href="products">{{trans('menus.products')}}</a></li>
@@ -96,17 +96,21 @@
 		<div class="mis-stage w3_agileits_welcome_grids"> 
 			<!-- The element to select and apply miSlider to - the class is optional -->
 			<ol class="mis-slider">
-			   
+			   @foreach($products as $product)
 				<li class="mis-slide"> 
 					<figure> 
-						<img src="" alt=" " class="img-responsive" />
-						<figcaption> </figcaption>
+						<img src="{{asset($product->photo)}}" alt="" class="img-responsive" />
+						<figcaption>{{$product->name}} 
+						<span style="">{{$product->min_price}} - {{$product->max_price}}</span>
+						 </figcaption>
+						 
 					</figure>
 				</li>
+				@endforeach
 				
 			
 			</ol>
-		</div>
+		</div> 
 
 <!-- //welcome -->
 <!-- bootstrap-pop-up -->

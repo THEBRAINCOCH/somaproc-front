@@ -12,7 +12,7 @@
 				</div>
 				<section>
 					<div class="modal-body">
-						<img src="images/4.jpg" alt=" " class="img-responsive" />
+						<img src="{{asset('images/4.jpg')}}" alt=" " class="img-responsive" />
 						<p>Ut enim ad minima veniam, quis nostrum 
 							exercitationem ullam corporis suscipit laboriosam, 
 							nisi ut aliquid ex ea commodi consequatur? Quis autem 
@@ -46,7 +46,7 @@
 <!-- //testimonials -->
 <h3 class="agileits_w3layouts_head">Observer<span> Notre </span>Produits</h3>
 <div class="w3_agile_image">
-				<img src="images/1.png" alt=" " class="img-responsive" />
+				<img src="{{asset('images/1.png')}}" alt=" " class="img-responsive" />
 			</div>
 <div class="testimonials">
 		<div class="container">
@@ -60,30 +60,20 @@
 			
 				<div class="port-grids">
 				<div class="port1">
+				@foreach($products as $product)
 				<div class="col-md-4 port-grid">
 				<div class="well">
-<a href="images/p10.jpg" class="swipebox"><img src="images/p10.jpg" class="img-responsive" alt="" /></a>
+<a href="{{asset($product->photo)}}" class="swipebox"><img src="{{asset($product->photo)}}" class="img-responsive" alt="" /></a>
                     <div class="grid_2 grid_5 agile">
-                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                   </div>
+                    <center>
+<span>{{$product->name}}</span>  <br>
+<span>{{$product->min_price}} - {{$product->max_price}}</span>  
+</center>                </div>
                 </div>
 				</div>
-				<div class="col-md-4 port-grid">
-				<div class="well">
-<a href="images/p11.jpg" class="swipebox"><img src="images/p11.jpg" class="img-responsive" alt="" /></a>
-                    <div class="grid_2 grid_5 agile">
-                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                   </div>
-                </div>
-				</div>
-				<div class="col-md-4 port-grid">
-				<div class="well">
-<a href="images/p12.jpg" class="swipebox"><img src="images/p12.jpg" class="img-responsive" alt="" /></a>
-                    <div class="grid_2 grid_5 agile">
-                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                   </div>
-                </div>
-				</div>
+				@endforeach
+				
+				
 				<div class="clearfix"></div>
 				</div>
 				</div>
@@ -107,7 +97,7 @@
 	<br><br><br>
 <!-- //testimonials -->
 <!-- flexSlider -->
-	<script defer src="js/jquery.flexslider.js"></script>
+	<script defer src="{{asset('js/jquery.flexslider.js')}}"></script>
 	<script type="text/javascript">
 		$(window).load(function(){
 		  $('.flexslider').flexslider({
@@ -155,8 +145,8 @@
 	</script>
 <!-- //menu -->
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="{{asset('js/move-top.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/easing.js')}}"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
@@ -167,7 +157,7 @@
 </script>
 <!-- start-smoth-scrolling -->
 <!-- for bootstrap working -->
-	<script src="js/bootstrap.js"></script>
+	<script src="{{asset('js/bootstrap.js')}}"></script>
 <!-- //for bootstrap working -->
 <!-- here stars scrolling icon -->
 	<script type="text/javascript">
