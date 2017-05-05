@@ -9,7 +9,9 @@ return
 'products'=>'Produits' ,
 'gallery'=>'Gallerie',
 'contact'=>'Contacts',
-
+'meat'=>'viande',
+'fruits'=>'fruits',
+'vegetables'=>'légumes',
 
 
 

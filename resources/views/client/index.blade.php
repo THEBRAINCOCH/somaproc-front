@@ -33,6 +33,49 @@
 					
 				
 				</div><br><br><br><br><br><br><br><br><br><br>
+
+<!--Menu-->
+<div class="col-lg-6 in-gp-tb" >
+<div class="input-group">
+<div class="input-group-btn">
+	<button type="button" class="btn btn-default dropdown-toggle"  aria-haspopup="true" aria-expanded="false">
+	     <a href="home">  {{trans('menus.home')}}  </a>
+	  </button>
+</div>
+<div class="input-group-btn">
+<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href="about">  {{trans('menus.about')}}  </a> <span class="caret"></span></button>				<ul class="dropdown-menu" ">
+							    <li><a href="about">{{trans('menus.about')}}</a></li>
+							    <li><a href="Company">{{trans('menus.Company')}}</a></li>
+								<li><a href="Statistics">{{trans('menus.Statistics')}}</a></li>
+					</ul>
+</div>
+<div class="input-group-btn">
+ <button type="button" class="btn btn-default dropdown-toggle"  aria-haspopup="true" aria-expanded="false">
+	     <a href="services">{{trans('menus.services')}}</a>
+	  </button>
+</div>
+<div class="input-group-btn">
+<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href="products">  {{trans('menus.products')}}  </a> <span class="caret"></span></button>
+                    <ul class="dropdown-menu" ">
+							    <li><a href="viandes">{{trans('menus.viandes')}}</a></li>
+							    <li><a href="fruits">{{trans('menus.fruits')}}</a></li>
+								<li><a href="légumes">{{trans('menus.légumes')}}</a></li>
+					</ul>
+</div>
+<div class="input-group-btn">
+	  <button type="button" class="btn btn-default dropdown-toggle"  aria-haspopup="true" aria-expanded="false">
+	     <a href="gallery">{{trans('menus.gallery')}}</a>
+	  </button>
+</div>
+<div class="input-group-btn">
+  <button type="button" class="btn btn-default dropdown-toggle"  aria-haspopup="true" aria-expanded="false">
+	     <a href="contact">{{trans('menus.contact')}}</a>
+	  </button>
+</div>
+</div>
+</div>
+<!--Menu-->
+
 				<div class="agileits_w3layouts_menu">
 					<div class="shy-menu">
 						<a class="shy-menu-hamburger">
