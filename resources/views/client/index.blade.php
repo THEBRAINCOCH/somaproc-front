@@ -96,43 +96,15 @@
 		<div class="mis-stage w3_agileits_welcome_grids"> 
 			<!-- The element to select and apply miSlider to - the class is optional -->
 			<ol class="mis-slider">
-			    
+			    @foreach($products as $product)
 				<li class="mis-slide"> 
 					<figure> 
-						<img src="images/2.png" alt=" " class="img-responsive" />
-						<figcaption>{{trans('home.Strawberry')}} </figcaption>
+						<img src="{{asset($product->photo)}}" alt=" " class="img-responsive" />
+						<figcaption>{{$product->name}} </figcaption>
 					</figure>
 				</li>
-				<li class="mis-slide"> 
-					<figure> 
-						<img src="images/3.png" alt=" " class="img-responsive" />
-						<figcaption>{{trans('home.Orange')}}</figcaption>
-					</figure>
-				</li>
-				<li class="mis-slide"> 
-					<figure> 
-						<img src="images/4.png" alt=" " class="img-responsive" />
-						<figcaption>{{trans('home.Pomegranates')}}</figcaption>
-					</figure>
-				</li>
-				<li class="mis-slide"> 
-					<figure> 
-						<img src="images/5.png" alt=" " class="img-responsive" />
-						<figcaption>{{trans('home.Lemon')}}</figcaption>
-					</figure>
-				</li>
-				<li class="mis-slide"> 
-					<figure> 
-						<img src="images/6.png" alt=" " class="img-responsive" />
-						<figcaption>{{trans('home.Kiwi Fruits')}}</figcaption>
-					</figure>
-				</li>
-				<li class="mis-slide"> 
-					<figure> 
-						<img src="images/7.png" alt=" " class="img-responsive" />
-						<figcaption>{{trans('home.Apples')}}</figcaption>
-					</figure>
-				</li>
+				@endforeach
+			
 			</ol>
 		</div>
 
