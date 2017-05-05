@@ -96,14 +96,14 @@
 		<div class="mis-stage w3_agileits_welcome_grids"> 
 			<!-- The element to select and apply miSlider to - the class is optional -->
 			<ol class="mis-slider">
-			    @foreach($products as $product)
+			   
 				<li class="mis-slide"> 
 					<figure> 
-						<img src="{{asset($product->photo)}}" alt=" " class="img-responsive" />
-						<figcaption>{{$product->name}} </figcaption>
+						<img src="" alt=" " class="img-responsive" />
+						<figcaption> </figcaption>
 					</figure>
 				</li>
-				@endforeach
+				
 			
 			</ol>
 		</div>
