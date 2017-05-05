@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use Session;
 use App\Product;
+use App\Contact;
 
 class clientcontroller extends Controller
 {
@@ -40,6 +41,7 @@ class clientcontroller extends Controller
 
     public function contact()
     {
+        
        return view("client.contact");
     }
 
@@ -163,7 +165,25 @@ public function News()
      */
     public function store(Request $request)
     {
-        //
+        //Store contact message
+        $this->validate($request,[
+            'Name' => 'required|min:3|max:255',
+            'Lname'=>'required|min:3|max:255',
+            'Email' => 'required|email|max:255',
+            'Subject' => 'required|min:6|max:255',
+            'Message' => 'required|min:10',
+        ]);
+
+        $contact=new Contact;
+        $contact->first_name=$request->Name;
+        $contact->last_name=$request->Lname;
+        $contact->subject=$request->Subject; 
+        $contact->email=$request->Email;
+        $contact->message=$request->Message;
+        $contact->save();
+
+      return view("client.contact")->with('success', "message envoyé avec succès.");
+        
     }
 
     /**

@@ -2,6 +2,7 @@
 
 return [
 'name'=>'Nom',
+'last_name'=>'Prénom',
 'email'=>'Email',
 'subject'=>'Sujet',
 'message'=>'Message',

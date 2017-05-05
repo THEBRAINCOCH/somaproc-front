@@ -1,9 +1,15 @@
 @extends('master1')
-
+@if (Session::has('success'))
+<div class="clearfix"></div>
+<div class="alert alert-success" role="alert">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    {!! Session::get('success') !!}
+</div>
+@endif
 @section('content')
- <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcPr8-cPFViW2XMU82Yi5MalOoi__IrMc"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcPr8-cPFViW2XMU82Yi5MalOoi__IrMc"></script>
 <!-- breadcrumbs -->
+
 	<div class="breadcrumbs">
 		<div class="container">
 			<div class="w3layouts_breadcrumbs_left">
@@ -20,6 +26,7 @@
 	</div>
 <!-- //breadcrumbs -->
 <!-- contact -->
+
 	<div class="welcome">
 		<div class="container">
 			<h3 class="agileits_w3layouts_head">{{trans('contact.contactUs')}}</h3>
@@ -30,24 +37,47 @@
 			<div class="w3ls_news_grids">
 				<div class="col-md-8 w3_agile_mail_left">
 					<div class="agileits_mail_grid_right1 agile_mail_grid_right1">
-						<form action="#" method="post">
-							<span>
+						<form action="{{route('client.contact')}}" method="post">
+
+					
+							<span >
 								<i>{{trans('contact.name')}}</i>
-								<input type="text" name="Name" placeholder=" " required="">
+								<input type="text" name="Name" placeholder=""  required=""  value="{{ Request::old('Name') ?: '' }}">
+								@if ($errors->has('Name'))
+                                <span class="alert alert-danger">{{ $errors->first('Name') }}</span>
+                                @endif
+
+							</span>
+							<span >
+								<i>{{trans('contact.last_name')}}</i>
+								<input type="text" name="Lname" placeholder=""  required=""  value="{{ Request::old('Lname') ?: '' }}">
+								@if ($errors->has('Lname'))
+                                <span class="alert alert-danger">{{ $errors->first('Lname') }}</span>
+                                @endif
 							</span>
 							<span>
 								<i>{{trans('contact.email')}}</i>
-								<input type="email" name="Email" placeholder=" " required="">
+								<input type="email" name="Email" placeholder=" " required="" value="{{ Request::old('Email') ?: '' }}">
+								@if ($errors->has('Email'))
+                                <span class="alert alert-danger">{{ $errors->first('Email') }}</span>
+                                @endif
 							</span>
 							<span>
 								<i>{{trans('contact.subject')}}</i>
-								<input type="text" name="Subject" placeholder=" " required="">
+								<input type="text" name="Subject" placeholder=" " required="" value="{{ Request::old('Subject') ?: '' }}">
+								@if ($errors->has('Subject'))
+                                <span class="alert alert-danger">{{ $errors->first('Subject') }}</span>
+                                @endif
 							</span>
 							<span>
 								<i>{{trans('contact.message')}}</i>
-								<textarea name="Message" placeholder=" " required=""></textarea>
+								<textarea name="Message" placeholder=" " required="">{{ Request::old('Message') ?: '' }}</textarea>
+								@if ($errors->has('Message'))
+                                <span class="alert alert-danger">{{ $errors->first('Message') }}</span>
+                                @endif
 							</span>
 							<div class="w3_submit">
+							 <input type="hidden" name="_token" value="{{ Session::token() }}">
 								<input type="submit" value="{{trans('contact.submit')}}">
 							</div>
 						</form>
@@ -184,8 +214,8 @@
         </script>
 <!-- //menu -->
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="asset('js/move-top.js')"></script>
+<script type="text/javascript" src="asset('js/easing.js')"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
@@ -196,7 +226,7 @@
 </script>
 <!-- start-smoth-scrolling -->
 <!-- for bootstrap working -->
-	<script src="js/bootstrap.js"></script>
+	<script src="asset('js/bootstrap.js')"></script>
 <!-- //for bootstrap working -->
 <!-- here stars scrolling icon -->
 	<script type="text/javascript">

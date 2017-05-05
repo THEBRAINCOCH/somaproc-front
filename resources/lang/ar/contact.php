@@ -2,6 +2,7 @@
 
 return [
 'name'=>'الاسم',
+'last_name'=>'اللقب',
 'email'=>'الايميل',
 'subject'=>'الموضوع',
 'message'=>'الرسالة',

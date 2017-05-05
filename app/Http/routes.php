@@ -17,6 +17,7 @@
 Route::get ("/","clientcontroller@index");
 
 Route::get ("/contact","clientcontroller@contact");
+Route::post ("/contact","clientcontroller@store")->name('client.contact');
 
 Route::get ("/about","clientcontroller@about");
 
