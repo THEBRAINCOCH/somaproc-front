@@ -9,5 +9,7 @@ return
 'products'=>'المنتجات' ,
 'gallery'=>'الصور',
 'contact'=>'اتصل بنا',
-
+'meat'=>'meat',
+'fruits'=>'fruits',
+'vegetables'=>'vegetables',
 ];
