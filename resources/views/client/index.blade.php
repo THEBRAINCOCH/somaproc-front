@@ -17,9 +17,9 @@
 	
                   <div class="w3_banner_info_grid">
 					<ul >
-						<li ><a href="{{route('language-choose','ar')}}" class="w3l_contact">{{trans('languages.ar')}}</a></li>
-						<li><a href="{{route('language-choose','fr')}}" class="w3l_contact">{{trans('languages.fr')}}</a></li>
-						<li><a href="{{route('language-choose','en')}}}" class="w3l_contact">{{trans('languages.en')}}</a></li>
+								<li ><a style="padding:5px 20px;" href="{{route('language-choose','ar')}}" class="w3l_contact">{{trans('languages.ar')}}</a></li>
+						<li><a style="padding:5px 20px;" href="{{route('language-choose','fr')}}" class="w3l_contact">{{trans('languages.fr')}}</a></li>
+						<li><a style="padding:5px 20px;" href="{{route('language-choose','en')}}}" class="w3l_contact">{{trans('languages.en')}}</a></li>
 					</ul>
 				   </div>
 				
