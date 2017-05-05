@@ -20,6 +20,17 @@ class clientcontroller extends Controller
       return view("client.about");
     }
 
+     public function Company()
+    {
+      return view("client.Company");
+    }
+
+ public function Statistics()
+    {
+      return view("client.Statistics");
+    }
+
+
 
      public function blog()
     {

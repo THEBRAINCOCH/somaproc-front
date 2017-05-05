@@ -1,8 +1,9 @@
 <?php
 
 return [
-'whyChooseUs'=>'Pourquoi nous choisir ?'
-
+'why'=>'Pourquoi',
+'Choose'=>'Vous choisir',
+'Us'=>' nous ?',
 
 
 ];

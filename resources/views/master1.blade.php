@@ -60,10 +60,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <!-- banner -->
 	<div class="banner1">
+			
+	  <div class="w3_agileits_banner_main_grid">
+				<div class="w3_agile_logo">
+					<a href="/"><img src="images/logo.png"  style="  padding-bottom: 80px; width: 300px; height: 300px;   float: left;"></a>
+				</div>
+	</div>	
 		<div class="container">
 			<div id="header-wrapper">
 	 <div class="agile_social_icons_banner">
-                  <div class="w3_banner_info_grid">
+                  <div class="w3_banner_info_grid" style="padding-left: 350px">
 					<ul >
 						<li ><a href="{{route('language-choose','ar')}}" class="w3l_contact">{{trans('languages.ar')}}</a></li>
 						<li><a href="{{route('language-choose','fr')}}" class="w3l_contact">{{trans('languages.fr')}}</a></li>
@@ -71,41 +77,48 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 				   </div>
 				   <br><br>
-					<ul class="agileits_social_list">
+					<ul class="agileits_social_list" style="padding-left: 550px">
 						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 						<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
 						<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 					</ul>
 				</div><br><br><br><br><br><br><br><br>
-<div class="agileits_w3layouts_menu">
-					<div class="shy-menu">
-						<a class="shy-menu-hamburger">
-							<span class="layer top"></span>
-							<span class="layer mid"></span>
-							<span class="layer btm"></span>
-						</a> 
-
-						<div class="shy-menu-panel">
-							<nav class="menu menu--horatio link-effect-8" id="link-effect-8">
-								<ul class="w3layouts_menu__list">
-									<li class="active"><a href="/">{{trans('menus.home')}}</a></li>
-									<li><a href="about">{{trans('menus.about')}}</a></li> 
-									<li><a href="services">{{trans('menus.services')}}</a></li>
-									<li><a href="blog">{{trans('menus.blog')}}</a></li>
-									<li><a href="products">{{trans('menus.products')}}</a></li>
-									<li><a href="gallery">{{trans('menus.gallery')}}</a></li> 
-									<li><a href="contact">{{trans('menus.contact')}}</a></li>
-								</ul>
-							</nav>
-						</div>
-						<div class="clearfix"> </div>
+				<div class="menu_h" style="{
+    width: 1500px;
+    height: 60px;
+    overflow: hidden;
+    display: block;
+"> 
+									<a  class="bt_menu_h" href="contact">{{trans('menus.contact')}}</a>
+									<a  class="bt_menu_h" href="gallery">{{trans('menus.gallery')}}</a>
+									<a class="bt_menu_h" href="products">{{trans('menus.products')}}</a>
+									<a class="bt_menu_h" href="services">{{trans('menus.services')}}</a>
+									<a  class="bt_menu_h"href="Statistics">{{trans('menus.Statistics')}}</a>
+									<a  class="bt_menu_h"href="Company">{{trans('menus.Company')}}</a>
+									<a  class="bt_menu_h"href="about">{{trans('menus.about')}}</a>
+									<a class="bt_menu_h" href="/">{{trans('menus.home')}}</a>
+							   
+							  <div class="clearfix"> </div>
 					</div>
-				</div>
-				<div class="clearfix"> </div>
-</div>
-		</div>
-	</div>
+
+<style type="text/css">
+	a.bt_menu_h{
+	height: 60px;
+    display: block;
+    float: right;
+    /* border-top: 2px #dd5b0d solid; */
+    /* border-right: 1px #c8c8c8 solid; */
+    background: url(../images/separateur_menu_h.jpg) no-repeat 100% 0%;
+    text-align: center;
+    padding: 9px 23px 5px 23px;
+    font: 15px HelveticaNeueBold,Tahoma, Geneva, sans-serif;
+    line-height: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+</style>
+</div></div></div>
 <!-- banner -->
 <!-- bootstrap-pop-up -->
 	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
@@ -139,7 +152,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3agile_footer_grids">
 				<div class="col-md-3 agileinfo_footer_grid">
 					<div class="agileits_w3layouts_footer_logo">
-						<h2><a href="/"><span>G</span>erminate<i>Grow healthy products</i></a></h2>
+						<a href="/"><img src="images/logo.png"  style="position: relative;  width: 200px; height: 200px; left: 10; right: 0px; float: left;"></a>
 					</div>
 				</div>
 				<div class="col-md-4 agileinfo_footer_grid">

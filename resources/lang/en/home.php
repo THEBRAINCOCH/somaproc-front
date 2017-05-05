@@ -6,7 +6,7 @@ return [
     'Société' =>'Company', 
     'des Marchés' =>'Of Markets',
     'de production' =>'Of production',
-    'du centre' => 'Ouest',
+    'du centre' => 'centre',
     'votre' => 'Your',
     'meilleur' =>'Better',
     'choix' => 'Choice',

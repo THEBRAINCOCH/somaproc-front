@@ -150,9 +150,9 @@ a.w3_agile_vimeo:hover{
 .shy-menu.is-open {
     width: 105%;
 }
-.w3_agileits_banner_main_grid,.shy-menu.is-open {
+/**.w3_agileits_banner_main_grid,.shy-menu.is-open {
 	height: 75px;
-}
+}*/
 
 .shy-menu-panel { 
 	margin-left: 0px;

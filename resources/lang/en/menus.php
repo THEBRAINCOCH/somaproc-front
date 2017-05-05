@@ -3,8 +3,9 @@ return
 [
 'home'=> 'Home',
 'about'=> 'About',
+'Company'=>'Company',
+'Statistics'=>'Statistics',
 'services'=>'Services' ,
-'blog'=>'Blog' ,
 'products'=>'Products' ,
 'gallery'=>'Gallery',
 'contact'=>'Contact',

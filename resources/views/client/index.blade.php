@@ -5,7 +5,13 @@
 
 <!-- banner -->
 <div class="banner">
+    <div class="w3_agileits_banner_main_grid">
+				<div class="w3_agile_logo">
+					<a href="/"><img src="images/logo.png"  style=" padding-bottom: 50px; width: 300px; height: 300px; left: 20;  float: left;"></a>
+				</div>
+    </div>	
    <div class="container">
+   		
 	 <div id="header-wrapper">
 	 <div class="agile_social_icons_banner">
 	
@@ -39,9 +45,13 @@
 							<nav class="menu menu--horatio link-effect-8" id="link-effect-8">
 								<ul class="w3layouts_menu__list">
 										<li class="active"><a href="/">{{trans('menus.home')}}</a></li>
-									<li><a href="about">{{trans('menus.about')}}</a></li> 
-									<li><a href="services">{{trans('menus.services')}}</a></li>
-									<li><a href="blog">{{trans('menus.blog')}}</a></li>
+									<li><a href="about">{{trans('menus.about')}}</a>
+                                        <ul class="">
+                                          <li><a href="Company">{{trans('menus.Company')}}</a></li>
+                                          <li><a href="Statistics">{{trans('menus.Statistics')}}</a></li>
+                                        </ul>
+                                    </li> 
+									<li><a href="services">{{trans('menus.services')}}</a></li>	
 									<li><a href="products">{{trans('menus.products')}}</a></li>
 									<li><a href="gallery">{{trans('menus.gallery')}}</a></li> 
 									<li><a href="contact">{{trans('menus.contact')}}</a></li>

@@ -21,7 +21,7 @@
 <!-- about -->
 	<div class="welcome">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">{{trans('about.whyChooseUs')}} </h3>
+			<h3 class="agileits_w3layouts_head">{{trans('about.why')}} <span> {{trans('about.Choose')}}</span> {{trans('about.Us')}}</h3>
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive" />
 			</div>
@@ -383,7 +383,7 @@
 							</div>
 						</div>
 					</div>
-					<h4>SODESIB SICAR<h5>La Société de Développement Economique de Sidi Bouzid</h5></h4>
+					<h4>SODESIB SICAR</h4>
 					
 				</div>
 				<div class="col-md-3 w3_agileits_team_grid"> 
