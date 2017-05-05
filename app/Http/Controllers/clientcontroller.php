@@ -56,9 +56,11 @@ class clientcontroller extends Controller
 
      public function index()
      {
+
       
         $params=[
      
+
         ];
        
         return view("client.index")->with($params);
@@ -67,11 +69,10 @@ class clientcontroller extends Controller
 
      public function products()
     {
-        
 
-       
-$params=[];
-        
+
+       $params=[];
+
          
       return view("client.products")->with($params);
     }
