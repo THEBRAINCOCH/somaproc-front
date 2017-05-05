@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use Session;
+use App\Product;
 
 class clientcontroller extends Controller
 {
@@ -44,13 +45,63 @@ class clientcontroller extends Controller
 
      public function index()
      {
-        return view("client.index");
+        $products=Product::get();
+        $params=[
+        'products'=>$products
+        ];
+       
+        return view("client.index")->with($params);
      }
 
 
      public function products()
     {
-      return view("client.products");
+        //fruits:5
+        //légume:4
+        //viande rouge:1
+        //viande blanche:2
+        //poisson:3
+        
+        $locale=session()->get('locale');
+      
+        if($locale=='ar'){
+
+            $vrs=Product::where('language_id',1)->where('category_id',1)->limit(3)->get();
+            $vbs=Product::where('language_id',1)->where('category_id',2)->limit(3)->get();
+            $ps=Product::where('language_id',1)->where('category_id',3)->limit(3)->get();
+            $lgs=Product::where('language_id',1)->where('category_id',4)->limit(3)->get();
+            $frs=Product::where('language_id',1)->where('category_id',5)->limit(3)->get();
+          
+        
+
+        }elseif($locale=='fr'){
+
+            $vrs=Product::where('language_id',2)->where('category_id',1)->get();
+            $vbs=Product::where('language_id',2)->where('category_id',2)->limit(3)->get();
+            $ps=Product::where('language_id',2)->where('category_id',3)->limit(3)->get();
+            $lgs=Product::where('language_id',2)->where('category_id',4)->limit(3)->get();
+            $frs=Product::where('language_id',2)->where('category_id',5)->limit(3)->get();
+      
+
+        }elseif($locale=='en'){
+
+             $vrs=Product::where('language_id',3)->where('category_id',1)->limit(3)->get();
+            $vbs=Product::where('language_id',3)->where('category_id',2)->limit(3)->get();
+            $ps=Product::where('language_id',3)->where('category_id',3)->limit(3)->get();
+            $lgs=Product::where('language_id',3)->where('category_id',4)->limit(3)->get();
+            $frs=Product::where('language_id',3)->where('category_id',5)->limit(3)->get();
+           
+       
+
+        }
+         $params=[
+        'vrs'=>$vrs,
+        'vbs'=>$vbs,
+        'ps'=>$ps,
+        'lgs'=>$lgs,
+        'frs'=>$frs,
+        ];
+      return view("client.products")->with($params);
     }
 
     public function services()
