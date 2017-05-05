@@ -3,9 +3,11 @@ return
 [
 'home'=> 'الرئيسية',
 'about'=> 'معلومات',
+'Company'=>'الشركة',
+'Statistics'=>'إحصائيات',
 'services'=>'الخدمات' ,
-'blog'=>'الجديد' ,
 'products'=>'المنتجات' ,
 'gallery'=>'الصور',
 'contact'=>'اتصل بنا',
+
 ];

@@ -20,6 +20,10 @@ Route::get ("/contact","clientcontroller@contact");
 
 Route::get ("/about","clientcontroller@about");
 
+Route::get ("/Company","clientcontroller@Company");
+
+Route::get ("/Statistics","clientcontroller@Statistics");
+
 Route::get ("/blog","clientcontroller@blog");
 
 Route::get ("/gallery","clientcontroller@gallery");
