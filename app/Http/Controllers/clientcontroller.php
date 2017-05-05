@@ -95,7 +95,7 @@ class clientcontroller extends Controller
       return view("client.News");
     }
 
-<<<<<<< HEAD
+
 
 
     /**
@@ -137,7 +137,7 @@ class clientcontroller extends Controller
         
     }
 
-    /**
+     /**
      * Display the specified resource.
      *
      * @param  int  $id
@@ -148,42 +148,8 @@ class clientcontroller extends Controller
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
-
-=======
->>>>>>> 8c0c0ddf5dc3905576d3f25a5db12eab882cae74
+   
+    
       public function languageChooser($lang)
     {
         Session::set('locale', $lang);
