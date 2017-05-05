@@ -72,7 +72,13 @@ class clientcontroller extends Controller
             $lgs=Product::where('language_id',1)->where('category_id',4)->limit(3)->get();
             $frs=Product::where('language_id',1)->where('category_id',5)->limit(3)->get();
           
-        
+        $params=[
+        'vrs'=>$vrs,
+        'vbs'=>$vbs,
+        'ps'=>$ps,
+        'lgs'=>$lgs,
+        'frs'=>$frs,
+        ];
 
         }elseif($locale=='fr'){
 
@@ -82,25 +88,31 @@ class clientcontroller extends Controller
             $lgs=Product::where('language_id',2)->where('category_id',4)->limit(3)->get();
             $frs=Product::where('language_id',2)->where('category_id',5)->limit(3)->get();
       
-
+        $params=[
+                'vrs'=>$vrs,
+                'vbs'=>$vbs,
+                'ps'=>$ps,
+                'lgs'=>$lgs,
+                'frs'=>$frs,
+                ];
         }elseif($locale=='en'){
 
-             $vrs=Product::where('language_id',3)->where('category_id',1)->limit(3)->get();
+            $vrs=Product::where('language_id',3)->where('category_id',1)->limit(3)->get();
             $vbs=Product::where('language_id',3)->where('category_id',2)->limit(3)->get();
             $ps=Product::where('language_id',3)->where('category_id',3)->limit(3)->get();
             $lgs=Product::where('language_id',3)->where('category_id',4)->limit(3)->get();
             $frs=Product::where('language_id',3)->where('category_id',5)->limit(3)->get();
-           
-       
-
-        }
-         $params=[
+           $params=[
         'vrs'=>$vrs,
         'vbs'=>$vbs,
         'ps'=>$ps,
         'lgs'=>$lgs,
         'frs'=>$frs,
         ];
+       
+
+        }
+         
       return view("client.products")->with($params);
     }
 
