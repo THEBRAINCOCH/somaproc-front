@@ -89,7 +89,7 @@
 			    @foreach($products as $product)
 				<li class="mis-slide"> 
 					<figure> 
-						<img src="images/2.png" alt=" " class="img-responsive" />
+						<img src="{{asset($product->photo)}}" alt=" " class="img-responsive" />
 						<figcaption>{{$product->name}} </figcaption>
 					</figure>
 				</li>
