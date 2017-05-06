@@ -2,8 +2,8 @@
 
 @section('content')
 
-
 <!-- banner -->
+
 <div class="banner">
     <div class="w3_agileits_banner_main_grid">
 				<div class="w3_agile_logo">
@@ -33,79 +33,59 @@
 					
 				
 				</div><br><br><br><br><br><br><br><br><br><br>
-
-<!--Menu-->
-<div class="col-lg-6 in-gp-tb" >
-<div class="input-group">
-<div class="input-group-btn">
-	<button type="button" class="btn btn-default dropdown-toggle"  aria-haspopup="true" aria-expanded="false">
-	     <a href="home">  {{trans('menus.home')}}  </a>
-	  </button>
-</div>
-<div class="input-group-btn">
-<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href="about">  {{trans('menus.about')}}  </a> <span class="caret"></span></button>				<ul class="dropdown-menu" ">
-							    <li><a href="about">{{trans('menus.about')}}</a></li>
-							    <li><a href="Company">{{trans('menus.Company')}}</a></li>
-								<li><a href="Statistics">{{trans('menus.Statistics')}}</a></li>
-					</ul>
-</div>
-<div class="input-group-btn">
- <button type="button" class="btn btn-default dropdown-toggle"  aria-haspopup="true" aria-expanded="false">
-	     <a href="services">{{trans('menus.services')}}</a>
-	  </button>
-</div>
-<div class="input-group-btn">
-<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href="products">  {{trans('menus.products')}}  </a> <span class="caret"></span></button>
-                    <ul class="dropdown-menu" ">
-							    <li><a href="viandes">{{trans('menus.viandes')}}</a></li>
-							    <li><a href="fruits">{{trans('menus.fruits')}}</a></li>
-								<li><a href="légumes">{{trans('menus.légumes')}}</a></li>
-					</ul>
-</div>
-<div class="input-group-btn">
-	  <button type="button" class="btn btn-default dropdown-toggle"  aria-haspopup="true" aria-expanded="false">
-	     <a href="gallery">{{trans('menus.gallery')}}</a>
-	  </button>
-</div>
-<div class="input-group-btn">
-  <button type="button" class="btn btn-default dropdown-toggle"  aria-haspopup="true" aria-expanded="false">
-	     <a href="contact">{{trans('menus.contact')}}</a>
-	  </button>
-</div>
-</div>
-</div>
-<!--Menu-->
-
-				<div class="agileits_w3layouts_menu">
-					<div class="shy-menu">
-						<a class="shy-menu-hamburger">
-							<span class="layer top"></span>
-							<span class="layer mid"></span>
-							<span class="layer btm"></span>
-						</a>
-
-						<div class="shy-menu-panel">
-							<nav class="menu menu--horatio link-effect-8" id="link-effect-8">
-								<ul class="w3layouts_menu__list">
-										<li class="active"><a href="/">{{trans('menus.home')}}</a></li>
-									<li><a href="about">{{trans('menus.about')}}</a>
-                                        <ul class="">
-                                          <li><a href="Company">{{trans('menus.Company')}}</a></li>
-                                          <li><a href="Statistics">{{trans('menus.Statistics')}}</a></li>
-                                        </ul>
-                                    </li> 
-									<li><a href="services">{{trans('menus.services')}}</a></li>	
-									<li><a href="products">{{trans('menus.products')}}</a></li>
-									<li><a href="gallery">{{trans('menus.gallery')}}</a></li> 
-									<li><a href="contact">{{trans('menus.contact')}}</a></li>
-								</ul>
-							</nav>
-						</div>	
-						<div class="clearfix"> </div>
+<div class="container"><nav class = "navbar navbar-default" role = "navigation" >
+    <div class = "navbar-header" >
+      <button type = "button" class = "navbar-toggle" 
+         data-toggle = "collapse" data-target = "#example-navbar-collapse">
+         <span class = "sr-only">Toggle navigation</span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+      </button>
+   </div>
+   <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
+	
+      <ul class = "nav navbar-nav">
+         <li ><a href="/">{{trans('menus.home')}}</a></li>
+         <li class = "dropdown">
+               <a href="about" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.about')}}
+               <b class = "caret"></b>
+            </a>
+             <ul class = "dropdown-menu">
+               <li><a href = "about">{{trans('menus.about')}}</a></li>
+               <li><a href="Company">{{trans('menus.Company')}}</a></li>
+               <li><a href="Statistics">{{trans('menus.Statistics')}}</a></li>
+            </ul>
+         </li>
+         <li><a href="services">{{trans('menus.services')}}</a></li>
+         <li class = "dropdown">
+               <a href="products" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.products')}}
+               <b class = "caret"></b>
+            </a>
+             <ul class = "dropdown-menu">
+               <li class = "dropdown"><a href = "meat">{{trans('menus.meat')}}</a></li>
+               <li><a href="fruits">{{trans('menus.fruits')}}</a></li>
+               <li><a href="vegetables">{{trans('menus.vegetables')}}</a></li>
+            </ul>
+         </li>
+         <li><a href="gallery">{{trans('menus.gallery')}}</a></li>
+         <li><a href="contact">{{trans('menus.contact')}}</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+				<div class="form-group">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search for...">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="submit">Submit</button>
+						</span>
 					</div>
 				</div>
-</div>		
-	<br><br><br><br>
+			</form>
+   </div>
+   
+</nav></div>
+</div>	<br><br><br>	
+	
 <h3 align="center" style="font-size: 300%;
 	                      color: #fff;
 	                      margin: 0;" >{{trans('home.Société')}} {{trans('home.des Marchés')}} {{trans('home.de production')}}<br>{{trans('home.du centre')}}

@@ -17,6 +17,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+<link href="{{ asset('css/NewsCarousel.css') }}" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
 <!-- gallery -->
 <link href="css/lsb.css" rel="stylesheet" type="text/css">
@@ -63,13 +64,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			
 	  <div class="w3_agileits_banner_main_grid">
 				<div class="w3_agile_logo">
-					<a href="/"><img src="images/logo.png"  style="  padding-bottom: 80px; width: 300px; height: 300px;   float: left;"></a>
+					<a href="/"><img src="images/logo.png"  style="position: relative; width: 300px; height: 300px; left: 10; right: 0px;"></a>
 				</div>
 	</div>	
 		<div class="container">
 			<div id="header-wrapper">
 	 <div class="agile_social_icons_banner">
-                  <div class="w3_banner_info_grid" style="padding-left: 350px">
+                 <div class="w3_banner_info_grid">
 					<ul >
 						<li ><a href="{{route('language-choose','ar')}}" class="w3l_contact">{{trans('languages.ar')}}</a></li>
 						<li><a href="{{route('language-choose','fr')}}" class="w3l_contact">{{trans('languages.fr')}}</a></li>
@@ -84,40 +85,63 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 					</ul>
 				</div><br><br><br><br><br><br><br><br>
-				<div class="menu_h" style="{
-    width: 1500px;
-    height: 60px;
-    overflow: hidden;
-    display: block;
-"> 
-									<a  class="bt_menu_h" href="contact">{{trans('menus.contact')}}</a>
-									<a  class="bt_menu_h" href="gallery">{{trans('menus.gallery')}}</a>
-									<a class="bt_menu_h" href="products">{{trans('menus.products')}}</a>
-									<a class="bt_menu_h" href="services">{{trans('menus.services')}}</a>
-									<a  class="bt_menu_h"href="Statistics">{{trans('menus.Statistics')}}</a>
-									<a  class="bt_menu_h"href="Company">{{trans('menus.Company')}}</a>
-									<a  class="bt_menu_h"href="about">{{trans('menus.about')}}</a>
-									<a class="bt_menu_h" href="/">{{trans('menus.home')}}</a>
-							   
-							  <div class="clearfix"> </div>
-					</div>
+				
 
-<style type="text/css">
-	a.bt_menu_h{
-	height: 60px;
-    display: block;
-    float: right;
-    /* border-top: 2px #dd5b0d solid; */
-    /* border-right: 1px #c8c8c8 solid; */
-    background: url(../images/separateur_menu_h.jpg) no-repeat 100% 0%;
-    text-align: center;
-    padding: 9px 23px 5px 23px;
-    font: 15px HelveticaNeueBold,Tahoma, Geneva, sans-serif;
-    line-height: 20px;
-    color: #ffffff;
-    text-decoration: none;
-}
-</style>
+<!--menu-->
+<div class="container"><nav class = "navbar navbar-default" role = "navigation" >
+    <div class = "navbar-header" >
+      <button type = "button" class = "navbar-toggle" 
+         data-toggle = "collapse" data-target = "#example-navbar-collapse">
+         <span class = "sr-only">Toggle navigation</span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+      </button>
+   </div>
+   <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
+	
+      <ul class = "nav navbar-nav">
+         <li ><a href="/">{{trans('menus.home')}}</a></li>
+         <li class = "dropdown">
+               <a href="about" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.about')}}
+               <b class = "caret"></b>
+            </a>
+             <ul class = "dropdown-menu">
+               <li><a href = "about">{{trans('menus.about')}}</a></li>
+               <li><a href="Company">{{trans('menus.Company')}}</a></li>
+               <li><a href="Statistics">{{trans('menus.Statistics')}}</a></li>
+            </ul>
+         </li>
+         <li><a href="services">{{trans('menus.services')}}</a></li>
+         <li class = "dropdown">
+               <a href="products" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.products')}}
+               <b class = "caret"></b>
+            </a>
+             <ul class = "dropdown-menu">
+               <li class = "dropdown"><a href = "meat">{{trans('menus.meat')}}</a></li>
+               <li><a href="fruits">{{trans('menus.fruits')}}</a></li>
+               <li><a href="vegetables">{{trans('menus.vegetables')}}</a></li>
+            </ul>
+         </li>
+         <li><a href="gallery">{{trans('menus.gallery')}}</a></li>
+         <li><a href="contact">{{trans('menus.contact')}}</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+				<div class="form-group">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search for...">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="submit">Submit</button>
+						</span>
+					</div>
+				</div>
+			</form>
+   </div>
+   
+</nav>
+</div>
+<!--menu-->
+<br><br><br>
 </div></div></div>
 <!-- banner -->
 <!-- bootstrap-pop-up -->
