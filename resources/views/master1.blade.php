@@ -112,7 +112,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                <li><a href="{{url('Statistics')}}">{{trans('menus.Statistics')}}</a></li>
             </ul>
          </li>
-         <li><a href="{{url('services">{{trans('menus.services')}}</a></li>
+         <li><a href="{{url('services')}}">{{trans('menus.services')}}</a></li>
          <li class = "dropdown">
                <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.products')}}
                <b class = "caret"></b>
