@@ -43,7 +43,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3agile_footer_grids">
 				<div class="col-md-3 agileinfo_footer_grid">
 					<div class="agileits_w3layouts_footer_logo">
-						<h2><a href="/"><img src="images/logo.png"  style="position: relative; width: 200px; height: 200px; left: 10; right: 0px;"></a></h2>
+						<h2><a href="/"><img src="{{ asset('images/logo.png')}}"  style="position: relative; width: 200px; height: 200px; left: 10; right: 0px;"></a></h2>
 					</div>
 				</div>
 				<div class="col-md-4 agileinfo_footer_grid">
