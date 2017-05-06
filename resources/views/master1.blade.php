@@ -69,21 +69,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>	
 		<div class="container">
 			<div id="header-wrapper">
-	 <div class="agile_social_icons_banner">
-                 <div class="w3_banner_info_grid">
+ <div class="agile_social_icons_banner">
+	
+                  <div class="w3_banner_info_grid">
 					<ul >
 						<li ><a href="{{route('language-choose','ar')}}" class="w3l_contact">{{trans('languages.ar')}}</a></li>
 						<li><a href="{{route('language-choose','fr')}}" class="w3l_contact">{{trans('languages.fr')}}</a></li>
 						<li><a href="{{route('language-choose','en')}}}" class="w3l_contact">{{trans('languages.en')}}</a></li>
 					</ul>
 				   </div>
+				
 				   <br><br>
-					<ul class="agileits_social_list" style="padding-left: 550px">
+					<ul class="agileits_social_list">
 						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 						<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="100_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 					</ul>
+					
+				
 				</div><br><br><br><br><br><br><br><br>
 				
 

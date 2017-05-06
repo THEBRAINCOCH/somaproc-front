@@ -20,7 +20,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="{{ asset('css/default.css') }}" rel="stylesheet" type="text/css" media="all" />
 
 <!--//menu -->
-<link href="{{ asset('css/menu.css') }}" rel="stylesheet" type="text/css" media="all" />
 <!--// menu-->
 
 <!-- js -->
