@@ -72,16 +72,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 agileinfo_footer_grid">
 					<h3>Postes de blog</h3>
 					<div class="agileinfo_footer_grid_left">
-						<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/6.jpg" alt=" " class="img-responsive" /></a>
+						<a href="#" data-toggle="modal" data-target="#myModal"><img src="{{asset('images/6.jpg')}}" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="agileinfo_footer_grid_left">
-						<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/2.jpg" alt=" " class="img-responsive" /></a>
+						<a href="#" data-toggle="modal" data-target="#myModal"><img src="{{asset('images/2.jpg')}}" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="agileinfo_footer_grid_left">
-						<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/5.jpg" alt=" " class="img-responsive" /></a>
+						<a href="#" data-toggle="modal" data-target="#myModal"><img src="{{asset('images/5.jpg')}}" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="agileinfo_footer_grid_left">
-						<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/3.jpg" alt=" " class="img-responsive" /></a>
+						<a href="#" data-toggle="modal" data-target="#myModal"><img src="{{asset('images/3.jpg')}}" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>

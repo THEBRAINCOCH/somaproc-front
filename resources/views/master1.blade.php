@@ -14,25 +14,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //custom-theme -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+<link href="{{asset('css/bootstrap.cs')}}s" rel="stylesheet" type="text/css" media="all" />
+<link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="{{asset('css/flexslider.css')}}" type="text/css" media="screen" property="" />
 <link href="{{ asset('css/NewsCarousel.css') }}" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
 <!-- gallery -->
-<link href="css/lsb.css" rel="stylesheet" type="text/css">
+<link href="{{asset('css/lsb.css')}}" rel="stylesheet" type="text/css">
 <!-- //gallery -->
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="{{asset('js/jquery-2.1.4.min.js')}}"></script>
 
 <!-- font-awesome-icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="{{asset('css/font-awesome.css')}}" rel="stylesheet"> 
 <!-- //font-awesome-icons -->
 <link href="//fonts.googleapis.com/css?family=Bree+Serif&amp;subset=latin-ext" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 
 <!---- start-smoth-scrolling---->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="{{asset('js/move-top.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/easing.js')}}"></script>
  <script type="text/javascript">
 		jQuery(document).ready(function($) {
 			$(".scroll").click(function(event){		
@@ -42,16 +42,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 	</script>
 <!---End-smoth-scrolling---->
-<link rel="stylesheet" href="css/swipebox.css">
-			<script src="js/jquery.swipebox.min.js"></script> 
+<link rel="stylesheet" href="{{asset('css/swipebox.css')}}">
+			<script src="{{asset('js/jquery.swipebox.min.js')}}"></script> 
 			    <script type="text/javascript">
 					jQuery(function($) {
 						$(".swipebox").swipebox();
 					});
 				</script>
 				<!--Animation-->
-<script src="js/wow.min.js"></script>
-<link href="css/animate.css" rel='stylesheet' type='text/css' />
+<script src="{{asset('js/wow.min.js')}}"></script>
+<link href="{{asset('css/animate.css')}}" rel='stylesheet' type='text/css' />
 <script>
 	new WOW().init();
 </script>
@@ -64,7 +64,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			
 	  <div class="w3_agileits_banner_main_grid">
 				<div class="w3_agile_logo">
-					<a href="/"><img src="images/logo.png"  style="position: relative; width: 300px; height: 300px; left: 10; right: 0px;"></a>
+					<a href="/"><img src="{{asset('images/logo.png')}}"  style="position: relative; width: 300px; height: 300px; left: 10; right: 0px;"></a>
 				</div>
 	</div>	
 		<div class="container">
@@ -101,31 +101,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
    <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
 	
       <ul class = "nav navbar-nav">
-         <li ><a href="/">{{trans('menus.home')}}</a></li>
+         <li ><a href="{{url('/')}}">{{trans('menus.home')}}</a></li>
          <li class = "dropdown">
-               <a href="about" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.about')}}
+               <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.about')}}
                <b class = "caret"></b>
             </a>
              <ul class = "dropdown-menu">
-               <li><a href = "about">{{trans('menus.about')}}</a></li>
-               <li><a href="Company">{{trans('menus.Company')}}</a></li>
-               <li><a href="Statistics">{{trans('menus.Statistics')}}</a></li>
+               <li><a href = "{{url('about')}}">{{trans('menus.about')}}</a></li>
+               <li><a href="{{url('Company')}}">{{trans('menus.Company')}}</a></li>
+               <li><a href="{{url('Statistics')}}">{{trans('menus.Statistics')}}</a></li>
             </ul>
          </li>
-         <li><a href="services">{{trans('menus.services')}}</a></li>
+         <li><a href="{{url('services">{{trans('menus.services')}}</a></li>
          <li class = "dropdown">
-               <a href="products" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.products')}}
+               <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.products')}}
                <b class = "caret"></b>
             </a>
              <ul class = "dropdown-menu">
-             <li><a href = "products">{{trans('menus.products')}}</a></li>
-               <li class = "dropdown"><a href = "meat">{{trans('menus.meat')}}</a></li>
-               <li><a href="fruits">{{trans('menus.fruits')}}</a></li>
-               <li><a href="vegetables">{{trans('menus.vegetables')}}</a></li>
+               @foreach(config('categories') as $key=>$value)
+               <li class = ""><a href = "{{url('products',$key)}}">{{trans("menus.products.$value")}}</a></li>
+
+               @endforeach
             </ul>
          </li>
-         <li><a href="gallery">{{trans('menus.gallery')}}</a></li>
-         <li><a href="contact">{{trans('menus.contact')}}</a></li>
+         <li><a href="{{url('/gallery')}}">{{trans('menus.gallery')}}</a></li>
+         <li><a href="{{url('/contact')}}">{{trans('menus.contact')}}</a></li>
       </ul>
       <form class="navbar-form navbar-right" role="search">
 				<div class="form-group">
@@ -155,7 +155,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<section>
 					<div class="modal-body">
-						<img src="images/4.jpg" alt=" " class="img-responsive" />
+						<img src="{{asset('images/4.jpg')}}" alt=" " class="img-responsive" />
 						<p>Ut enim ad minima veniam, quis nostrum 
 							exercitationem ullam corporis suscipit laboriosam, 
 							nisi ut aliquid ex ea commodi consequatur? Quis autem 
@@ -177,7 +177,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3agile_footer_grids">
 				<div class="col-md-3 agileinfo_footer_grid">
 					<div class="agileits_w3layouts_footer_logo">
-						<a href="/"><img src="images/logo.png"  style="position: relative;  width: 200px; height: 200px; left: 10; right: 0px; float: left;"></a>
+						<a href="/"><img src="{{asset('images/logo.png')}}"  style="position: relative;  width: 200px; height: 200px; left: 10; right: 0px; float: left;"></a>
 					</div>
 				</div>
 				<div class="col-md-4 agileinfo_footer_grid">
@@ -205,16 +205,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 agileinfo_footer_grid">
 					<h3>Postes de blog</h3>
 					<div class="agileinfo_footer_grid_left">
-						<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/6.jpg" alt=" " class="img-responsive" /></a>
+						<a href="#" data-toggle="modal" data-target="#myModal"><img src="{{asset('images/6.jpg')}}" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="agileinfo_footer_grid_left">
-						<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/2.jpg" alt=" " class="img-responsive" /></a>
+						<a href="#" data-toggle="modal" data-target="#myModal"><img src="{{asset('images/2.jpg')}}" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="agileinfo_footer_grid_left">
-						<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/5.jpg" alt=" " class="img-responsive" /></a>
+						<a href="#" data-toggle="modal" data-target="#myModal"><img src="{{asset('images/5.jpg')}}" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="agileinfo_footer_grid_left">
-						<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/3.jpg" alt=" " class="img-responsive" /></a>
+						<a href="#" data-toggle="modal" data-target="#myModal"><img src="{{asset('images/3.jpg')}}" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>

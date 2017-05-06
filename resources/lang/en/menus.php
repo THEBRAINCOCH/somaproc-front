@@ -9,8 +9,11 @@ return
 'products'=>'Products' ,
 'gallery'=>'Gallery',
 'contact'=>'Contact',
-'meat'=>'meat',
-'fruits'=>'fruits',
+'products.redMeat'=>'red meat',
+'products.whiteMeat'=>'white meat',
+'products.fish'=>'fish',
+'products.vegetable'=>'vegetable',
+'products.fruit'=>'fruit',
 
 
 

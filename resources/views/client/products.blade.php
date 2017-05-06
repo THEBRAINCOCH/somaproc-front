@@ -11,10 +11,8 @@
 <!-- gallery -->
 <link href="{{ asset('css/lsb.css') }}" rel="stylesheet" type="text/css">
 <!-- //gallery -->
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 
 <!-- font-awesome-icons -->
-<link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
 <!-- bootstrap-pop-up -->
 	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
 		<div class="modal-dialog" role="document">
@@ -158,8 +156,6 @@
 	</script>
 <!-- //menu -->
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="{{asset('js/move-top.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/easing.js')}}"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
