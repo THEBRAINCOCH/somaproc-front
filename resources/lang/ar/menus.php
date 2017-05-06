@@ -9,7 +9,10 @@ return
 'products'=>'المنتجات' ,
 'gallery'=>'الصور',
 'contact'=>'اتصل بنا',
-'meat'=>'meat',
-'fruits'=>'fruits',
-'vegetables'=>'vegetables',
+
+'products.redMeat'=>'لحم أحمر',
+'products.whiteMeat'=>'لحم أبيض',
+'products.fish'=>'سمك',
+'products.vegetable'=>'خضر',
+'products.fruit'=>'غلال',
 ];

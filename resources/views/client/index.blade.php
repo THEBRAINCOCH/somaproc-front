@@ -63,13 +63,18 @@
                <b class = "caret"></b>
             </a>
              <ul class = "dropdown-menu">
-             <li><a href = "products">{{trans('menus.products')}}</a></li>
-               <li class = "dropdown"><a href = "meat">{{trans('menus.meat')}}</a></li>
-               <li><a href="fruits">{{trans('menus.fruits')}}</a></li>
-               <li><a href="vegetables">{{trans('menus.vegetables')}}</a></li>
+             @foreach(config('categories') as $key=>$value)
+               <li class = ""><a href = "{{url('products',$key)}}">{{trans("menus.products.$value")}}</a></li>
+
+               @endforeach
+                
+
+
+             
             </ul>
          </li>
          <li><a href="gallery">{{trans('menus.gallery')}}</a></li>
+
          <li><a href="contact">{{trans('menus.contact')}}</a></li>
       </ul>
       <form class="navbar-form navbar-right" role="search">
