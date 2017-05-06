@@ -17,9 +17,9 @@
 	
                   <div class="w3_banner_info_grid">
 					<ul >
-						<li ><a href="{{route('language-choose','ar')}}" class="w3l_contact">{{trans('languages.ar')}}</a></li>
-						<li><a href="{{route('language-choose','fr')}}" class="w3l_contact">{{trans('languages.fr')}}</a></li>
-						<li><a href="{{route('language-choose','en')}}}" class="w3l_contact">{{trans('languages.en')}}</a></li>
+								<li ><a style="padding:5px 20px;" href="{{route('language-choose','ar')}}" class="w3l_contact">{{trans('languages.ar')}}</a></li>
+						<li><a style="padding:5px 20px;" href="{{route('language-choose','fr')}}" class="w3l_contact">{{trans('languages.fr')}}</a></li>
+						<li><a style="padding:5px 20px;" href="{{route('language-choose','en')}}}" class="w3l_contact">{{trans('languages.en')}}</a></li>
 					</ul>
 				   </div>
 				
@@ -33,6 +33,7 @@
 					
 				
 				</div><br><br><br><br><br><br><br><br><br><br>
+<<<<<<< HEAD
 <div class="container"><nav class = "navbar navbar-default" role = "navigation" >
     <div class = "navbar-header" >
       <button type = "button" class = "navbar-toggle" 
@@ -78,6 +79,77 @@
 						<span class="input-group-btn">
 							<button class="btn btn-default" type="submit">Submit</button>
 						</span>
+=======
+
+<!--Menu-->
+<div class="col-lg-6 in-gp-tb" >
+<div class="input-group">
+<div class="input-group-btn">
+	<button type="button" class="btn btn-default dropdown-toggle"  aria-haspopup="true" aria-expanded="false">
+	     <a href="home">  {{trans('menus.home')}}  </a>
+	  </button>
+</div>
+<div class="input-group-btn">
+<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href="about">  {{trans('menus.about')}}  </a> <span class="caret"></span></button>				<ul class="dropdown-menu" ">
+							    <li><a href="about">{{trans('menus.about')}}</a></li>
+							    <li><a href="Company">{{trans('menus.Company')}}</a></li>
+								<li><a href="Statistics">{{trans('menus.Statistics')}}</a></li>
+					</ul>
+</div>
+<div class="input-group-btn">
+ <button type="button" class="btn btn-default dropdown-toggle"  aria-haspopup="true" aria-expanded="false">
+	     <a href="services">{{trans('menus.services')}}</a>
+	  </button>
+</div>
+<div class="input-group-btn">
+<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href="products">  {{trans('menus.products')}}  </a> <span class="caret"></span></button>
+                    <ul class="dropdown-menu" ">
+							    <li><a href="viandes">{{trans('menus.viandes')}}</a></li>
+							    <li><a href="fruits">{{trans('menus.fruits')}}</a></li>
+								<li><a href="légumes">{{trans('menus.légumes')}}</a></li>
+					</ul>
+</div>
+<div class="input-group-btn">
+	  <button type="button" class="btn btn-default dropdown-toggle"  aria-haspopup="true" aria-expanded="false">
+	     <a href="gallery">{{trans('menus.gallery')}}</a>
+	  </button>
+</div>
+<div class="input-group-btn">
+  <button type="button" class="btn btn-default dropdown-toggle"  aria-haspopup="true" aria-expanded="false">
+	     <a href="contact">{{trans('menus.contact')}}</a>
+	  </button>
+</div>
+</div>
+</div>
+<!--Menu-->
+
+				<div class="agileits_w3layouts_menu">
+					<div class="shy-menu">
+						<a class="shy-menu-hamburger">
+							<span class="layer top"></span>
+							<span class="layer mid"></span>
+							<span class="layer btm"></span>
+						</a>
+
+						<div class="shy-menu-panel">
+							<nav class="menu menu--horatio link-effect-8" id="link-effect-8">
+								<ul class="w3layouts_menu__list">
+										<li class="active"><a href="/">{{trans('menus.home')}}</a></li>
+									<li><a href="about">{{trans('menus.about')}}</a>
+                                        
+                                          <li><a href="Company">{{trans('menus.Company')}}</a></li>
+                                          <li><a href="Statistics">{{trans('menus.Statistics')}}</a></li>
+                                        
+                                    </li> 
+									<li><a href="services">{{trans('menus.services')}}</a></li>	
+									<li><a href="products">{{trans('menus.products')}}</a></li>
+									<li><a href="gallery">{{trans('menus.gallery')}}</a></li> 
+									<li><a href="contact">{{trans('menus.contact')}}</a></li>
+								</ul>
+							</nav>
+						</div>	
+						<div class="clearfix"> </div>
+>>>>>>> 043641dd1fd25320d72c27d6ab68c80b76fc83fd
 					</div>
 				</div>
 			</form>
@@ -119,17 +191,21 @@
 		<div class="mis-stage w3_agileits_welcome_grids"> 
 			<!-- The element to select and apply miSlider to - the class is optional -->
 			<ol class="mis-slider">
-			   
+			   @foreach($products as $product)
 				<li class="mis-slide"> 
 					<figure> 
-						<img src="" alt=" " class="img-responsive" />
-						<figcaption> </figcaption>
+						<img src="{{asset($product->photo)}}" alt="" class="img-responsive" />
+						<figcaption>{{$product->name}} 
+						<span style="">{{$product->min_price}} - {{$product->max_price}}</span>
+						 </figcaption>
+						 
 					</figure>
 				</li>
+				@endforeach
 				
 			
 			</ol>
-		</div>
+		</div> 
 
 <!-- //welcome -->
 <!-- bootstrap-pop-up -->

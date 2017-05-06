@@ -17,6 +17,7 @@
 Route::get ("/","clientcontroller@index");
 
 Route::get ("/contact","clientcontroller@contact");
+Route::post ("/contact","clientcontroller@store")->name('client.contact');
 
 Route::get ("/about","clientcontroller@about");
 
@@ -30,7 +31,8 @@ Route::get ("/gallery","clientcontroller@gallery");
 
 Route::get ("/icons","clientcontroller@icons");
 
-Route::get ("/products","clientcontroller@products");
+
+Route::get ("/products/{id}","clientcontroller@products");
 
 Route::get ("/services","clientcontroller@services");
 
