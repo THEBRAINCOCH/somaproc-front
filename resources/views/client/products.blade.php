@@ -2,6 +2,19 @@
 @extends('master1')
 
 @section('content')
+<!-- //custom-theme -->
+<link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
+<link rel="{{ asset('stylesheet') }}" href="css/flexslider.css" type="text/css" media="screen" property="" />
+<link href="{{ asset('css/NewsCarousel.css') }}" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<!-- gallery -->
+<link href="{{ asset('css/lsb.css') }}" rel="stylesheet" type="text/css">
+<!-- //gallery -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+<!-- font-awesome-icons -->
+<link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
 <!-- bootstrap-pop-up -->
 	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
 		<div class="modal-dialog" role="document">
