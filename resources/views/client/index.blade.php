@@ -63,6 +63,7 @@
                <b class = "caret"></b>
             </a>
              <ul class = "dropdown-menu">
+             <li><a href = "products">{{trans('menus.products')}}</a></li>
                <li class = "dropdown"><a href = "meat">{{trans('menus.meat')}}</a></li>
                <li><a href="fruits">{{trans('menus.fruits')}}</a></li>
                <li><a href="vegetables">{{trans('menus.vegetables')}}</a></li>
