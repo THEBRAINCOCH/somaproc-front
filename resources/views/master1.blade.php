@@ -101,20 +101,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
    <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
 	
       <ul class = "nav navbar-nav">
-         <li ><a href="/">{{trans('menus.home')}}</a></li>
+         <li ><a href="{{url('/')}}">{{trans('menus.home')}}</a></li>
          <li class = "dropdown">
-               <a href="about" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.about')}}
+               <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.about')}}
                <b class = "caret"></b>
             </a>
              <ul class = "dropdown-menu">
-               <li><a href = "about">{{trans('menus.about')}}</a></li>
-               <li><a href="Company">{{trans('menus.Company')}}</a></li>
-               <li><a href="Statistics">{{trans('menus.Statistics')}}</a></li>
+               <li><a href = "{{url('about')}}">{{trans('menus.about')}}</a></li>
+               <li><a href="{{url('Company')}}">{{trans('menus.Company')}}</a></li>
+               <li><a href="{{url('Statistics')}}">{{trans('menus.Statistics')}}</a></li>
             </ul>
          </li>
-         <li><a href="services">{{trans('menus.services')}}</a></li>
+         <li><a href="{{url('services">{{trans('menus.services')}}</a></li>
          <li class = "dropdown">
-               <a href="products" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.products')}}
+               <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.products')}}
                <b class = "caret"></b>
             </a>
              <ul class = "dropdown-menu">
@@ -124,8 +124,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                @endforeach
             </ul>
          </li>
-         <li><a href="gallery">{{trans('menus.gallery')}}</a></li>
-         <li><a href="contact">{{trans('menus.contact')}}</a></li>
+         <li><a href="{{url('/gallery')}}">{{trans('menus.gallery')}}</a></li>
+         <li><a href="{{url('/contact')}}">{{trans('menus.contact')}}</a></li>
       </ul>
       <form class="navbar-form navbar-right" role="search">
 				<div class="form-group">
