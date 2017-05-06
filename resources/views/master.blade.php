@@ -17,10 +17,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
 <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
 <link href="{{ asset('css/NewsCarousel.css') }}" rel="stylesheet" type="text/css" media="all" />
-<link href="css/default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="{{ asset('css/default.css') }}" rel="stylesheet" type="text/css" media="all" />
 
 <!--//menu -->
-<link href="css/menu.css" rel="stylesheet" type="text/css" media="all" />
+<link href="{{ asset('css/menu.css') }}" rel="stylesheet" type="text/css" media="all" />
 <!--// menu-->
 
 <!-- js -->

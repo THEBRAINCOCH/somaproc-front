@@ -14,18 +14,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //custom-theme -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+<link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
+<link rel="{{ asset('stylesheet') }}" href="css/flexslider.css" type="text/css" media="screen" property="" />
 <link href="{{ asset('css/NewsCarousel.css') }}" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
 <!-- gallery -->
-<link href="css/lsb.css" rel="stylesheet" type="text/css">
+<link href="{{ asset('css/lsb.css') }}" rel="stylesheet" type="text/css">
 <!-- //gallery -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 
 <!-- font-awesome-icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet"> 
 <!-- //font-awesome-icons -->
 <link href="//fonts.googleapis.com/css?family=Bree+Serif&amp;subset=latin-ext" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
