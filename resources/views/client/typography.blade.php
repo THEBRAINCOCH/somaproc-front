@@ -619,8 +619,6 @@
 	</script>
 <!-- //menu -->
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
@@ -631,7 +629,6 @@
 </script>
 <!-- start-smoth-scrolling -->
 <!-- for bootstrap working -->
-	<script src="js/bootstrap.js"></script>
 <!-- //for bootstrap working -->
 <!-- here stars scrolling icon -->
 	<script type="text/javascript">

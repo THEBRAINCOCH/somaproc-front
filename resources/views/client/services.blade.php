@@ -33,12 +33,12 @@
 		<div class="container">
 			<div class="w3layouts_breadcrumbs_left">
 				<ul>
-					<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">Accueil</a><span>/</span></li>
-					<li><i class="fa fa-cogs" aria-hidden="true"></i>Services</li>
+					<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">{{trans('menus.home')}}</a><span>/</span></li>
+					<li><i class="fa fa-cogs" aria-hidden="true"></i>{{trans('menus.services')}}</li>
 				</ul>
 			</div>
 			<div class="w3layouts_breadcrumbs_right">
-				<h2>Services</h2>
+				<h2>{{trans('menus.services')}}</h2>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -115,13 +115,13 @@
 		<div class="container">
 			<h3 class="agileits_w3layouts_head agileinfo_head w3_head"><span>What</span> we do</h3>
 			<div class="w3_agile_image">
-				<img src="images/17.png" alt=" " class="img-responsive">
+				<img src="{{asset('images/17.png')}}" alt=" " class="img-responsive">
 			</div>
 			<p class="agile_para agileits_para">Morbi viverra lacus commodo felis semper, eu iaculis lectus nulla at sapien blandit sollicitudin.</p>
 			<div class="w3ls_news_grids">
 				<div class="col-md-4 w3_agileits_services_bottom_grid">
 					<div class="wthree_services_bottom_grid1">
-						<img src="images/5.jpg" alt=" " class="img-responsive" />
+						<img src="{{asset('images/5.jpg')}}" alt=" " class="img-responsive" />
 						<div class="wthree_services_bottom_grid1_pos">
 							<h4>Fertilizing</h4>
 						</div>
@@ -135,7 +135,7 @@
 				</div>
 				<div class="col-md-4 w3_agileits_services_bottom_grid">
 					<div class="wthree_services_bottom_grid1">
-						<img src="images/6.jpg" alt=" " class="img-responsive" />
+						<img src="{{asset('images/6.jpg')}}" alt=" " class="img-responsive" />
 						<div class="wthree_services_bottom_grid1_pos">
 							<h4>Soil Testing</h4>
 						</div>
@@ -149,7 +149,7 @@
 				</div>
 				<div class="col-md-4 w3_agileits_services_bottom_grid">
 					<div class="wthree_services_bottom_grid1">
-						<img src="images/3.jpg" alt=" " class="img-responsive" />
+						<img src="{{asset('images/3.jpg')}}" alt=" " class="img-responsive" />
 						<div class="wthree_services_bottom_grid1_pos">
 							<h4>Planting</h4>
 						</div>
@@ -171,7 +171,7 @@
 		<div class="container">
 			<h3 class="agileits_w3layouts_head">Notre <span>Future</span> Services</h3>
 			<div class="w3_agile_image">
-				<img src="images/1.png" alt=" " class="img-responsive">
+				<img src="{{asset('images/1.png')}}" alt=" " class="img-responsive">
 			</div>
 			
 			<div class="w3ls_news_grids">
@@ -181,7 +181,7 @@
 							<li>
 								<div class="agile_testimonials_grid">
 									<div class="col-md-4 agile_testimonials_grid_left">
-										<img src="images/15.jpg" alt=" " class="img-responsive" />
+										<img src="{{asset('images/15.jpg')}}" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-8 agile_testimonials_grid_right">
 										<h5>Vivamus malesuada <span>pellentesque</span> nunc id <i>'condim'</i></h5>
@@ -205,7 +205,7 @@
 							<li>
 								<div class="agile_testimonials_grid">
 									<div class="col-md-4 agile_testimonials_grid_left">
-										<img src="images/14.jpg" alt=" " class="img-responsive" />
+										<img src="{{asset('images/14.jpg')}}" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-8 agile_testimonials_grid_right">
 										<h5>Quisque eu aliquam <span>dignissim</span> ex a <i>'fringilla'</i></h5>
@@ -229,7 +229,7 @@
 							<li>
 								<div class="agile_testimonials_grid">
 									<div class="col-md-4 agile_testimonials_grid_left">
-										<img src="images/16.jpg" alt=" " class="img-responsive" />
+										<img src="{{asset('images/16.jpg')}}" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-8 agile_testimonials_grid_right">
 										<h5>Vivamus malesuada <span>pellentesque</span> nunc id <i>'condim'</i></h5>
@@ -272,70 +272,13 @@
 <!-- //flexSlider -->
 
 <!-- menu -->
-	<script>
-		$(function() {
-			
-			initDropDowns($("div.shy-menu"));
-
-		});
-
-		function initDropDowns(allMenus) {
-
-			allMenus.children(".shy-menu-hamburger").on("click", function() {
-				
-				var thisTrigger = jQuery(this),
-					thisMenu = thisTrigger.parent(),
-					thisPanel = thisTrigger.next();
-
-				if (thisMenu.hasClass("is-open")) {
-
-					thisMenu.removeClass("is-open");
-
-				} else {			
-					
-					allMenus.removeClass("is-open");	
-					thisMenu.addClass("is-open");
-					thisPanel.on("click", function(e) {
-						e.stopPropagation();
-					});
-				}
-				
-				return false;
-			});
-		}
-	</script>
 <!-- //menu -->
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
+
 <!-- start-smoth-scrolling -->
 <!-- for bootstrap working -->
-	<script src="js/bootstrap.js"></script>
 <!-- //for bootstrap working -->
 <!-- here stars scrolling icon -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			});
-	</script>
 <!-- //here ends scrolling icon -->
 
 @stop

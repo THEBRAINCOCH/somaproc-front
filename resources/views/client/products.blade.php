@@ -3,13 +3,8 @@
 
 @section('content')
 <!-- //custom-theme -->
-<link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
-<link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
-<link rel="{{ asset('stylesheet') }}" href="css/flexslider.css" type="text/css" media="screen" property="" />
-<link href="{{ asset('css/NewsCarousel.css') }}" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
 <!-- gallery -->
-<link href="{{ asset('css/lsb.css') }}" rel="stylesheet" type="text/css">
 <!-- //gallery -->
 
 <!-- font-awesome-icons -->
@@ -43,8 +38,8 @@
 		<div class="container">
 			<div class="w3layouts_breadcrumbs_left">
 				<ul>
-					<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">Accueil</a><span>/</span></li>
-					<li><i class="fa fa-cogs" aria-hidden="true"></i>Produits</li>
+					<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">{{trans('menus.home')}}</a><span>/</span></li>
+					<li><i class="fa fa-cogs" aria-hidden="true"></i>{{trans('menus.products')}}</li>
 				</ul>
 			</div>
 			<div class="w3layouts_breadcrumbs_right">
@@ -122,68 +117,13 @@
 <!-- //flexSlider -->
 
 <!-- menu -->
-	<script>
-		$(function() {
-			
-			initDropDowns($("div.shy-menu"));
-
-		});
-
-		function initDropDowns(allMenus) {
-
-			allMenus.children(".shy-menu-hamburger").on("click", function() {
-				
-				var thisTrigger = jQuery(this),
-					thisMenu = thisTrigger.parent(),
-					thisPanel = thisTrigger.next();
-
-				if (thisMenu.hasClass("is-open")) {
-
-					thisMenu.removeClass("is-open");
-
-				} else {			
-					
-					allMenus.removeClass("is-open");	
-					thisMenu.addClass("is-open");
-					thisPanel.on("click", function(e) {
-						e.stopPropagation();
-					});
-				}
-				
-				return false;
-			});
-		}
-	</script>
 <!-- //menu -->
 <!-- start-smoth-scrolling -->
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
+
 <!-- start-smoth-scrolling -->
 <!-- for bootstrap working -->
-	<script src="{{asset('js/bootstrap.js')}}"></script>
 <!-- //for bootstrap working -->
 <!-- here stars scrolling icon -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			});
-	</script>
 <!-- //here ends scrolling icon -->
 
 @stop

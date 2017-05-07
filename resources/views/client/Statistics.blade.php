@@ -2,6 +2,20 @@
 
 
 @section('content')
+	<div class="breadcrumbs">
+		<div class="container">
+			<div class="w3layouts_breadcrumbs_left">
+				<ul>
+					<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">{{trans('menus.home')}}</a><span>/</span></li>
+					<li><i class="fa fa-info-circle" aria-hidden="true"></i>{{trans('menus.Statistics')}}</li>
+				</ul>
+			</div>
+			<div class="w3layouts_breadcrumbs_right">
+				<h2>{{trans('menus.Statistics')}}</h2>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
 <div class="container">
 <div class="w3ls_news_grids"> 
 <div class="col-md-6 w3_agile_about_grid_left">
@@ -125,7 +139,7 @@
 					</div>
 
 <!-- skills -->
-	<script src="js/skill.bars.jquery.js"></script>
+	<script src="{{asset('js/skill.bars.jquery.js')}}"></script>
 	<script>
 		$(document).ready(function(){
 			
@@ -138,72 +152,6 @@
 			
 		});
 	</script>
-<!-- //skills -->
-<!-- menu -->
-	<script>
-		$(function() {
-			
-			initDropDowns($("div.shy-menu"));
 
-		});
-
-		function initDropDowns(allMenus) {
-
-			allMenus.children(".shy-menu-hamburger").on("click", function() {
-				
-				var thisTrigger = jQuery(this),
-					thisMenu = thisTrigger.parent(),
-					thisPanel = thisTrigger.next();
-
-				if (thisMenu.hasClass("is-open")) {
-
-					thisMenu.removeClass("is-open");
-
-				} else {			
-					
-					allMenus.removeClass("is-open");	
-					thisMenu.addClass("is-open");
-					thisPanel.on("click", function(e) {
-						e.stopPropagation();
-					});
-				}
-				
-				return false;
-			});
-		}
-	</script>
-<!-- //menu -->
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
-<!-- start-smoth-scrolling -->
-<!-- for bootstrap working -->
-	<script src="js/bootstrap.js"></script>
-<!-- //for bootstrap working -->
-<!-- here stars scrolling icon -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			});
-	</script>
-<!-- //here ends scrolling icon -->
 
 @stop

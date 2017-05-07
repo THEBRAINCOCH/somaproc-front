@@ -90,78 +90,14 @@
 		</div>
 	</div>
 <!-- //gallery -->
-	<script src="js/lsb.min.js"></script>
+	<script src="{{asset('js/lsb.min.js')}}"></script>
 	<script>
 	$(window).load(function() {
 		  $.fn.lightspeedBox();
 		});
 	</script>
 
-<!-- menu -->
-	<script>
-		$(function() {
-			
-			initDropDowns($("div.shy-menu"));
 
-		});
-
-		function initDropDowns(allMenus) {
-
-			allMenus.children(".shy-menu-hamburger").on("click", function() {
-				
-				var thisTrigger = jQuery(this),
-					thisMenu = thisTrigger.parent(),
-					thisPanel = thisTrigger.next();
-
-				if (thisMenu.hasClass("is-open")) {
-
-					thisMenu.removeClass("is-open");
-
-				} else {			
-					
-					allMenus.removeClass("is-open");	
-					thisMenu.addClass("is-open");
-					thisPanel.on("click", function(e) {
-						e.stopPropagation();
-					});
-				}
-				
-				return false;
-			});
-		}
-	</script>
-<!-- //menu -->
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
-<!-- start-smoth-scrolling -->
-<!-- for bootstrap working -->
-	
-<!-- //for bootstrap working -->
-<!-- here stars scrolling icon -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			});
-	</script>
 <!-- //here ends scrolling icon -->
 
 @stop
