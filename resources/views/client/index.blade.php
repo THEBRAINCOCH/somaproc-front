@@ -79,10 +79,10 @@
       </ul>
       <form class="navbar-form navbar-right" role="search">
 				<div class="form-group">
-					<div class="input-group">
-						<input type="text" class="form-control" placeholder="Search for...">
+						<div class="input-group">
+						<input type="text" class="form-control" placeholder="{{trans('menus.searchFor')}}">
 						<span class="input-group-btn">
-							<button class="btn btn-default" type="submit">Submit</button>
+							<button class="btn btn-default" id="searchbtn" type="submit">{{trans('menus.search')}}</button>
 						</span>
 					</div>
 				</div>

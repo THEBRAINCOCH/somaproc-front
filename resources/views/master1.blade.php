@@ -57,6 +57,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	new WOW().init();
 </script>
 <!---/End-Animation---->
+<style type="text/css">
+	nav li:hover,#searchbtn:hover {
+		background-color:  #a4dd25;
+	}
+</style>
 </head>
 	
 <body>
@@ -105,14 +110,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
    </div>
    <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
 	
-      <ul class = "nav navbar-nav">
-         <li ><a href="{{url('/')}}">{{trans('menus.home')}}</a></li>
+      <ul class = "nav navbar-nav" >
+         <li  ><a  href="{{url('/')}}">{{trans('menus.home')}}</a></li>
          <li class = "dropdown">
                <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.about')}}
                <b class = "caret"></b>
             </a>
              <ul class = "dropdown-menu">
-               <li><a href = "{{url('about')}}">{{trans('menus.about')}}</a></li>
+               <li><a  href = "{{url('about')}}">{{trans('menus.about')}}</a></li>
                <li><a href="{{url('Company')}}">{{trans('menus.Company')}}</a></li>
                <li><a href="{{url('Statistics')}}">{{trans('menus.Statistics')}}</a></li>
             </ul>
@@ -135,9 +140,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       <form class="navbar-form navbar-right" role="search">
 				<div class="form-group">
 					<div class="input-group">
-						<input type="text" class="form-control" placeholder="Search for...">
+						<input type="text" class="form-control" placeholder="{{trans('menus.searchFor')}}">
 						<span class="input-group-btn">
-							<button class="btn btn-default" type="submit">Submit</button>
+							<button class="btn btn-default" id="searchbtn" type="submit">{{trans('menus.search')}}</button>
 						</span>
 					</div>
 				</div>

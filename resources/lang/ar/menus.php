@@ -15,4 +15,6 @@ return
 'products.fish'=>'سمك',
 'products.vegetable'=>'خضر',
 'products.fruit'=>'غلال',
+'search'=>'البحث',
+'searchFor'=>'.. ابحث عن ',
 ];

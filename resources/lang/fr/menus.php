@@ -14,6 +14,8 @@ return
 'products.fish'=>'poisson',
 'products.vegetable'=>'legume',
 'products.fruit'=>'fruit',
+'search'=>'Recherche',
+'searchFor'=>'chercher ..',
 
 
 

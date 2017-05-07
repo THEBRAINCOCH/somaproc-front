@@ -33,6 +33,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="//fonts.googleapis.com/css?family=Bree+Serif&amp;subset=latin-ext" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 </head>
+<style type="text/css">
+	nav li:hover,#searchbtn:hover {
+		background-color:  #a4dd25;
+	}
+</style>
 <body>
 <!-- //bootstrap-pop-up -->
 @yield('content')
