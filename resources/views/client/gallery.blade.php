@@ -6,12 +6,12 @@
 		<div class="container">
 			<div class="w3layouts_breadcrumbs_left">
 				<ul>
-					<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">Accueil</a><span>/</span></li>
-					<li><i class="fa fa-picture-o" aria-hidden="true"></i>Gallerie</li>
+					<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">{{trans('menus.home')}}</a><span>/</span></li>
+					<li><i class="fa fa-picture-o" aria-hidden="true"></i>{{trans('menus.gallery')}}</li>
 				</ul>
 			</div>
 			<div class="w3layouts_breadcrumbs_right">
-				<h2>Gallerie</h2>
+				<h2>{{trans('menus.gallery')}}</h2>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -28,144 +28,42 @@
     background-attachment: fixed;
 	text-align: center;">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">Notre <span>Gallerie</span></h3>
+			<h3 class="agileits_w3layouts_head">{{trans('gallerie.notreGallerie')}}</h3>
 			<div class="w3_agile_image">
-				<img src="images/1.png" alt=" " class="img-responsive" />
+				<img src="{{asset('images/1.png')}}" alt=" " class="img-responsive" />
 			</div>
 			<div class="w3ls_news_grids">
 				<section class="slider">
 					<div class="flexslider">
 						<ul class="slides">
-							<li>
-                                <h3 class="agileits_w3layouts_head">Administration</h3>
-								<div class="w3layouts_gallery_grids">	
-				                  <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/Direction/d1.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/Direction/d1.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-				                  <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/Direction/d2.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/Direction/d2.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-				                  <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/Direction/d3.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/Direction/d3.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-				                   <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/Direction/d4.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/Direction/d4.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-				                   <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/Direction/d5.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/Direction/d5.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-				                   <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/Direction/d6.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/Direction/d6.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
 
-							</li>
+						
+							@php $i=0; @endphp
+							@foreach($galleries as $g)
+							@if($i % 6 ==0)
 							<li>
-								<h3 class="agileits_w3layouts_head">Produits</h3>
-								<div class="w3layouts_gallery_grids">	
+							@endif
+							@php $i++ @endphp
+
 				                  <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/3.jpg" class="lsb-preview" data-lsb-group="header">
+					                <a href="{{asset($g->photo)}}" class="lsb-preview" data-lsb-group="header">
 						             <div class="w3layouts_news_grid">
-							          <img src="images/3.jpg" alt=" " class="img-responsive">
+							          <img src="{{$g->photo}}" alt=" " class="img-responsive">
 							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
+								          <div class="wthree_text"><h3>{{$g->description}}</h3></div>
 							           </div>
 						              </div>
 					                </a>
 				                  </div>
-				                  <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/3.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/3.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-				                  <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/3.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/3.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-				                   <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/3.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/3.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-				                   <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/3.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/3.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-				                   <div class="col-md-4 w3layouts_gallery_grid">
-					                <a href="images/3.jpg" class="lsb-preview" data-lsb-group="header">
-						             <div class="w3layouts_news_grid">
-							          <img src="images/3.jpg" alt=" " class="img-responsive">
-							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>plantation</h3></div>
-							           </div>
-						              </div>
-					                </a>
-				                  </div>
-				                  <div class="clearfix"> </div>
+				                  	@if($i % 6 ==0)
 							</li>
+							@endif
+				                  @endforeach
+				                
+				                
+
+							
+							
 						</ul>
 						<br><br>
 					</div>

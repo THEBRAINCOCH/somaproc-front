@@ -8,6 +8,7 @@ use App\Http\Requests;
 use Session;
 use App\Product;
 use App\Contact;
+use App\Gallerie;
 
 class clientcontroller extends Controller
 {
@@ -60,7 +61,10 @@ class clientcontroller extends Controller
 
       public function gallery()
     {
-      return view("client.gallery");
+        $params=[
+        'galleries'=>Gallerie::all()
+        ];
+      return view("client.gallery")->with($params);
     }
 
     public function icons()
