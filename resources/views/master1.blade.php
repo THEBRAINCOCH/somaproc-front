@@ -136,18 +136,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
          </li>
          <li><a href="{{url('/gallery')}}">{{trans('menus.gallery')}}</a></li>
          <li><a href="{{url('/contact')}}">{{trans('menus.contact')}}</a></li>
+           
       </ul>
-      <form class="navbar-form navbar-right" role="search">
-				<div class="form-group">
-					<div class="input-group">
-						<input type="text" class="form-control" placeholder="{{trans('menus.searchFor')}}">
-						<span class="input-group-btn">
-							<button class="btn btn-default" id="searchbtn" type="submit">{{trans('menus.search')}}</button>
-						</span>
-					</div>
-				</div>
-			</form>
+     
+      <ul class = "nav navbar-nav pull-right" >
+       @if(Auth::check())
+
+       <li class = "dropdown">
+               <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">{{Auth::user()->name}}
+               <b class = "caret"></b>
+            </a>
+             <ul class = "dropdown-menu">
+               <li><a  href = "{{url('/logout')}}">{{trans('auth.logout')}}</a></li>
+      
+            </ul>
+         </li>
+          @else
+          <li><a href="{{url('/login')}}">{{trans('auth.login')}}</a></li>
+           <li><a href="{{url('/register')}}">{{trans('auth.register')}}</a></li>
+          @endif
+
+         </ul>
+        
+
+
+
    </div>
+
    
 </nav>
 </div>

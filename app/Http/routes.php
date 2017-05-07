@@ -12,7 +12,7 @@
 */
 
 
-
+Route::auth();
 
 Route::get ("/","clientcontroller@index");
 
@@ -52,3 +52,11 @@ Route::get('/language-chooser/{lang}',['as' =>'language-choose','uses' =>'client
 ]);
 
 
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');

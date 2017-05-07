@@ -12,6 +12,7 @@ use App\Gallerie;
 
 class clientcontroller extends Controller
 {
+   
     /**
      * Display a listing of the resource.
      *
@@ -21,6 +22,7 @@ class clientcontroller extends Controller
 
          public function index()
      {
+        
        
         $products=Product::where('language_id','=',config('languages.'.session()->get('locale')))->inRandomOrder()->get();
      
