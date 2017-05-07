@@ -50,7 +50,7 @@
 						             <div class="w3layouts_news_grid">
 							          <img src="{{$g->photo}}" alt=" " class="img-responsive">
 							           <div class="w3layouts_news_grid_pos">
-								          <div class="wthree_text"><h3>{{$g->description}}</h3></div>
+								        
 							           </div>
 						              </div>
 					                </a>
