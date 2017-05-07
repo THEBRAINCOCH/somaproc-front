@@ -130,7 +130,7 @@
 				<li class="mis-slide"> 
 					<figure> 
 						<img src="{{asset($p->photo)}}" alt=" " class="img-responsive" />
-						<figcaption>{{$p->name}} <em>{{$p->min_price}} - {{$p->max_price}}</em> </figcaption>
+						<figcaption>{{$p->name}} <sub>{{$p->min_price}} - {{$p->max_price}}</sub> </figcaption>
 					</figure>
 				</li>
 				@endforeach
