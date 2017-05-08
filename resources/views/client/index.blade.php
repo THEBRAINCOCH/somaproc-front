@@ -168,7 +168,7 @@
  <div class="w3_banner_info_grid">
 	<ul>
 		<li><a href="contact" class="w3l_contact">{{trans('home.contactUs')}}</a></li>
-		<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal">{{trans('home.readMore')}}</a></li>
+		<li><a href="about" class="w3ls_more"  >{{trans('home.readMore')}}</a></li>
 	</ul>
  </div>
 </div>
