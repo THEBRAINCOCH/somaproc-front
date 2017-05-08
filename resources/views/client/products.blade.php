@@ -9,29 +9,7 @@
 
 <!-- font-awesome-icons -->
 <!-- bootstrap-pop-up -->
-	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					Germinate
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-				</div>
-				<section>
-					<div class="modal-body">
-						<img src="{{asset('images/4.jpg')}}" alt=" " class="img-responsive" />
-						<p>Ut enim ad minima veniam, quis nostrum 
-							exercitationem ullam corporis suscipit laboriosam, 
-							nisi ut aliquid ex ea commodi consequatur? Quis autem 
-							vel eum iure reprehenderit qui in ea voluptate velit 
-							esse quam nihil molestiae consequatur, vel illum qui 
-							dolorem eum fugiat quo voluptas nulla pariatur.
-							<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
-								esse quam nihil molestiae consequatur.</i></p>
-					</div>
-				</section>
-			</div>
-		</div>
-	</div>
+	
 <!-- //bootstrap-pop-up -->
 <!-- breadcrumbs -->
 	<div class="breadcrumbs">
@@ -43,14 +21,14 @@
 				</ul>
 			</div>
 			<div class="w3layouts_breadcrumbs_right">
-				<h2>Produits</h2>
+				<h2>{{trans('menus.products')}}</h2>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 	</div><br><br>
 <!-- //breadcrumbs -->
 <!-- //testimonials -->
-<h3 class="agileits_w3layouts_head">Observer<span> Notre </span>Produits</h3>
+<h3 class="agileits_w3layouts_head">{{trans('menus.products')}}</h3>
 <div class="w3_agile_image">
 				<img src="{{asset('images/1.png')}}" alt=" " class="img-responsive" />
 			</div>
