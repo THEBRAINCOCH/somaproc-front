@@ -243,7 +243,7 @@
 							
 						</ul>
 						<h4><a href="{{url('News',$t->id)}}">{{$t->title}}</a></h4>
-						<p>{{str_limit($t->description,100,'...')}}</p>
+						<p>{!!str_limit($t->description,100,'...')!!}</p>
 					</div>
 				</div>
 				@endforeach
