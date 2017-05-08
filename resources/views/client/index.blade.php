@@ -303,9 +303,8 @@
 <!-- welcome-bottom -->
 	<div id="welcome_bottom" class="welcome-bottom">
 		<div class="col-md-6 wthree_welcome_bottom_left">
-			<h3>we work hard and make our country <span>greenery</span></h3>
-			<p>Nullam pretium euismod orci ac porta. Interdum et malesuada fames ac ante
-				ipsum primis in faucibus. Donec at scelerisque dolor, vel placerat mi.</p>
+			<h3>We Work Hard to Make our country the  <span>first</span></h3>
+			<p>We do our utmost to improve the product. We are happy to offer you the best.</p>
 			<div class="col-md-6 wthree_welcome_bottom_left_grid">
 				<div class="w3l_social_icon_gridl">
 					<img src="images/8.png" alt=" " class="img-responsive" />
