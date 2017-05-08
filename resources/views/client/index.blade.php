@@ -125,7 +125,7 @@
 <!-- banner -->
 	
 	<!-- welcome -->
-		<div class="mis-stage w3_agileits_welcome_grids"> 
+		<div class="mis-stage w3_agileits_welcome_grids" > 
 			<!-- The element to select and apply miSlider to - the class is optional -->
 			<ol class="mis-slider">
 			@foreach($products as $p)
@@ -133,8 +133,13 @@
 				<li class="mis-slide"> 
 					<figure> 
 						<img src="{{asset($p->photo)}}" alt=" " class="img-responsive" />
-						<figcaption>{{$p->name}} <sub>{{$p->min_price}} - {{$p->max_price}}</sub> </figcaption>
+						<figcaption style="position:relative; z-index: 2;">{{$p->name}} <br/>
+						<span>{{$p->min_price}} - {{$p->max_price}}</span>
+						</figcaption>
+						
+					 
 					</figure>
+					
 				</li>
 				@endforeach
 				
@@ -144,29 +149,7 @@
 
 <!-- //welcome -->
 <!-- bootstrap-pop-up -->
-	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					Germinate
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-				</div>
-				<section>
-					<div class="modal-body">
-						<img src="images/4.jpg" alt=" " class="img-responsive" />
-						<p>Ut enim ad minima veniam, quis nostrum 
-							exercitationem ullam corporis suscipit laboriosam, 
-							nisi ut aliquid ex ea commodi consequatur? Quis autem 
-							vel eum iure reprehenderit qui in ea voluptate velit 
-							esse quam nihil molestiae consequatur, vel illum qui 
-							dolorem eum fugiat quo voluptas nulla pariatur.
-							<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
-								esse quam nihil molestiae consequatur.</i></p>
-					</div>
-				</section>
-			</div>
-		</div>
-	</div>
+	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal"></div>
 <!-- banner-bottom -->
 	<div class="banner-bottom">
 		<div class="col-md-4 agileits_banner_bottom_left">

@@ -55,7 +55,7 @@
 		bottom: .5em;
         width: 100%;
         margin: 0 auto; /* center it */
-        z-index: 300;
+        z-index: -1;
         padding: 0;
 	}
 		.mis-nav-list li {
