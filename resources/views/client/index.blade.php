@@ -24,9 +24,7 @@
 				   </div>
 				<br/>
 				  
-					
-				
-				</div>
+	</div>
 <div class="container"><nav class = "navbar navbar-default" role = "navigation" >
     <div class = "navbar-header" >
       <button type = "button" class = "navbar-toggle" 
@@ -37,6 +35,63 @@
          <span class = "icon-bar"></span>
       </button>
    </div>
+      @if (session()->get('locale')=="ar")
+
+<div class = "collapse navbar-collapse" id = "example-navbar-collapse">
+	<ul class = "nav navbar-nav pull-left" >
+       @if(Auth::check())
+       <li class = "dropdown">
+               <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">{{Auth::user()->name}}
+               <b class = "caret"></b>
+            </a>
+             <ul class = "dropdown-menu">
+               <li><a  href = "{{url('/logout')}}">{{trans('auth.logout')}}</a></li>
+      
+            </ul>
+         </li>
+          @else
+          <li><a href="{{url('/login')}}">{{trans('auth.login')}}</a></li>
+           <li><a href="{{url('/register')}}">{{trans('auth.register')}}</a></li>
+          @endif
+
+         </ul>
+
+      <ul class = "nav navbar-nav pull-right">
+           <li><a href="contact">{{trans('menus.contact')}}</a></li>
+           <li><a href="{{url('/News')}}">{{trans('menus.news')}}</a></li>
+           <li><a href="gallery">{{trans('menus.gallery')}}</a></li>
+           <li class = "dropdown">
+               <a href="products" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.products')}}
+               <b class = "caret"></b>
+            </a>
+             <ul class = "dropdown-menu">
+             @foreach(config('categories') as $key=>$value)
+               <li class = ""><a href = "{{url('products',$key)}}">{{trans("menus.products.$value")}}</a></li>
+
+               @endforeach
+                
+
+
+             
+            </ul>
+         </li>
+          <li><a href="services">{{trans('menus.services')}}</a></li>
+          <li class = "dropdown">
+               <a href="about" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.about')}}
+               <b class = "caret"></b>
+            </a>
+             <ul class = "dropdown-menu">
+               <li><a href = "about">{{trans('menus.about')}}</a></li>
+               <li><a href="Company">{{trans('menus.Company')}}</a></li>
+               <li><a href="Statistics">{{trans('menus.Statistics')}}</a></li>
+            </ul>
+         </li>
+         <li ><a href="/">{{trans('menus.home')}}</a></li>
+      </ul>
+       
+   </div>
+   @else
+   
    <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
 	
       <ul class = "nav navbar-nav">
@@ -91,7 +146,7 @@
 
          </ul>
    </div>
-   
+   @endif
 </nav></div>
 </div>	<br><br><br>	
 	
@@ -161,8 +216,8 @@
 						</div>
 					</div>
 					<div class="col-xs-8 wthree_banner_bottom_grid_right">	
-						<h4>Free Consultation</h4>
-						<p>Morbi viverra lacus commodo felis semper, eu iaculis lectus feugiat.</p>
+						<h4>{{trans('home.Free Consultation')}}</h4>
+						<p>{{trans('home.Agricultural Product Consultation.')}}</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -177,8 +232,8 @@
 						</div>
 					</div>
 					<div class="col-xs-8 wthree_banner_bottom_grid_right">	
-						<h4>Certified Products</h4>
-						<p>Morbi viverra lacus commodo felis semper, eu iaculis lectus feugiat.</p>
+						<h4>{{trans('home.Certified Products')}}</h4>
+						<p>{{trans('home.Classification of products approved in the Tunisian national market.')}}</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -193,8 +248,8 @@
 						</div>
 					</div>
 					<div class="col-xs-8 wthree_banner_bottom_grid_right">	
-						<h4>Free Helpline</h4>
-						<p>Morbi viverra lacus commodo felis semper, eu iaculis lectus feugiat.</p>
+						<h4>{{trans('home.Free Helpline')}}</h4>
+						<p>{{trans('home.Provide the necessary information to the farmer in order to develop the product.')}}</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>

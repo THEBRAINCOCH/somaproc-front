@@ -64,7 +64,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </style>
 </head>
 	
+@if (session()->get('locale')=="ar")
+<body dir="rtl">
+@else
 <body>
+@endif
 <!-- banner -->
 	<div class="banner1">
 			

@@ -38,7 +38,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		background-color:  #a4dd25;
 	}
 </style>
+@if (session()->get('locale')=="ar")
+<body dir="rtl">
+@else
 <body>
+@endif
 <!-- //bootstrap-pop-up -->
 @yield('content')
 <!-- footer -->
