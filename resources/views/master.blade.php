@@ -38,23 +38,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		background-color:  #a4dd25;
 	}
 </style>
-@if (session()->get('locale')=="ar")
-<body dir="rtl">
-@else
+
 <body>
-@endif
+
+
+
+
 <!-- //bootstrap-pop-up -->
 @yield('content')
 <!-- footer -->
-	<div class="footer">
-		<div class="container">
+<div class="footer" >
+<div class="container">
 			<div class="w3agile_footer_grids">
 				<div class="col-md-4 agileinfo_footer_grid">
 					<div class="agileits_w3layouts_footer_logo">
 						<a href="/"><img src="{{asset('images/logo.png')}}"  style="position: relative;  width: 200px; height: 200px; left: 10; right: 0px; float: left;"></a>
 					</div>
 				</div>
-				<div class="col-md-4 agileinfo_footer_grid">
+				<div class="col-md-4 agileinfo_footer_grid ">
+				
 					<h3>{{trans('contact.contactInformation')}}</h3>
 					<h4>{{trans('contact.callUs')}}<h3>+(216)76 63 04 70</h3></h4>
 					<p>{{trans('contact.Address')}}</p>

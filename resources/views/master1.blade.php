@@ -64,14 +64,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </style>
 </head>
 	
-@if (session()->get('locale')=="ar")
-<body dir="rtl">
-@else
-<body>
-@endif
+
+<body >
 <!-- banner -->
-	<div class="banner1">
-			
+@if (session()->get('locale')=="ar")
+	<div class="banner1" dir="rtl">
+@else
+	<div class="banner1"> 
+@endif
+
 	 <div class="w3_agileits_banner_main_grid" style="margin-top:-20px;">
 				<div class="w3_agile_logo">
 					<a href="/"><img src="{{asset('images/logo.png')}}"  style="position: relative; width: 200px; height: 200px;"></a>
@@ -106,39 +107,100 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
          <span class = "icon-bar"></span>
       </button>
    </div>
-   <div  class = "collapse navbar-collapse" id = "example-navbar-collapse">
-	
-      <ul   class = "nav navbar-nav" >
-         <li  ><a  href="{{url('/')}}">{{trans('menus.home')}}</a></li>
-         <li class = "dropdown">
-               <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.about')}}
+   
+      @if (session()->get('locale')=="ar")
+
+<div class = "collapse navbar-collapse" id = "example-navbar-collapse">
+	<ul class = "nav navbar-nav pull-left" >
+       @if(Auth::check())
+       <li class = "dropdown">
+               <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">{{Auth::user()->name}}
                <b class = "caret"></b>
             </a>
              <ul class = "dropdown-menu">
-               <li><a  href = "{{url('about')}}">{{trans('menus.about')}}</a></li>
-               <li><a href="{{url('Company')}}">{{trans('menus.Company')}}</a></li>
-               <li><a href="{{url('Statistics')}}">{{trans('menus.Statistics')}}</a></li>
+               <li><a  href = "{{url('/logout')}}">{{trans('auth.logout')}}</a></li>
+      
             </ul>
          </li>
-         <li><a href="{{url('services')}}">{{trans('menus.services')}}</a></li>
-         <li class = "dropdown">
-               <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.products')}}
+          @else
+          <li><a href="{{url('/login')}}">{{trans('auth.login')}}</a></li>
+           <li><a href="{{url('/register')}}">{{trans('auth.register')}}</a></li>
+          @endif
+
+         </ul>
+
+      <ul class = "nav navbar-nav pull-right">
+           <li><a href="contact">{{trans('menus.contact')}}</a></li>
+           <li><a href="{{url('/News')}}">{{trans('menus.news')}}</a></li>
+           <li><a href="gallery">{{trans('menus.gallery')}}</a></li>
+           <li class = "dropdown">
+               <a href="products" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.products')}}
                <b class = "caret"></b>
             </a>
              <ul class = "dropdown-menu">
-               @foreach(config('categories') as $key=>$value)
+             @foreach(config('categories') as $key=>$value)
                <li class = ""><a href = "{{url('products',$key)}}">{{trans("menus.products.$value")}}</a></li>
 
                @endforeach
+                
+
+
+             
             </ul>
          </li>
-         <li><a href="{{url('/gallery')}}">{{trans('menus.gallery')}}</a></li>
-         <li><a href="{{url('/News')}}">{{trans('menus.news')}}</a></li>
-         <li><a href="{{url('/contact')}}">{{trans('menus.contact')}}</a></li>
-           
+          <li><a href="services">{{trans('menus.services')}}</a></li>
+          <li class = "dropdown">
+               <a href="about" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.about')}}
+               <b class = "caret"></b>
+            </a>
+             <ul class = "dropdown-menu">
+               <li><a href = "about">{{trans('menus.about')}}</a></li>
+               <li><a href="Company">{{trans('menus.Company')}}</a></li>
+               <li><a href="Statistics">{{trans('menus.Statistics')}}</a></li>
+            </ul>
+         </li>
+         <li ><a href="/">{{trans('menus.home')}}</a></li>
       </ul>
-     
-      <ul class = "nav navbar-nav pull-right" >
+       
+   </div>
+   @else
+   
+   <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
+	
+      <ul class = "nav navbar-nav">
+         <li ><a href="/">{{trans('menus.home')}}</a></li>
+         <li class = "dropdown">
+               <a href="about" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.about')}}
+               <b class = "caret"></b>
+            </a>
+             <ul class = "dropdown-menu">
+               <li><a href = "about">{{trans('menus.about')}}</a></li>
+               <li><a href="Company">{{trans('menus.Company')}}</a></li>
+               <li><a href="Statistics">{{trans('menus.Statistics')}}</a></li>
+            </ul>
+         </li>
+         <li><a href="services">{{trans('menus.services')}}</a></li>
+         <li class = "dropdown">
+               <a href="products" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.products')}}
+               <b class = "caret"></b>
+            </a>
+             <ul class = "dropdown-menu">
+             @foreach(config('categories') as $key=>$value)
+               <li class = ""><a href = "{{url('products',$key)}}">{{trans("menus.products.$value")}}</a></li>
+
+               @endforeach
+                
+
+
+             
+            </ul>
+         </li>
+         <li><a href="gallery">{{trans('menus.gallery')}}</a></li>
+         <li><a href="{{url('/News')}}">{{trans('menus.news')}}</a></li>
+
+         <li><a href="contact">{{trans('menus.contact')}}</a></li>
+      </ul>
+       <ul class = "nav navbar-nav pull-right" >
        @if(Auth::check())
 
        <li class = "dropdown">
@@ -156,11 +218,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           @endif
 
          </ul>
-        
-
-
-
    </div>
+   @endif
 
    
 </nav>

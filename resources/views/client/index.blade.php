@@ -3,8 +3,11 @@
 @section('content')
 
 <!-- banner -->
-
+@if (session()->get('locale')=="ar")
+<div class="banner" dir="rtl">
+@else
 <div class="banner">
+@endif
 	 <div class="w3_agileits_banner_main_grid" style="margin-top:-20px;">
 				<div class="w3_agile_logo">
 					<a href="/"><img src="{{asset('images/logo.png')}}"  style="position: relative; width: 200px; height: 200px;"></a>
