@@ -209,7 +209,11 @@
 <!-- bootstrap-pop-up -->
 	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal"></div>
 <!-- banner-bottom -->
+@if (session()->get('locale')=="ar")
+	<div class="banner-bottom"  dir="rtl">
+@else
 	<div class="banner-bottom">
+@endif
 		<div class="col-md-4 agileits_banner_bottom_left">
 			<div class="agileinfo_banner_bottom_pos">
 				<div class="w3_agileits_banner_bottom_pos_grid">

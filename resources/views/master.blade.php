@@ -67,6 +67,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
+				
 	<div class="col-md-4 agileinfo_footer_grid agileinfo_footer_grid1">
 					<h3>{{trans('menus.navigation')}}</h3>
 					<ul class="w3layouts_footer_nav">
