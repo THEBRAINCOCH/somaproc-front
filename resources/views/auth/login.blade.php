@@ -1,7 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
+@if (session()->get('locale')=="ar")
+<div class="container" dir="rtl">
+@else
 <div class="container">
+@endif
+
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
