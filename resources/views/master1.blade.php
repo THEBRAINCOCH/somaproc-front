@@ -68,9 +68,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- banner -->
 	<div class="banner1">
 			
-	  <div class="w3_agileits_banner_main_grid">
+	 <div class="w3_agileits_banner_main_grid" style="margin-top:-20px;">
 				<div class="w3_agile_logo">
-					<a href="/"><img src="{{asset('images/logo.png')}}"  style="position: relative; width: 300px; height: 300px; left: 10; right: 0px;"></a>
+					<a href="/"><img src="{{asset('images/logo.png')}}"  style="position: relative; width: 200px; height: 200px;"></a>
 				</div>
 	</div>	
 		<div class="container">
@@ -84,21 +84,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="{{route('language-choose','en')}}}" class="w3l_contact">{{trans('languages.en')}}</a></li>
 					</ul>
 				   </div>
+				   <br/>
+	
 				
-				   <br><br>
-					<ul class="agileits_social_list">
-						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="100_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-					</ul>
-					
-				
-				</div><br><br><br><br><br><br><br><br>
+				</div>
 				
 
+
 <!--menu-->
-<div class="container"><nav class = "navbar navbar-default" role = "navigation" >
+<div class="container"><nav  class = "navbar navbar-default" role = "navigation" >
     <div class = "navbar-header" >
       <button type = "button" class = "navbar-toggle" 
          data-toggle = "collapse" data-target = "#example-navbar-collapse">
@@ -108,9 +102,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
          <span class = "icon-bar"></span>
       </button>
    </div>
-   <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
+   <div  class = "collapse navbar-collapse" id = "example-navbar-collapse">
 	
-      <ul class = "nav navbar-nav" >
+      <ul   class = "nav navbar-nav" >
          <li  ><a  href="{{url('/')}}">{{trans('menus.home')}}</a></li>
          <li class = "dropdown">
                <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.about')}}
@@ -135,6 +129,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </ul>
          </li>
          <li><a href="{{url('/gallery')}}">{{trans('menus.gallery')}}</a></li>
+         <li><a href="{{url('/News')}}">{{trans('menus.news')}}</a></li>
          <li><a href="{{url('/contact')}}">{{trans('menus.contact')}}</a></li>
            
       </ul>

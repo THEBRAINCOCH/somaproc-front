@@ -9,6 +9,8 @@ return
 'products'=>'المنتجات' ,
 'gallery'=>'الصور',
 'contact'=>'اتصل بنا',
+'news'=>'المستجدات',
+
 
 'products.redMeat'=>'لحم أحمر',
 'products.whiteMeat'=>'لحم أبيض',

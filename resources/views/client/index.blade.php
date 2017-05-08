@@ -5,11 +5,11 @@
 <!-- banner -->
 
 <div class="banner">
-    <div class="w3_agileits_banner_main_grid">
+	 <div class="w3_agileits_banner_main_grid" style="margin-top:-20px;">
 				<div class="w3_agile_logo">
-					<a href="/"><img src="images/logo.png"  style=" padding-bottom: 50px; width: 300px; height: 300px; left: 20;  float: left;"></a>
+					<a href="/"><img src="{{asset('images/logo.png')}}"  style="position: relative; width: 200px; height: 200px;"></a>
 				</div>
-    </div>	
+	</div>
    <div class="container">
    		
 	 <div id="header-wrapper">
@@ -22,17 +22,11 @@
 						<li><a href="{{route('language-choose','en')}}}" class="w3l_contact">{{trans('languages.en')}}</a></li>
 					</ul>
 				   </div>
-				
-				   <br><br>
-					<ul class="agileits_social_list">
-						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="100_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-					</ul>
+				<br/>
+				  
 					
 				
-				</div><br><br><br><br><br><br><br><br><br><br>
+				</div>
 <div class="container"><nav class = "navbar navbar-default" role = "navigation" >
     <div class = "navbar-header" >
       <button type = "button" class = "navbar-toggle" 
@@ -74,6 +68,7 @@
             </ul>
          </li>
          <li><a href="gallery">{{trans('menus.gallery')}}</a></li>
+         <li><a href="{{url('/News')}}">{{trans('menus.news')}}</a></li>
 
          <li><a href="contact">{{trans('menus.contact')}}</a></li>
       </ul>
@@ -228,63 +223,31 @@
 <!-- news -->
 	<div class="welcome">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">Dernières <span>nouvelles</span> de la Somaproc</h3>
+			<h3 class="agileits_w3layouts_head">{{trans('topics.lastTopics')}}</h3>
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive">
 			</div>
 		
 			<div class="w3ls_news_grids">
+			@foreach($topics as $t)
 				<div class="col-md-4 w3ls_news_grid">
 					<div class="w3layouts_news_grid">
-						<img src="images/3.jpg" alt=" " class="img-responsive" />
+						<img src="{{asset($t->photo1)}}" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
-							<div class="wthree_text"><h3>Somaproc</h3></div>
+							<div class="wthree_text"><h3>{{$t->title}}</h3></div>
 						</div>
 					</div>
 					<div class="agileits_w3layouts_news_grid">
 						<ul>
-							<li><i class="fa fa-calendar" aria-hidden="true"></i>25 March 2017</li>
-							<li><i class="fa fa-user" aria-hidden="true"></i><a href="#">Admin</a></li>
+							<li><i class="fa fa-calendar" aria-hidden="true"></i>{{$t->created_at->format('d-m-Y H:i')}}</li>
+							
 						</ul>
-						<h4><a href="#" data-toggle="modal" data-target="#myModal">Design & Planting</a></h4>
-						<p>Vivamus lacinia odio ut euismod eleifend. Cum sociis natoque penatibus et 
-							magnis dis parturient montes.</p>
+						<h4><a href="{{url('News',$t->id)}}">{{$t->title}}</a></h4>
+						<p>{{str_limit($t->description,100,'...')}}</p>
 					</div>
 				</div>
-				<div class="col-md-4 w3ls_news_grid">
-					<div class="w3layouts_news_grid">
-						<img src="images/6.jpg" alt=" " class="img-responsive" />
-						<div class="w3layouts_news_grid_pos">
-							<div class="wthree_text"><h3>plantation</h3></div>
-						</div>
-					</div>
-					<div class="agileits_w3layouts_news_grid">
-						<ul>
-							<li><i class="fa fa-calendar" aria-hidden="true"></i>28 March 2017</li>
-							<li><i class="fa fa-user" aria-hidden="true"></i><a href="#">Admin</a></li>
-						</ul>
-						<h4><a href="#" data-toggle="modal" data-target="#myModal">Quality & Reliability</a></h4>
-						<p>Vivamus lacinia odio ut euismod eleifend. Cum sociis natoque penatibus et 
-							magnis dis parturient montes.</p>
-					</div>
-				</div>
-				<div class="col-md-4 w3ls_news_grid">
-					<div class="w3layouts_news_grid">
-						<img src="images/5.jpg" alt=" " class="img-responsive" />
-						<div class="w3layouts_news_grid_pos">
-							<div class="wthree_text"><h3>plantation</h3></div>
-						</div>
-					</div>
-					<div class="agileits_w3layouts_news_grid">
-						<ul>
-							<li><i class="fa fa-calendar" aria-hidden="true"></i>30 March 2017</li>
-							<li><i class="fa fa-user" aria-hidden="true"></i><a href="#">Admin</a></li>
-						</ul>
-						<h4><a href="#" data-toggle="modal" data-target="#myModal">Satisfied Customers</a></h4>
-						<p>Vivamus lacinia odio ut euismod eleifend. Cum sociis natoque penatibus et 
-							magnis dis parturient montes.</p>
-					</div>
-				</div>
+				@endforeach
+			
 				<div class="clearfix"> </div>
 			</div>
 		</div>

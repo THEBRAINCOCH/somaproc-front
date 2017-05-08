@@ -7,6 +7,7 @@ return
 'Company'=>'Société',
 'Statistics'=>'Statistiques',
 'products'=>'Produits' ,
+'news'=>'Actualités',
 'gallery'=>'Gallerie',
 'contact'=>'Contacts',
 'products.redMeat'=>'viande rouge',

@@ -9,6 +9,7 @@ use Session;
 use App\Product;
 use App\Contact;
 use App\Gallerie;
+use App\Topic;
 
 class clientcontroller extends Controller
 {
@@ -22,12 +23,14 @@ class clientcontroller extends Controller
 
          public function index()
      {
+        $topics=Topic::where('language_id','=',config('languages.'.session()->get('locale')))->orderBy('created_at','desc')->limit(3)->get();
         
        
         $products=Product::where('language_id','=',config('languages.'.session()->get('locale')))->inRandomOrder()->get();
      
         $params=[
-        'products'=>$products
+        'products'=>$products,
+        'topics'=>$topics
      
         ];
        
@@ -98,9 +101,17 @@ class clientcontroller extends Controller
 
     public function News()
     {
-      return view("client.News");
+        $topics=Topic::where('language_id','=',config('languages.'.session()->get('locale')))->orderBy('created_at','desc')->paginate(6);
+        $params=[
+        'topics'=>$topics];
+      return view("client.News")->with($params);
     }
 
+    public function topic($id)
+    {
+        $params=['topic'=>$topic=Topic::find($id)];
+      return view("client.New")->with($params);
+    }
 
 
 
