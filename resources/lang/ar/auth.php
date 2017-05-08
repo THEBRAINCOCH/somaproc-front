@@ -19,7 +19,7 @@ return [
     'logout'=>'الخروج',
     'register'=>"انشاء حساب",
       'name'=>'الاسم',
-    'email'=>'الايميل',
+    'email'=>'البريد الإلكتروني',
     'password'=>'كلمة السر',
     'passwordConfirm'=>'اعادة كلمة السر',
     'forgotPassword'=>'نسيت كلمة السر',
