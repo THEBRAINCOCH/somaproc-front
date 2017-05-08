@@ -63,7 +63,7 @@
 			<div class="grid_3 grid_5 agile">
 				<h5>{{$topic->created_at->format('d-m-Y')}}</h5>
 				
-				<div class="well" style="background-color: transparent; font-size: 16px;">
+				<div class="well" style="background-color: transparent; font-size: 16px; text-align:center;">
 						{!!$topic->description!!}
 				</div>
 			</div>
