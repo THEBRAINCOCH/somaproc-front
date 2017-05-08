@@ -301,10 +301,14 @@
 
 
 <!-- welcome-bottom -->
+@if (session()->get('locale')=="ar")
+	<div id="welcome_bottom" class="welcome-bottom" dir="rtl">
+@else
 	<div id="welcome_bottom" class="welcome-bottom">
+@endif
 		<div class="col-md-6 wthree_welcome_bottom_left">
-			<h3>We Work Hard to Make our country the  <span>first</span></h3>
-			<p>We do our utmost to improve the product. We are happy to offer you the best.</p>
+			<center><h3>{{trans('home.We Work Hard to Make our country the')}}<span> {{trans('home.first')}}</span></h3>
+			<p>{{trans('home.We do our utmost to improve the product. We are happy to offer you the best.')}}</p></center>
 			<div class="col-md-6 wthree_welcome_bottom_left_grid">
 				<div class="w3l_social_icon_gridl">
 					<img src="images/8.png" alt=" " class="img-responsive" />
@@ -360,9 +364,8 @@
 				<figure class="agileits_effect_moses">
 					<img src="images/4.jpg" alt=" " class="img-responsive" />
 					<figcaption>
-						<h4>Plantation <span>For Future Growth</span></h4>
-						<p>Nullam in luctus lectus. Mauris lobortis dui mauris, non vestibulum 
-							magna blandit at scelerisque tellus ipsum nec ipsum.</p>
+						<h4>{{trans('home.Somaproc')}} <span>{{trans('home.For Future Growth')}}</span></h4>
+						<p>Nullam in luctus lectus. Mauris lobortis dui mauris.</p>
 					</figcaption>			
 				</figure>
 			</div>
