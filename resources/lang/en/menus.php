@@ -17,6 +17,7 @@ return
 'products.fruit'=>'fruit',
 'search'=>'Search',
 'searchFor'=>'search for ..',
+'navigation'=>'Navigation'
 
 
 

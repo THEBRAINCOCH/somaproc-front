@@ -47,7 +47,7 @@
 <!-- services -->
 	<div class="welcome">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">Notre <span>Future</span> Services</h3>
+			<h3 class="agileits_w3layouts_head">{{trans('services.services')}}</h3>
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive" />
 			</div>
@@ -109,153 +109,8 @@
 			</div>
 		</div>
 	</div>
-<!-- //services -->
-<!-- services-bottom -->
-	<div class="services-bottom">
-		<div class="container">
-			<h3 class="agileits_w3layouts_head agileinfo_head w3_head"><span>What</span> we do</h3>
-			<div class="w3_agile_image">
-				<img src="{{asset('images/17.png')}}" alt=" " class="img-responsive">
-			</div>
-			<p class="agile_para agileits_para">Morbi viverra lacus commodo felis semper, eu iaculis lectus nulla at sapien blandit sollicitudin.</p>
-			<div class="w3ls_news_grids">
-				<div class="col-md-4 w3_agileits_services_bottom_grid">
-					<div class="wthree_services_bottom_grid1">
-						<img src="{{asset('images/5.jpg')}}" alt=" " class="img-responsive" />
-						<div class="wthree_services_bottom_grid1_pos">
-							<h4>Fertilizing</h4>
-						</div>
-					</div>
-					<div class="agileinfo_services_bottom_grid2">
-						<p>Quisque faucibus scelerisque eros, molestie tristique lacus posuere in.</p>
-						<div class="agileits_w3layouts_learn_more hvr-radial-out">
-							<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 w3_agileits_services_bottom_grid">
-					<div class="wthree_services_bottom_grid1">
-						<img src="{{asset('images/6.jpg')}}" alt=" " class="img-responsive" />
-						<div class="wthree_services_bottom_grid1_pos">
-							<h4>Soil Testing</h4>
-						</div>
-					</div>
-					<div class="agileinfo_services_bottom_grid2">
-						<p>Quisque faucibus scelerisque eros, molestie tristique lacus posuere in.</p>
-						<div class="agileits_w3layouts_learn_more hvr-radial-out">
-							<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 w3_agileits_services_bottom_grid">
-					<div class="wthree_services_bottom_grid1">
-						<img src="{{asset('images/3.jpg')}}" alt=" " class="img-responsive" />
-						<div class="wthree_services_bottom_grid1_pos">
-							<h4>Planting</h4>
-						</div>
-					</div>
-					<div class="agileinfo_services_bottom_grid2">
-						<p>Quisque faucibus scelerisque eros, molestie tristique lacus posuere in.</p>
-						<div class="agileits_w3layouts_learn_more hvr-radial-out">
-							<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-<!-- //services-bottom -->
-<!-- testimonials -->
-	<div class="testimonials">
-		<div class="container">
-			<h3 class="agileits_w3layouts_head">Notre <span>Future</span> Services</h3>
-			<div class="w3_agile_image">
-				<img src="{{asset('images/1.png')}}" alt=" " class="img-responsive">
-			</div>
-			
-			<div class="w3ls_news_grids">
-				<section class="slider">
-					<div class="flexslider">
-						<ul class="slides">
-							<li>
-								<div class="agile_testimonials_grid">
-									<div class="col-md-4 agile_testimonials_grid_left">
-										<img src="{{asset('images/15.jpg')}}" alt=" " class="img-responsive" />
-									</div>
-									<div class="col-md-8 agile_testimonials_grid_right">
-										<h5>Vivamus malesuada <span>pellentesque</span> nunc id <i>'condim'</i></h5>
-										<div class="wthree_stars">
-											<ul>
-												<li><i class="fa fa-star"></i></li>
-												<li><i class="fa fa-star"></i></li>
-												<li><i class="fa fa-star"></i></li>
-												<li><i class="fa fa-star-half-o"></i></li>
-												<li><i class="fa fa-star-o"></i></li>
-											</ul>
-										</div>
-										<p>Duis porttitor magna leo, ac feugiat nibh bibendum at. Duis porttitor 
-											placerat ex a fermentum. Praesent et dolor dignissim, fringilla enim vitae, 
-											tristique enim.</p>
-										<br>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</li>
-							<li>
-								<div class="agile_testimonials_grid">
-									<div class="col-md-4 agile_testimonials_grid_left">
-										<img src="{{asset('images/14.jpg')}}" alt=" " class="img-responsive" />
-									</div>
-									<div class="col-md-8 agile_testimonials_grid_right">
-										<h5>Quisque eu aliquam <span>dignissim</span> ex a <i>'fringilla'</i></h5>
-										<div class="wthree_stars">
-											<ul>
-												<li><i class="fa fa-star"></i></li>
-												<li><i class="fa fa-star"></i></li>
-												<li><i class="fa fa-star"></i></li>
-												<li><i class="fa fa-star"></i></li>
-												<li><i class="fa fa-star-o"></i></li>
-											</ul>
-										</div>
-										<p>Duis porttitor magna leo, ac feugiat nibh bibendum at. Duis porttitor 
-											placerat ex a fermentum. Praesent et dolor dignissim, fringilla enim vitae, 
-											tristique enim.</p>
-										<br>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</li>
-							<li>
-								<div class="agile_testimonials_grid">
-									<div class="col-md-4 agile_testimonials_grid_left">
-										<img src="{{asset('images/16.jpg')}}" alt=" " class="img-responsive" />
-									</div>
-									<div class="col-md-8 agile_testimonials_grid_right">
-										<h5>Vivamus malesuada <span>pellentesque</span> nunc id <i>'condim'</i></h5>
-										<div class="wthree_stars">
-											<ul>
-												<li><i class="fa fa-star"></i></li>
-												<li><i class="fa fa-star"></i></li>
-												<li><i class="fa fa-star-half-o"></i></li>
-												<li><i class="fa fa-star-half-o"></i></li>
-												<li><i class="fa fa-star-o"></i></li>
-											</ul>
-										</div>
-										<p>Duis porttitor magna leo, ac feugiat nibh bibendum at. Duis porttitor 
-											placerat ex a fermentum. Praesent et dolor dignissim, fringilla enim vitae, 
-											tristique enim.</p>
-										<br>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</section>
-			</div>
-		</div>
-	</div><br><br><br>
+
+
 <!-- //testimonials -->
 <!-- flexSlider -->
 	<script defer src="js/jquery.flexslider.js"></script>

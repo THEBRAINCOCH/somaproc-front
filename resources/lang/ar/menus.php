@@ -19,4 +19,5 @@ return
 'products.fruit'=>'غلال',
 'search'=>'البحث',
 'searchFor'=>'.. ابحث عن ',
+'navigation'=>'الروابط',
 ];

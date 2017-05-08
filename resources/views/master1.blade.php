@@ -5,7 +5,7 @@ author URL: http://Riatica.com
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>SOMAPROC : Sté des marchésde Production du Centre </title>
+<title>SOMAPROC : Sté des marchés de Production du Centre </title>
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -195,15 +195,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer">
 		<div class="container">
 			<div class="w3agile_footer_grids">
-				<div class="col-md-3 agileinfo_footer_grid">
+				<div class="col-md-4 agileinfo_footer_grid">
 					<div class="agileits_w3layouts_footer_logo">
 						<a href="/"><img src="{{asset('images/logo.png')}}"  style="position: relative;  width: 200px; height: 200px; left: 10; right: 0px; float: left;"></a>
 					</div>
 				</div>
 				<div class="col-md-4 agileinfo_footer_grid">
-					<h3>Informations de contact</h3>
-					<h4>Appelez-nous <h3>+(216)76 63 04 70</h3></h4>
-					<p>Société des Marchés de Production Du Centre SOMAPROC Avenu Habib bourguiba -Immeuble de l'entreprise - 3 ème étage <span>Sidi Bouzid 9100</span></p>
+					<h3>{{trans('contact.contactInformation')}}</h3>
+					<h4>{{trans('contact.callUs')}}<h3>+(216)76 63 04 70</h3></h4>
+					<p>{{trans('contact.Address')}}</p>
 					<ul class="agileits_social_list">
 						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -211,39 +211,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 agileinfo_footer_grid agileinfo_footer_grid1">
-					<h3>La Navigation</h3>
+				<div class="col-md-4 agileinfo_footer_grid agileinfo_footer_grid1">
+					<h3>{{trans('menus.navigation')}}</h3>
 					<ul class="w3layouts_footer_nav">
-						<li><a href="/"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Accueil</a></li>
+						<li><a href="/"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.home')}}</a></li>
+						       <li><a href="{{url('/gallery')}}">
+						       <i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.gallery')}}</a></li>
+        					 <li><a href="{{url('/News')}}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.news')}}</a></li>
+        					  <li><a href="{{url('/services')}}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.services')}}</a></li>
+        					   <li><a href="{{url('/about')}}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.about')}}</a></li>
+        					    <li><a href="{{url('/company')}}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.Company')}}</a></li>
+
 						
-						<li><a href="icons"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Icônes Web</a></li>
-						<li><a href="typography"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Typographie</a></li>
-						<li><a href="contact"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Contactez Nous</a></li>
+				
+						<li><a href="contact"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.contact')}}</a></li>
 
 					</ul>
 				</div>
-				<div class="col-md-3 agileinfo_footer_grid">
-					<h3>Postes de blog</h3>
-					<div class="agileinfo_footer_grid_left">
-						<a href="#" data-toggle="modal" data-target="#myModal"><img src="{{asset('images/6.jpg')}}" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="agileinfo_footer_grid_left">
-						<a href="#" data-toggle="modal" data-target="#myModal"><img src="{{asset('images/2.jpg')}}" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="agileinfo_footer_grid_left">
-						<a href="#" data-toggle="modal" data-target="#myModal"><img src="{{asset('images/5.jpg')}}" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="agileinfo_footer_grid_left">
-						<a href="#" data-toggle="modal" data-target="#myModal"><img src="{{asset('images/3.jpg')}}" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
+				
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 		<div class="w3_agileits_footer_copy">
 			<div class="container">
-				<p>© 2017 <a href="http://Riatica.com" >Riatica</a>. Tous droits réservés | Concu par <a href="http://Riatica.com">Riatica.</a></p>
+				<p>© 2017 <a href="http://Riatica.com" >Riatica</a>. {{trans('contact.copyright')}} <a href="http://Riatica.com">Riatica.</a></p>
 			</div>
 		</div>
 	</div>
