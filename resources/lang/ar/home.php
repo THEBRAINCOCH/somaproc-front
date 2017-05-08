@@ -4,7 +4,7 @@ return [
 
 
     'Société' =>'شركة', 
-    'des Marchés' =>' أسوق',
+    'des Marchés' =>' أسواق',
     'de production' =>'الإنتاج',
     'du centre' => 'بالوسط',
     'readMore' => 'اقرأ المزيد',
