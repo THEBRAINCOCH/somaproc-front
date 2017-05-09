@@ -8,13 +8,13 @@
 
     var data ={
     labels: [
-        "Autre",
-        "Pommes de terres",
-        "Tomates",
-        "Artichauts",
-        "Piments",
-        "Melons-Pastèques",
-        "Oignons",
+        "{{trans('statistics.Autre')}}",
+        "{{trans('statistics.Pommes de terres')}}",
+        "{{trans('statistics.Tomates')}}",
+        "{{trans('statistics.Artichauts')}}",
+        "{{trans('statistics.Piments')}}",
+        "{{trans('statistics.Melons-Pastèques')}}",
+        "{{trans('statistics.Oignons')}}",
     ],
     datasets: [
         {
@@ -63,7 +63,7 @@
 
                     display: true,
 
-                    text: 'Répartition de la production maraichère en Tunisie selon les produits'
+                    
 
                 },tooltips: {
       callbacks: {
@@ -103,133 +103,283 @@
     </div>
   </div>
 <div class="container">
-<div class="w3ls_news_grids"> 
+<div class="w3ls_news_grids">
+@if (session()->get('locale')=="ar")
+ <div class="col-md-5 w3_agile_about_grid_left" dir="rtl">
+           <div class="bs-docs-example"  style="max-width: 850px;">
+              <h2 style="font-family: "Times New Roman", Times, serif;" align="center">{{trans('statistics.Distribution of market gardening production in Tunisia by product')}}</h2>
+                 <canvas id="canvas" ></canvas>
+          </div>
+ </div>
+@else
+<div class="col-md-5 w3_agile_about_grid_left" >
+           <div class="bs-docs-example"  style="max-width: 850px;">
+              <h2 style="font-family: "Times New Roman", Times, serif;" align="center">{{trans('statistics.Distribution of market gardening production in Tunisia by product')}}</h2>
+                 <canvas id="canvas" ></canvas>
+          </div>
+ </div>
+@endif
 <div class="col-md-7 w3_agile_about_grid_left">
+
  <div class="bs-docs-example"  style="max-width: 850px;">
-              <div class="table-responsive">
-        <table class="table table-bordered" >
+
+  <div class="table-responsive">
+
+@if (session()->get('locale')=="ar")
+<h2 style="font-family: "Times New Roman", Times, serif;" align="center">{{trans('statistics.DEVELOPMENT PROGRAM')}}</h3><br><br>
+        <table class="table table-bordered" dir="rtl">
           <thead>
             <tr style="background-color: #a4dd25">
-              <th  style="color: #000;"><center>Espace</center></th>
-              <th  style="color: #000;"><center>Nombre</center></th>
-              <th  style="color: #000;"><center>Surface (m<sup>2</sup>)</center></th>
-              <th  style="color: #000;"><center>Surface en total (m<sup>2</sup>) </center></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Space')}}</center></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Number')}}</center></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Area')}}(m<sup>2</sup>)</center></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Total area')}}(m<sup>2</sup>) </center></th>
             </tr>
           </thead>
           <tbody>
              
                             <tr>
-                               <td style="color: #000;" align="center">halles légumes et fruits fermées</td>
+                               <td style="color: #000;" align="center">{{trans('statistics.Closed vegetable and fruit hall')}}</td>
                                <td align="center">3</td>
                                <td align="center">6750</td>
                                <td align="center">20 250</td>
                             </tr>
                             <tr>
-                               <td style="color: #000;" align="center">Aire pastèques / melons couverts</td>
+                               <td style="color: #000;" align="center">{{trans('statistics.Area watermelon / melons covered')}}</td>
                                <td align="center">1</td>
                                <td align="center">4300</td>
                                  <td align="center">4300</td>
                             </tr>
                             <tr>
-                               <td style="color: #000;" align="center">Parking  et voirie </td>
+                               <td style="color: #000;" align="center">{{trans('statistics.Parking and roads')}} </td>
                                <td align="center">-</td>
                                <td align="center">-</td>
-                                 <td align="center">44 000</td>
+                                 <td align="center">44000</td>
                             </tr>
                               <tr>
-                                 <td style="color: #000;" align="center">Entrepôts conditionnement et stockage </td>
+                                 <td style="color: #000;" align="center">{{trans('statistics.Warehouses storage and storage')}}</td>
                                  <td align="center">2</td>
                                  <td align="center">1400</td>
                                  <td align="center">2800</td>
                               </tr>
                               <tr>
-                                 <td style="color: #000;" align="center"> Administration et bureaux/postes de services</td>
+                                 <td style="color: #000;" align="center">{{trans('statistics.Administration and offices / service stations')}}</td>
                                  <td align="center">1</td>
                                  <td align="center">2000</td>
                                  <td align="center">2000</td>
                               </tr>
                               <tr>
-                                 <td style="color: #000;" align="center"> Centre de vie et locaux techniques</td>
+                                 <td style="color: #000;" align="center">{{trans('statistics.Living and technical premises')}}</td>
                                  <td align="center">1</td>
                                  <td align="center">1000</td>
                                  <td align="center">1000</td>
                               </tr>
                               <tr>
-                                 <td style="color: #000;" align="center"> Espaces verts</td>
+                                 <td style="color: #000;" align="center">{{trans('statistics.Green spaces')}}</td>
                                  <td align="center">1</td>
                                  <td align="center">5650</td>
                                  <td align="center">5650</td>
                               </tr>
                               <tr>
-                                 <th style="color: #000;" style="color: #000;"><center>TOTAL</center></th>
+                                 <th style="color: #000;" style="color: #000;"><center>{{trans('statistics.TOTAL')}}</center></th>
                                  <th style="color: #000;"><center>-</center></th>
                                  <th style="color: #000;"><center>-</center></th>
-                                 <th style="color: #000;"><center>80 000</center></th>
+                                 <th style="color: #000;"><center>80000</center></th>
                               </tr>
           </tbody>
         </table>
-      </div>
-</div>
-</div>
-</div>
-<div class="w3ls_news_grids"> 
-<div class="col-md-5 w3_agile_about_grid_left">
- <div class="bs-docs-example"  style="max-width: 850px;">
-              <div class="table-responsive">
-        <table class="table table-bordered" >
-        <thead>
+@else
+<h2 style="font-family: "Times New Roman", Times, serif;" align="center">{{trans('statistics.DEVELOPMENT PROGRAM')}}</h3><br>
+<table class="table table-bordered" >
+          <thead>
             <tr style="background-color: #a4dd25">
-              <th  style="color: #000;"><center>Année</center></th>
-              <th  style="color: #000;"><center>Volume vendu (T/j)</center></th>
-              <th  style="color: #000;"><center>Volume vendu (T/an)</center></th>
-              <th  style="color: #000;"><center>Nombre de halle en exploitation</center></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Space')}}</center></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Number')}}</center></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Area')}}(m<sup>2</sup>)</center></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Total area')}}(m<sup>2</sup>) </center></th>
             </tr>
           </thead>
           <tbody>
+             
                             <tr>
-                               <td align="center">1ère année</td>
-                               <td align="center">200</td>
-                               <td align="center">60 000</td>
-                               <td align="center">01</td>
+                               <td style="color: #000;" align="center">{{trans('statistics.Closed vegetable and fruit hall')}}</td>
+                               <td align="center">3</td>
+                               <td align="center">6750</td>
+                               <td align="center">20 250</td>
                             </tr>
                             <tr>
-                               <td align="center">2<sup>ème</sup> année</td>
-                               <td align="center">200</td>
-                               <td align="center">60 000</td>
-                               <td align="center">01</td>
+                               <td style="color: #000;" align="center">{{trans('statistics.Area watermelon / melons covered')}}</td>
+                               <td align="center">1</td>
+                               <td align="center">4300</td>
+                                 <td align="center">4300</td>
                             </tr>
                             <tr>
-                               <td align="center">3<sup>ème</sup> année</td>
-                               <td align="center">300</td>
-                               <td align="center">90 000</td>
-                                 <td align="center">02</td>
+                               <td style="color: #000;" align="center">{{trans('statistics.Parking and roads')}} </td>
+                               <td align="center">-</td>
+                               <td align="center">-</td>
+                                 <td align="center">44000</td>
                             </tr>
                               <tr>
-                                 <td align="center">4<sup>ème</sup> année </td>
-                                 <td align="center">400</td>
-                                 <td align="center">120 000</td>
-                                 <td align="center">02</td>
+                                 <td style="color: #000;" align="center">{{trans('statistics.Warehouses storage and storage')}}</td>
+                                 <td align="center">2</td>
+                                 <td align="center">1400</td>
+                                 <td align="center">2800</td>
                               </tr>
                               <tr>
-                                 <td align="center">5<sup>ème</sup> année</td>
-                                 <td align="center">600</td>
-                                 <td align="center">180 000</td>
-                                 <td align="center">03</td>
+                                 <td style="color: #000;" align="center">{{trans('statistics.Administration and offices / service stations')}}</td>
+                                 <td align="center">1</td>
+                                 <td align="center">2000</td>
+                                 <td align="center">2000</td>
+                              </tr>
+                              <tr>
+                                 <td style="color: #000;" align="center">{{trans('statistics.Living and technical premises')}}</td>
+                                 <td align="center">1</td>
+                                 <td align="center">1000</td>
+                                 <td align="center">1000</td>
+                              </tr>
+                              <tr>
+                                 <td style="color: #000;" align="center">{{trans('statistics.Green spaces')}}</td>
+                                 <td align="center">1</td>
+                                 <td align="center">5650</td>
+                                 <td align="center">5650</td>
+                              </tr>
+                              <tr>
+                                 <th style="color: #000;" style="color: #000;"><center>{{trans('statistics.TOTAL')}}</center></th>
+                                 <th style="color: #000;"><center>-</center></th>
+                                 <th style="color: #000;"><center>-</center></th>
+                                 <th style="color: #000;"><center>80000</center></th>
                               </tr>
           </tbody>
-          </table>
-          </div>
-          </div>
-          </div>
-          </div>
-          <div class="w3ls_news_grids"> 
-<div class="col-md-6 col-md-offset-3 w3_agile_about_grid_right">
+        </table>
+@endif
+      </div>
+</div>
+</div>
+
+
+</div>
+
+<div class="w3ls_news_grids"> 
+@if (session()->get('locale')=="ar")
+   <div class="col-md-6 content-row-column" dir="rtl">
+@else
+<div class="col-md-6 content-row-column" >
+@endif
+   <h2 style="font-family: "Times New Roman", Times, serif;"><center><br><br>{{trans('statistics.In terms of impacts, we distinguish the following impacts')}}: <br><br></center></h2>
+                        <div class="thumbnail" style="background-color: #a4dd25;">
+                            <div class="plus">
+                             <h4><br>
+                              -{{trans('statistics.The impact on producers incomes and the organization of')}} {{trans('statistics.Distribution network')}}<br><br>
+                               -{{trans('statistics.Impact on employment')}}.</h4><br>
+                           </div>
+                            <center>
+                                   <button class="btn btn-default" type="button" >{{trans('statistics.Downloade')}}!</button>
+                               </center>
+                        </div>
+  </div>
+<div class="col-md-6 w3_agile_about_grid_left">
  <div class="bs-docs-example"  style="max-width: 850px;">
-             <canvas id="canvas" ></canvas>
+              <div class="table-responsive">
+@if (session()->get('locale')=="ar")              
+        <table class="table table-bordered" dir="rtl">
+
+        <thead>
+            <tr style="background-color: #a4dd25">
+              <th  style="color: #000;"><center>{{trans('statistics.Year')}}</center></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Volume sold')}} ({{trans('statistics.tonne')}}/{{trans('statistics.Day')}})</center></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Volume sold')}} ({{trans('statistics.tonne')}}/{{trans('statistics.Year')}})</center></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Number of halls in operation')}}</center></th>
+            </tr>
+          </thead>
+          <tbody>
+                             <tr>
+                               <td align="center">{{trans('statistics.Year')}}<sup>{{trans('statistics.  First')}}</sup></td>
+                               <td align="center">200</td>
+                               <td align="center">60000</td>
+                               <td align="center">01</td>
+                            </tr>
+                            <tr>
+                               <td align="center">{{trans('statistics.Year')}}<sup>{{trans('statistics.  second')}}</sup></td>
+                               <td align="center">200</td>
+                               <td align="center">60000</td>
+                               <td align="center">01</td>
+                            </tr>
+                            <tr>
+                               <td align="center">{{trans('statistics.Year')}}<sup>{{trans('statistics.  Third')}}</sup></td>
+                               <td align="center">300</td>
+                               <td align="center">90000</td>
+                                 <td align="center">02</td>
+                            </tr>
+                              <tr>
+                                 <td align="center">{{trans('statistics.Year')}}<sup>{{trans('statistics.  Fourth')}}</sup></td>
+                                 <td align="center">400</td>
+                                 <td align="center">120000</td>
+                                 <td align="center">02</td>
+                              </tr>
+                              <tr>
+                                 <td align="center">{{trans('statistics.Year')}}<sup>{{trans('statistics.  Fifth')}}</sup></td>
+                                 <td align="center">600</td>
+                                 <td align="center">180000</td>
+                                 <td align="center">03</td>
+                              </tr>
+                              
+          </tbody>
+          </table>
+@else
+ <table class="table table-bordered" >
+
+        <thead>
+            <tr style="background-color: #a4dd25">
+              <th  style="color: #000;"><center>{{trans('statistics.Year')}}</center></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Volume sold')}} ({{trans('statistics.tonne')}}/{{trans('statistics.Day')}})</center></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Volume sold')}} ({{trans('statistics.tonne')}}/{{trans('statistics.Year')}})</center></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Number of halls in operation')}}</center></th>
+            </tr>
+          </thead>
+          <tbody>
+                <tr>
+                               <td align="center">{{trans('statistics.Year')}}<sup>{{trans('statistics.  First')}}</sup></td>
+                               <td align="center">200</td>
+                               <td align="center">60000</td>
+                               <td align="center">01</td>
+                            </tr>
+                            <tr>
+                               <td align="center">{{trans('statistics.Year')}}<sup>{{trans('statistics.  second')}}</sup></td>
+                               <td align="center">200</td>
+                               <td align="center">60000</td>
+                               <td align="center">01</td>
+                            </tr>
+                            <tr>
+                               <td align="center">{{trans('statistics.Year')}}<sup>{{trans('statistics.  Third')}}</sup></td>
+                               <td align="center">300</td>
+                               <td align="center">90000</td>
+                                 <td align="center">02</td>
+                            </tr>
+                              <tr>
+                                 <td align="center">{{trans('statistics.Year')}}<sup>{{trans('statistics.  Fourth')}}</sup></td>
+                                 <td align="center">400</td>
+                                 <td align="center">120000</td>
+                                 <td align="center">02</td>
+                              </tr>
+                              <tr>
+                                 <td align="center">{{trans('statistics.Year')}}<sup>{{trans('statistics.  Fifth')}}</sup></td>
+                                 <td align="center">600</td>
+                                 <td align="center">180000</td>
+                                 <td align="center">03</td>
+                              </tr>
+                              
+</tbody>
+          </table>
+@endif
+          </div>
+
+          </div>
+        
           </div>
           </div>
-          </div>
-          </div>
+
+</div>
+
 
 <!-- skills -->
   <script src="{{asset('js/skill.bars.jquery.js')}}"></script>

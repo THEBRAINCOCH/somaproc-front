@@ -27,14 +27,15 @@
 			</div>
 			
 			<div class="w3ls_news_grids"> 
-				<div class="col-md-4 w3_agile_about_grid_left">
+@if (session()->get('locale')=="ar")
+				<div class="col-md-12 w3_agile_about_grid_left" dir="rtl">
 					<h3 style=" font-size:20px;
 	                           color:#312F2F;
 	                           font-weight:400;
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" > 
-	                           <span >Somaproc</span>
+	                           <span >{{trans('about.Somaproc')}}</span>
 	                </h3>
 					<p style=" font-size:14px;
 	                           color:#312F2F;
@@ -42,8 +43,8 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
-	                           La SOMAPROC est une Société Anonyme qui opére dans le domaine de l'agroalimentaire et qui  à pour objectif la valorisation des produits agricoles et l'organisation de leurs circuits de distribution.
-                               Cette société publique à été creée en 2016 a Sidi Bouzid.
+	                           {{trans('about.La SOMAPROC est une Société Anonyme qui opére dans le domaine de l’agroalimentaire et qui  à pour objectif la valorisation des produits agricoles et l’organisation de leurs circuits de distribution.')}}<br>
+                               {{trans('about.Cette société publique à été creée en 2016 a Sidi Bouzid.')}}
 	                </p>
 	                <h3 style=" font-size:20px;
 	                           color:#312F2F;
@@ -51,7 +52,7 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" >
-	                           <span >SIEGE SOCIAL</span>
+	                           <span >{{trans('about.SIEGE SOCIAL')}}</span>
 	                </h3>
 	                <p style=" font-size:14px;
 	                           color:#312F2F;
@@ -59,19 +60,19 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
-	                          Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid.
-                               Il pourra etre transféré à tout autre endroit par déscision de l'Assmblée Générale Extraordinaire des actionnaires.
+	                          {{trans('about.Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid.')}}
+                               {{trans('about.Il pourra etre transféré à tout autre endroit par déscision de l’Assmblée Générale Extraordinaire des actionnaires.')}}
 	                </p>
 				</div>
 				
-				<div class="col-md-4 w3_agile_about_grid_left">
+				<div class="col-md-12 w3_agile_about_grid_left" dir="rtl">
 					<h3 style=" font-size:20px;
 	                           color:#312F2F;
 	                           font-weight:400;
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" >
-	                           <span >OBJET</span>
+	                           <span >{{trans('about.OBJET')}}</span>
 	                </h3>
 					<p style=" font-size:14px;
 	                           color:#312F2F;
@@ -79,18 +80,18 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
-	                           La Société a pour objet l'implantation et la gestion des marchés de production de Sidi Bouzid destiné à la vente en gros des produits agricole destinés aux producteurs afin de faciliter la collecte, la standardisation, le conditionnement, la conservation et la formation des prix des produits agricoles ainsi que l'exercice de toute activité rentrant dans le cadre de l'objet social précité ou qui lui sont connexes et généralement toutes opérations industrielles commerciales ou financières, mobilières ou immobilières se rattachant directement ou indirectement à l'objet social ainsi que toutes opérations annexes pouvant présenter de l'utilité pour la société, favoriser ou développer ses intérêts.
+	                           {{trans('about.La Société a pour objet l’implantation et la gestion des marchés de production de Sidi Bouzid destiné à la vente en gros des produits agricole destinés aux producteurs afin de faciliter la collecte, la standardisation, le conditionnement, la conservation et la formation des prix des produits agricoles ainsi que l’exercice de toute activité rentrant dans le cadre de l’objet social précité ou qui lui sont connexes et généralement toutes opérations industrielles commerciales ou financières, mobilières ou immobilières se rattachant directement ou indirectement à l’objet social ainsi que toutes opérations annexes pouvant présenter de l’utilité pour la société, favoriser ou développer ses intérêts.')}}
 	                </p>
 				</div>
 				
-				<div class="col-md-4 w3_agile_about_grid_left">
+				<div class="col-md-12 w3_agile_about_grid_left" dir="rtl">
 					<h3 style=" font-size:20px;
 	                           color:#312F2F;
 	                           font-weight:400;
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" >
-	                           <span >DUREE</span>
+	                           <span >{{trans('about.DUREE')}}</span>
 	                </h3>
 					<p style=" font-size:14px;
 	                           color:#312F2F;
@@ -98,7 +99,7 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
-	                           La durée de la société est fixée à 99 années à compter de sa constitution définitive,saufe les cas de prorogation ou de dissolution anticipée prévvuues aux présents statuts.
+	                           {{trans('about.La durée de la société est fixée à 99 années à compter de sa constitution définitive,sauf les cas de prorogation ou de dissolution anticipée prévues aux présents statuts.')}}
 	                </p>
 	                <h3 style=" font-size:20px;
 	                           color:#312F2F;
@@ -106,7 +107,7 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" >
-	                           <span >FORMATION</span>
+	                           <span >{{trans('about.FORMATION')}}</span>
 	                </h3>
 					<p style=" font-size:14px;
 	                           color:#312F2F;
@@ -114,7 +115,120 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
-	                           Entre toutes les personnes qui seront propriétaires d'actions ci-après créées, et celles qui pourront l'être ultérieurement, il est formé une Société Anonyme qui sera régie par les lois en vigueur et par les présents statuts.
+	                           {{trans('about.Entre toutes les personnes qui seront propriétaires d’actions ci après créées, et celles qui pourront l’être ultérieurement, il est formé une Société Anonyme qui sera régie par les lois en vigueur et par les présents statuts.')}}
+	                           
+	                </p>
+				</div>
+
+				<div class="col-md-12 w3_agile_about_grid_left" dir="rtl">
+					
+	                <h3 style=" font-size:20px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;" >
+	                           <span >{{trans('about.DÉNOMINATION')}}</span>
+	                </h3>
+					<p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                           {{trans('about.La société prend la dénomination de:« Société de Marché de production du Centre ». Outre cette dénomination,la société peut, indifférement, séparément et uniquement utiliser la dénomination en abrégé SOMAPROC. Tous les actes et documents émanat de la société doivent mentionner la dénomination sociale, précédée ou suivie immédiatement des mots « société anonym » ou des initiales « S.A. », de l’énonciation du montant du capital social et des numéros et lieu de son immatriculation au Registre de Commerce.')}}
+	                </p>
+				</div>
+@else
+<div class="col-md-4 w3_agile_about_grid_left">
+					<h3 style=" font-size:20px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;" > 
+	                           <span >{{trans('about.Somaproc')}}</span>
+	                </h3>
+					<p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                           {{trans('about.La SOMAPROC est une Société Anonyme qui opére dans le domaine de l’agroalimentaire et qui  à pour objectif la valorisation des produits agricoles et l’organisation de leurs circuits de distribution.')}}<br>
+                               {{trans('about.Cette société publique à été creée en 2016 a Sidi Bouzid.')}}
+	                </p>
+	                <h3 style=" font-size:20px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;" >
+	                           <span >{{trans('about.SIEGE SOCIAL')}}</span>
+	                </h3>
+	                <p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                          {{trans('about.Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid.')}}
+                               {{trans('about.Il pourra etre transféré à tout autre endroit par déscision de l’Assmblée Générale Extraordinaire des actionnaires.')}}
+	                </p>
+				</div>
+				
+				<div class="col-md-4 w3_agile_about_grid_left">
+					<h3 style=" font-size:20px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;" >
+	                           <span >{{trans('about.OBJET')}}</span>
+	                </h3>
+					<p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                           {{trans('about.La Société a pour objet l’implantation et la gestion des marchés de production de Sidi Bouzid destiné à la vente en gros des produits agricole destinés aux producteurs afin de faciliter la collecte, la standardisation, le conditionnement, la conservation et la formation des prix des produits agricoles ainsi que l’exercice de toute activité rentrant dans le cadre de l’objet social précité ou qui lui sont connexes et généralement toutes opérations industrielles commerciales ou financières, mobilières ou immobilières se rattachant directement ou indirectement à l’objet social ainsi que toutes opérations annexes pouvant présenter de l’utilité pour la société, favoriser ou développer ses intérêts.')}}
+	                </p>
+				</div>
+				
+				<div class="col-md-4 w3_agile_about_grid_left">
+					<h3 style=" font-size:20px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;" >
+	                           <span >{{trans('about.DUREE')}}</span>
+	                </h3>
+					<p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                           {{trans('about.La durée de la société est fixée à 99 années à compter de sa constitution définitive,sauf les cas de prorogation ou de dissolution anticipée prévues aux présents statuts.')}}
+	                </p>
+	                <h3 style=" font-size:20px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;" >
+	                           <span >{{trans('about.FORMATION')}}</span>
+	                </h3>
+					<p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                           {{trans('about.Entre toutes les personnes qui seront propriétaires d’actions ci après créées, et celles qui pourront l’être ultérieurement, il est formé une Société Anonyme qui sera régie par les lois en vigueur et par les présents statuts.')}}
+	                           
 	                </p>
 				</div>
 
@@ -126,7 +240,7 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" >
-	                           <span >DÉNOMAINATION</span>
+	                           <span >{{trans('about.DÉNOMINATION')}}</span>
 	                </h3>
 					<p style=" font-size:14px;
 	                           color:#312F2F;
@@ -134,12 +248,11 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
-	                           La société prend la dénomaination de:« Société de Marché de production du Centre ».
-                               Outre cette dénomaination, la société peut, indifférement, séparément et uniquement utiliser la dénomaination en abrégé SOMAPROC.
-                               Tous les actes et documents émanat de la société doivent mentionner la dénomaination sociale, précédée ou suivie immédiatement des mots « société anonyme » ou des initiales « S.A. », de lénonciation du montant du capital social et des numéros et lieu de son immatriculation au Registre de Commerce.
+	                           {{trans('about.La société prend la dénomination de:« Société de Marché de production du Centre ». Outre cette dénomination,la société peut, indifférement, séparément et uniquement utiliser la dénomination en abrégé SOMAPROC. Tous les actes et documents émanat de la société doivent mentionner la dénomination sociale, précédée ou suivie immédiatement des mots « société anonym » ou des initiales « S.A. », de l’énonciation du montant du capital social et des numéros et lieu de son immatriculation au Registre de Commerce.')}}
 	                </p>
 				</div>
-				<div class="col-md-6 w3_agile_about_grid_right">
+@endif				
+				<div class="col-md-12 w3_agile_about_grid_right">
 					<div class="skillbar" data-percent="78">
 					  <span class="skillbar-title" style="background: #f1703a;">Des graines</span>
 					  <p class="skillbar-bar" style="background: #f88c5e;"></p>
@@ -195,11 +308,11 @@
 	</script>
 <!-- //skills -->
 <!-- about-bottom -->
-	<div class="about-bottom">
+	<div class="about-bottom" dir="rtl">
 		<div class="container">
-			<h3><span>SOMAPROC</span> est la solution la plus appropriée pour la valorisation produits agricoles en <span>Tunisie</span>.</h3>
+			<h3><span>{{trans('about.SOMAPROC ')}}</span>{{trans('about. Est La Solution La Plus Appropriée Pour La Valorisation Produits Agricoles en')}}<span>{{trans('about. Tunisie ')}}</span>.</h3>
 			<div class="agileits_w3layouts_learn_more agileits_learn_more hvr-radial-out">
-				<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+				<a href="#" data-toggle="modal" data-target="#myModal">{{trans('about.Read More')}}</a>
 			</div>
 		</div>
 	</div>
@@ -208,7 +321,7 @@
 <!-- team -->
 	<div class="testimonials">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">Rencontrez <span>notre</span> équipe</h3>
+			<h3 class="agileits_w3layouts_head">{{trans('about. Rencontrez')}} <span>{{trans('about. notre')}}</span>{{trans('about. équipe')}}</h3>
 			<div class="w3_agile_image">
 				<img src="images/1.png" alt=" " class="img-responsive" />
 			</div>
@@ -222,7 +335,7 @@
 										<img src="images/team/PDG.jpg" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-8 agile_testimonials_grid_right">
-										<h5>Vivamus malesuada <span>pellentesque</span> nunc id <i>'condim'</i></h5>
+										<h5>{{trans('about.Hamdi Lotfi')}}<span>{{trans('about. président de la direction générale ')}}</span>{{trans('about. Du ')}}<i>{{trans('about.’SOMAPROC’')}}</i></h5>
 										<div class="wthree_stars">
 											<ul>
 												<li><i class="fa fa-star"></i></li>
@@ -232,9 +345,7 @@
 												<li><i class="fa fa-star-o"></i></li>
 											</ul>
 										</div>
-										<p>Duis porttitor magna leo, ac feugiat nibh bibendum at. Duis porttitor 
-											placerat ex a fermentum. Praesent et dolor dignissim, fringilla enim vitae, 
-											tristique enim.</p><br>
+										<p>{{trans('about.Vétérinaire et chef de la direction des marchés de la société de production Du centre')}}</p><br>
 										
 									</div>
 									<div class="clearfix"> </div>
@@ -246,20 +357,18 @@
 										<img src="images/team/PDG.jpg" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-8 agile_testimonials_grid_right">
-										<h5>Quisque eu aliquam <span>dignissim</span> ex a <i>'fringilla'</i></h5>
+										<h5>{{trans('about.Hamdi Lotfi')}}<span>{{trans('about. président de la direction générale ')}}</span>{{trans('about. Du ')}}<i>{{trans('about.’SOMAPROC’')}}</i></h5>
 										<div class="wthree_stars">
 											<ul>
 												<li><i class="fa fa-star"></i></li>
 												<li><i class="fa fa-star"></i></li>
 												<li><i class="fa fa-star"></i></li>
-												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star-half-o"></i></li>
 												<li><i class="fa fa-star-o"></i></li>
 											</ul>
 										</div>
-										<p>Duis porttitor magna leo, ac feugiat nibh bibendum at. Duis porttitor 
-											placerat ex a fermentum. Praesent et dolor dignissim, fringilla enim vitae, 
-											tristique enim.</p><br>
-								
+										<p>{{trans('about.Vétérinaire et chef de la direction des marchés de la société de production Du centre')}}</p><br>
+										
 									</div>
 									<div class="clearfix"> </div>
 								</div>
@@ -270,19 +379,17 @@
 										<img src="images/team/PDG.jpg" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-8 agile_testimonials_grid_right">
-										<h5>Vivamus malesuada <span>pellentesque</span> nunc id <i>'condim'</i></h5>
+										<h5>{{trans('about.Hamdi Lotfi')}}<span>{{trans('about. président de la direction générale ')}}</span>{{trans('about. Du ')}}<i>{{trans('about.’SOMAPROC’')}}</i></h5>
 										<div class="wthree_stars">
 											<ul>
 												<li><i class="fa fa-star"></i></li>
 												<li><i class="fa fa-star"></i></li>
-												<li><i class="fa fa-star-half-o"></i></li>
+												<li><i class="fa fa-star"></i></li>
 												<li><i class="fa fa-star-half-o"></i></li>
 												<li><i class="fa fa-star-o"></i></li>
 											</ul>
 										</div>
-										<p>Duis porttitor magna leo, ac feugiat nibh bibendum at. Duis porttitor 
-											placerat ex a fermentum. Praesent et dolor dignissim, fringilla enim vitae, 
-											tristique enim.</p>
+										<p>{{trans('about.Vétérinaire et chef de la direction des marchés de la société de production Du centre')}}</p><br>
 										
 									</div>
 									<div class="clearfix"> </div>
@@ -308,7 +415,7 @@
     background-attachment: fixed;
 	text-align: center;">
 		<div class="container">
-			<h3 class="agileits_w3layouts_head">Rencontrez <span>notre</span> Actionnaires</h3>
+			<h3 class="agileits_w3layouts_head">{{trans('about. Rencontrez')}} <span> {{trans('about. notre')}} </span>  {{trans('about. Actionnaires ')}}</h3>
 			<div class="w3_agile_image">                                      
 				<img src="images/1.png" alt=" " class="img-responsive" />
 	        </div>
