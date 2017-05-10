@@ -1,5 +1,5 @@
 @extends('master')
-
+ 
 @section('content')
 
 <!-- banner -->
@@ -364,8 +364,8 @@
 				<figure class="agileits_effect_moses">
 					<img src="images/4.jpg" alt=" " class="img-responsive" />
 					<figcaption>
-						<h4>{{trans('home.Somaproc')}} <span>{{trans('home.For Future Growth')}}</span></h4>
-						<p>Nullam in luctus lectus. Mauris lobortis dui mauris.</p>
+						<h4 style="text-align: left;">{{trans('home.Somaproc')}} <span>{{trans('home.For Future Growth')}}</span></h4>
+						<p style="text-align: justify;text-justify: inter-word; ">{{trans('home.Agriculture')}} </p>
 					</figcaption>			
 				</figure>
 			</div>

@@ -61,7 +61,7 @@
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
 	                          {{trans('about.Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid.')}}
-                               {{trans('about.Il pourra etre transféré à tout autre endroit par déscision de l’Assmblée Générale Extraordinaire des actionnaires.')}}
+                               {{trans('about.Il pourra etre transféré à tout autre endroit par décision de l’Assmblée Générale Extraordinaire des actionnaires.')}}
 	                </p>
 				</div>
 				
@@ -232,7 +232,7 @@
 	                </p>
 				</div>
 
-				<div class="col-md-6 w3_agile_about_grid_left">
+				<div class="col-md-12 w3_agile_about_grid_left">
 					
 	                <h3 style=" font-size:20px;
 	                           color:#312F2F;
@@ -310,7 +310,7 @@
 <!-- about-bottom -->
 	<div class="about-bottom" dir="rtl">
 		<div class="container">
-			<h3><span>{{trans('about.SOMAPROC ')}}</span>{{trans('about. Est La Solution La Plus Appropriée Pour La Valorisation Produits Agricoles en')}}<span>{{trans('about. Tunisie ')}}</span>.</h3>
+			<h3><span>{{trans('about.SOMAPROC ')}}</span>{{trans('about. Est La Solution La Plus Appropriée Pour La Valorisation Produits Agricoles en')}}<span>{{trans('about. Tunisie ')}}</span></h3>
 			<div class="agileits_w3layouts_learn_more agileits_learn_more hvr-radial-out">
 				<a href="#" data-toggle="modal" data-target="#myModal">{{trans('about.Read More')}}</a>
 			</div>

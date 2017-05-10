@@ -2,7 +2,7 @@
 
 return [
 
-
+ 
     'Société' =>'Société', 
     'des Marchés' =>'des Marchés',
     'de production' =>'de production',
@@ -26,10 +26,10 @@ return [
     'Provide the necessary information to the farmer in order to develop the product.'=>'Fournir les informations nécessaires à l"agriculteur afin de développer le produit.',
     'We Work Hard to Make our country the'=>'Nous travaillons dur pour faire de notre pays le',
     'first'=>'le premier',
-    'We do our utmost to improve the product. We are happy to offer you the best.'=>'We do our utmost to improve the product. We are happy to offer you the best.',
+    'We do our utmost to improve the product. We are happy to offer you the best.'=>'Nous faisons tout notre possible pour améliorer le produit. Nous sommes heureux de vous offrir le meilleur.',
     'Somaproc'=>'Somaproc',
     'For Future Growth'=>'Pour une croissance future',
-    ''=>'',
+    'Agriculture'=>'Agriculture',
     ''=>'',
     ''=>'',
     ''=>'',

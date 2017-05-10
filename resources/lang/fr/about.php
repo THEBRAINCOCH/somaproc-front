@@ -16,7 +16,7 @@ return [
 
 'Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid.'=>'Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid',
 
-'Il pourra etre transféré à tout autre endroit par déscision de l’Assmblée Générale Extraordinaire des actionnaires.'=>'Il pourra etre transféré à tout autre endroit par déscision de l’Assmblée Générale Extraordinaire des actionnaires.',
+'Il pourra etre transféré à tout autre endroit par décision de l’Assmblée Générale Extraordinaire des actionnaires.'=>'Il pourra etre transféré à tout autre endroit par décision de l’Assmblée Générale Extraordinaire des actionnaires.',
 
 /*-p3-*/
 'OBJET'=>'OBJET',
@@ -46,7 +46,7 @@ return [
 
  ' Tunisie '=>' Tunisie ',
 
- 'Read More'=>'Read More',
+ 'Read More'=>'Lire la suite',
 
  ' Rencontrez'=>' Rencontrez',
  

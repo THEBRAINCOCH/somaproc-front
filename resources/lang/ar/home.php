@@ -2,7 +2,7 @@
 
 return [
 
-
+ 
 
     'Société' =>'شركة', 
     'des Marchés' =>' أسواق',
@@ -30,6 +30,7 @@ return [
     'We do our utmost to improve the product. We are happy to offer you the best.'=>'نحن نبذل قصارى جهدنا لتحسين المنتج. نحن سعداء لتقديم لكم الأفظل',
     'Somaproc'=>'سومابروك',
     'For Future Growth'=>'للنمو في المستقبل',
+    'Agriculture'=>'الفلاحة',
  
     
 ];

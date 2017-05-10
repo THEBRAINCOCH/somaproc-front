@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+ 
 
     'Société' =>'Company', 
     'des Marchés' =>'Of Markets',
@@ -29,6 +29,7 @@ return [
     'We do our utmost to improve the product. We are happy to offer you the best.'=>'We do our utmost to improve the product. We are happy to offer you the best.',
     'Somaproc'=>'Somaproc',
     'For Future Growth'=>'For Future Growth',
+    'Agriculture'=>'Agriculture',
     ''=>'',
     ''=>'',
     ''=>'',

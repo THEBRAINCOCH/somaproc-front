@@ -26,8 +26,8 @@
 	</div>
 <!-- //breadcrumbs -->
 <!-- contact -->
-
-	<div class="welcome">
+@if (session()->get('locale')=="ar")
+	<div class="welcome" dir="rtl">
 		<div class="container">
 			<h3 class="agileits_w3layouts_head">{{trans('contact.contactUs')}}</h3>
 			<div class="w3_agile_image">
@@ -85,14 +85,12 @@
 				</div>
 				<div class="col-md-4 w3_agile_mail_right">
 					<div class="w3_agileits_mail_right_grid">
-						<h4>À propos de SOMAPROC </h4>
-						<p>Donec libero lectus, feugiat vel elit nec, mattis tempor mi ante.</p>
-						<h5>Follow Us On</h5>
+						<h4>{{trans('contact.À propos de SOMAPROC')}} </h4>
+						<p>{{trans('contact.')}}</p>
+						<h5>{{trans('contact.Follow Us On')}}</h5>
 						<ul class="agileits_social_list">
 							<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 							<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-							<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 						</ul>
 						<div class="w3_agileits_mail_right_grid_pos">
 							<img src="images/12.png" alt=" " class="img-responsive" />
@@ -104,7 +102,7 @@
 								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
 							</div>
 							<div class="w3layouts_mail_grid_left2">
-								<h3>E-Mail</h3>
+								<h3>{{trans('contact.E-Mail')}}</h3>
 								<a href="mailto:info@example.com">info@somaproc.com.tn</a>
 							</div>
 							<div class="clearfix"> </div>
@@ -114,8 +112,8 @@
 								<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
 							</div>
 							<div class="w3layouts_mail_grid_left2">
-								<h3>Address</h3>
-								<p>Société des Marchés de Production Du Centre SOMAPROC Avenu Habib bourguiba -Immeuble de l'entreprise - 3 ème étage Sidi Bouzid 9100.</p>
+								<h3>{{trans('contact.Address')}}</h3>
+								<p >{{trans('contact.Société des Marchés de Production Du Centre SOMAPROC Avenu Habib bourguiba -Immeuble de l’entreprise - 3 ème étage Sidi Bouzid 9100')}}</p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -124,7 +122,116 @@
 								<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
 							</div>
 							<div class="w3layouts_mail_grid_left2">
-								<h3>Téléphone</h3>
+								<h3>{{trans('contact.Téléphone')}}</h3>
+								<p>70 04 63 76 (216)+</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<br/>
+		<div class="container">
+	<div id="map"></div>
+	</div>
+@else
+<div class="container">
+			<h3 class="agileits_w3layouts_head">{{trans('contact.contactUs')}}</h3>
+			<div class="w3_agile_image">
+				<img src="{{asset('images/1.png')}}" alt=" " class="img-responsive" />
+			</div>
+			
+			<div class="w3ls_news_grids">
+				<div class="col-md-8 w3_agile_mail_left">
+					<div class="agileits_mail_grid_right1 agile_mail_grid_right1">
+						<form action="{{route('client.contact')}}" method="post">
+
+					
+							<span >
+								<i>{{trans('contact.name')}}</i>
+								<input type="text" name="Name" placeholder=""  required=""  value="{{ Request::old('Name') ?: '' }}">
+								@if ($errors->has('Name'))
+                                <span class="alert alert-danger">{{ $errors->first('Name') }}</span>
+                                @endif
+
+							</span>
+							<span >
+								<i>{{trans('contact.last_name')}}</i>
+								<input type="text" name="Lname" placeholder=""  required=""  value="{{ Request::old('Lname') ?: '' }}">
+								@if ($errors->has('Lname'))
+                                <span class="alert alert-danger">{{ $errors->first('Lname') }}</span>
+                                @endif
+							</span>
+							<span>
+								<i>{{trans('contact.email')}}</i>
+								<input type="email" name="Email" placeholder=" " required="" value="{{ Request::old('Email') ?: '' }}">
+								@if ($errors->has('Email'))
+                                <span class="alert alert-danger">{{ $errors->first('Email') }}</span>
+                                @endif
+							</span>
+							<span>
+								<i>{{trans('contact.subject')}}</i>
+								<input type="text" name="Subject" placeholder=" " required="" value="{{ Request::old('Subject') ?: '' }}">
+								@if ($errors->has('Subject'))
+                                <span class="alert alert-danger">{{ $errors->first('Subject') }}</span>
+                                @endif
+							</span>
+							<span>
+								<i>{{trans('contact.message')}}</i>
+								<textarea name="Message" placeholder=" " required="">{{ Request::old('Message') ?: '' }}</textarea>
+								@if ($errors->has('Message'))
+                                <span class="alert alert-danger">{{ $errors->first('Message') }}</span>
+                                @endif
+							</span>
+							<div class="w3_submit">
+							 <input type="hidden" name="_token" value="{{ Session::token() }}">
+								<input type="submit" value="{{trans('contact.submit')}}">
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-4 w3_agile_mail_right">
+					<div class="w3_agileits_mail_right_grid">
+						<h4>{{trans('contact.À propos de SOMAPROC')}} </h4>
+						<p>{{trans('contact.')}}</p>
+						<h5>{{trans('contact.Follow Us On')}}</h5>
+						<ul class="agileits_social_list">
+							<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						</ul>
+						<div class="w3_agileits_mail_right_grid_pos">
+							<img src="images/12.png" alt=" " class="img-responsive" />
+						</div>
+					</div>
+					<div class="w3_agileits_mail_right_grid_main">
+						<div class="w3layouts_mail_grid_left">
+							<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+							</div>
+							<div class="w3layouts_mail_grid_left2">
+								<h3>{{trans('contact.E-Mail')}}</h3>
+								<a href="mailto:info@example.com">info@somaproc.com.tn</a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="w3layouts_mail_grid_left">
+							<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+								<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+							</div>
+							<div class="w3layouts_mail_grid_left2">
+								<h3>{{trans('contact.Address')}}</h3>
+								<p >{{trans('contact.Société des Marchés de Production Du Centre SOMAPROC Avenu Habib bourguiba -Immeuble de l’entreprise - 3 ème étage Sidi Bouzid 9100')}}</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="w3layouts_mail_grid_left">
+							<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+								<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+							</div>
+							<div class="w3layouts_mail_grid_left2">
+								<h3>{{trans('contact.Téléphone')}}</h3>
 								<p>+(216) 76 63 04 70</p>
 							</div>
 							<div class="clearfix"> </div>
@@ -138,6 +245,7 @@
 		<div class="container">
 	<div id="map"></div>
 	</div>
+	@endif	
 	</div>
 
 <!-- //contact -->

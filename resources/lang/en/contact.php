@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 return [
 'name'=>'Name',
@@ -14,4 +14,10 @@ return [
 centre SOMAPROC  Habib bourguiba Avenue -Entreprise building - 3 rd floor
 Sidi Bouzid 9100',
 'copyright'=>'CopyRight',
+'À propos de SOMAPROC'=>'About SOMAPROC',
+'Follow Us On'=>'Follow Us On',
+'E-Mail'=>'E-Mail',
+'Address'=>'Address',
+'Société des Marchés de Production Du Centre SOMAPROC Avenu Habib bourguiba -Immeuble de l’entreprise - 3 ème étage Sidi Bouzid 9100'=>'Company of the Markets of Production of the Center SOMAPROC Aven Habib bourguiba -Immeuble of the company - 3 rd floor Sidi Bouzid 9100.',
+'Téléphone'=>'Phone',
 ];

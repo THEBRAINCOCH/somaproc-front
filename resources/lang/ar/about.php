@@ -18,7 +18,7 @@ return [
 
 'Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid.'=>'المقر الرئيسي للشركة هو في ولاية  سيدي بوزيد - شارع الحبيب بورقيبة - 9100 سيدي بوزيد.',
 
-'Il pourra etre transféré à tout autre endroit par déscision de l’Assmblée Générale Extraordinaire des actionnaires.'=>'يمكن نقله إلى أي مكان آخر إثر  قرار اجتماع الجمعية العمومية غير العادية للمساهمين.',
+'Il pourra etre transféré à tout autre endroit par décision de l’Assmblée Générale Extraordinaire des actionnaires.'=>'يمكن نقله إلى أي مكان آخر إثر  قرار اجتماع الجمعية العمومية غير العادية للمساهمين.',
 
 /*-p3-*/
 'OBJET'=>'الموضوع',
