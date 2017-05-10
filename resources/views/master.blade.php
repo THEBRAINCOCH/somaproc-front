@@ -59,7 +59,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				
 					<h3>{{trans('contact.contactInformation')}}</h3>
 					<h4>{{trans('contact.callUs')}}<h3>+(216)76 63 04 70</h3></h4>
-					<p>{{trans('contact.Address')}}</p>
+					<p>{{trans('contact.Société des Marchés de Production Du Centre SOMAPROC Avenu Habib bourguiba -Immeuble de l’entreprise - 3 ème étage Sidi Bouzid 9100')}}</p>
 					<ul class="agileits_social_list" >
 						<center><li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
