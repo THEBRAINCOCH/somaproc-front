@@ -23,6 +23,8 @@
 				          <img src="{{asset('images/1.png')}}" alt=" " class="img-responsive">
 			           </div><br><br>
 </div>
+
+<!--1-->
 @if (session()->get('locale')=="ar")
 <div class="categories-section" dir="rtl">
 @else
@@ -94,7 +96,7 @@
    </div>  
 </div>
 
-<!--***-->
+<!--*2*-->
 
 @if (session()->get('locale')=="ar")
 <div class="categories-section" dir="rtl">
@@ -168,4 +170,156 @@
    </div>  
 </div>
 
+
+
+<!--*3*-->
+
+@if (session()->get('locale')=="ar")
+<div class="categories-section" dir="rtl">
+@else
+	<div class="categories-section" >
+@endif
+
+<div class="well"> 
+  <div class="container">
+		<div class="footer-grids">
+			<div class="col-md-6 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
+	              <h3>{{trans('uselink.Ministry of Finance')}}</h3>
+	              <br><br>
+	                <div class="up1">
+	                     <div class="up-img">
+	                         <img src="{{asset('images/uselink/im3.jpg')}}" alt=" " class="img-responsive">
+	                     </div>
+		                  <div class="clearfix"></div>
+                    </div>
+             </div>
+		 <div class="col-md-6 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; left: 50px;" >
+		         <center><h3>{{trans('uselink.Means of communication and addresses')}}</h3></center><br><br><br><br>
+		         <div class="w3_agileits_mail_right_grid_main">
+						<div class="w3layouts_mail_grid_left">
+							<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+							</div>
+							<div class="w3layouts_mail_grid_left2">
+								<h3>{{trans('uselink.E-Mail')}}</h3>
+								<a href="#">pcontenu@finances.gov.tn</a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="w3layouts_mail_grid_left">
+							<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+								<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+							</div>
+							<div class="w3layouts_mail_grid_left2">
+								<h3>{{trans('uselink.Address')}}</h3>
+								<p>{{trans('uselink.Government Square Kasbah 1030 Tunisia')}}</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="w3layouts_mail_grid_left">
+							<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+								<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+							</div>
+							<div class="w3layouts_mail_grid_left2">
+								<h3>{{trans('uselink.Téléphone')}}</h3>
+								<p>00216.71.571.888<br>00216.71.563.959</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div><br>
+						<div class="w3layouts_mail_grid_left">
+							<div class="w3layouts_mail_grid_left1 hvr-radial-out"> 
+				            <span class="glyphicon glyphicon-signal" aria-hidden="true" ></span>
+				        </div>
+				        <div class="w3layouts_mail_grid_left2">
+								<h3>{{trans('uselink.Officel Web Site')}}</h3>
+								<p><a href="http://www.finances.gov.tn"><center>http://www.finances.gov.tn</center></a></p>
+							</div>
+				       
+				        </div>
+						
+					</div>
+		            
+		  </div>
+		        <div class="clearfix"></div><br><br>
+		</div>
+     </div>
+   </div>  
+</div>
+
+
+<!--*4*-->
+
+@if (session()->get('locale')=="ar")
+<div class="categories-section" dir="rtl">
+@else
+	<div class="categories-section" >
+@endif
+
+<div class="well"> 
+  <div class="container">
+		<div class="footer-grids">
+			<div class="col-md-6 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
+	              <h3>{{trans('uselink.Ministry of Development, Investment and International Cooperation')}}</h3>
+	              <br><br>
+	                <div class="up1">
+	                     <div class="up-img">
+	                         <img src="{{asset('images/uselink/im4.png')}}" alt=" " class="img-responsive">
+	                     </div>
+		                  <div class="clearfix"></div>
+                    </div>
+             </div>
+		 <div class="col-md-6 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; left: 50px;" >
+		         <center><h3>{{trans('uselink.Means of communication and addresses')}}</h3></center><br><br><br><br>
+		         <div class="w3_agileits_mail_right_grid_main">
+						<div class="w3layouts_mail_grid_left">
+							<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+							</div>
+							<div class="w3layouts_mail_grid_left2">
+								<h3>{{trans('uselink.E-Mail')}}</h3>
+								<a href="#">---</a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="w3layouts_mail_grid_left">
+							<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+								<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+							</div>
+							<div class="w3layouts_mail_grid_left2">
+								<h3>{{trans('uselink.Address')}}</h3>
+								<p>{{trans('uselink.Place Ali Zouaoui Tunisia 1069')}}</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="w3layouts_mail_grid_left">
+							<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+								<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+							</div>
+							<div class="w3layouts_mail_grid_left2">
+								<h3>{{trans('uselink.Téléphone')}}</h3>
+								<p>00216.71.240.133<br>00216.71.350.753</p>
+								<h3>{{trans('uselink.FAX')}}</h3>
+								<p>00216.71.351.666</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div><br>
+						<div class="w3layouts_mail_grid_left">
+							<div class="w3layouts_mail_grid_left1 hvr-radial-out"> 
+				            <span class="glyphicon glyphicon-signal" aria-hidden="true" ></span>
+				        </div>
+				        <div class="w3layouts_mail_grid_left2">
+								<h3>{{trans('uselink.Officel Web Site')}}</h3>
+								<p><a href="http://www.mdci.gov.tn"><center>http://www.mdci.gov.tn</center></a></p>
+							</div>
+				       
+				        </div>
+						
+					</div>
+		            
+		  </div>
+		        <div class="clearfix"></div><br><br>
+		</div>
+     </div>
+   </div>  
+</div>
 @stop
