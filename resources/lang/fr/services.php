@@ -15,7 +15,8 @@ return [
 
 'Valorisation des produits agricoles de la région du centre Tunisien.'=>'Valorisation des produits agricoles de la région du centre Tunisien.',
 
-'La transformation des produits agricoles'=>'La transformation des produits agricoles',
+'La transformation'=>'La transformation',
+ 'des produits agricoles'=>'des produits agricoles',
 
 'La transformation des produits agricoles. ces services est inclus dans notre future services.'=>'La transformation des produits agricoles. ces services est inclus dans notre future services.',
 

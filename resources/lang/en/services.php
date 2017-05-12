@@ -14,8 +14,8 @@ Facilitate collection of agricultural materials',
 'Valorisation des produits agricoles de la région du centre Tunisien.'=>'
 Valorisation of the agricultural products of the region of the Tunisian center.',
 
-'La transformation des produits agricoles'=>'
-Processing of agricultural products',
+'La transformation'=>'Processing',
+'des produits agricoles'=>'of agricultural products',
 
 'La transformation des produits agricoles. ces services est inclus dans notre future services.'=>'Processing of agricultural products. These services are included in our future services.',
 

@@ -39,7 +39,7 @@
 						</div>
 					</div>
 					<div class="col-xs-8 w3_agile_services_grid_right"> 
-						<h4>{{trans('services.Vente en Gros')}}</h4>
+						<h4><center>{{trans('services.Vente en Gros')}}</center></h4>
 						<p>{{trans('services.Vente en gros des produits agricoles destinés aux producteurs')}}</p>
 					</div>
 					<div class="clearfix"> </div>
@@ -51,7 +51,7 @@
 						</div>
 					</div>
 					<div class="col-xs-8 w3_agile_services_grid_right"> 
-						<h4>{{trans('services.Facilitation la Collecte')}}</h4>
+						<h4><center>{{trans('services.Facilitation la Collecte')}}<center></h4>
 						<p>{{trans('services.Faciliter la collecte des matières agricoles')}}</p>
 					</div>
 					<div class="clearfix"> </div>
@@ -63,7 +63,7 @@
 						</div>
 					</div>
 					<div class="col-xs-8 w3_agile_services_grid_right"> 
-						<h4>{{trans('services.Valorisation des produits agricoles')}}</h4>
+						<h4><center>{{trans('services.Valorisation des produits agricoles')}}</center></h4>
 						<p>{{trans('services.Valorisation des produits agricoles de la région du centre Tunisien.')}}</p>
 					</div>
 					<div class="clearfix"> </div>
@@ -75,7 +75,7 @@
 						</div>
 					</div>
 					<div class="col-xs-8 w3_agile_services_grid_right"> 
-						<h4>{{trans('services.La transformation des produits agricoles')}}</h4>
+						<h4><center>{{trans('services.La transformation')}}<br>{{trans('services.des produits agricoles')}}</center></h4>
 						<p>{{trans('services.La transformation des produits agricoles. ces services est inclus dans notre future services.')}}</p>
 					</div>
 					<div class="clearfix"> </div>
@@ -87,7 +87,7 @@
 						</div>
 					</div>
 					<div class="col-xs-8 w3_agile_services_grid_right"> 
-						<h4>{{trans('services.La formation des prix')}}</h4>
+						<h4><center>{{trans('services.La formation des prix')}}<center></h4>
 						<p>{{trans('services.La formation des prix et l’export des produits agricoles des cette régions.')}}</p>
 					</div>
 					<div class="clearfix"> </div>
@@ -99,7 +99,7 @@
 						</div>
 					</div>
 					<div class="col-xs-8 w3_agile_services_grid_right"> 
-						<h4>{{trans('services.La standardisation & la conservation')}}</h4>
+						<h4><center>{{trans('services.La standardisation & la conservation')}}<center></h4>
 						<p>{{trans('services.La standardisation, la conservation et le conditionnement des produits agricoles.')}}</p>
 					</div>
 					<div class="clearfix"> </div>
