@@ -23,4 +23,32 @@ return [
 'FAX'=>'FAX',
 'Ministry of Development, Investment and International Cooperation'=>'Ministère du développement, de l"investissement et de la coopération internationale',
 
+
+/*--5--*/
+
+'Ministry of Industry and Trade'=>'Ministère de l"Industrie et du Commerce',
+'Khairuddin Pacha Tunis Street 37 1002'=>'Khairuddin Pacha Tunis Rue 37 1002',
+
+
+/*--6--*/
+
+'Alain Savary Street Number 30-1002 Tunisia'=>'Alain Savary Rue Numéro 30-1002 Tunisie',
+'Ministry of Agriculture, Water Resources and Fisheries'=>'Ministère de l"agriculture, des ressources en eau et des pêches',
+
+
+/*--7--*/
+
+'Ministry of Equipment, Housing and Urban Planning'=>'Ministère de l"équipement, du logement et de l"urbanisme',
+
+'Al Omrani North Center, 1080 Land Street Tunis'=>'Al Omrani North Centre, 1080, rue Land Tunis',
+
+/*--8--*/
+'Ministry of Health'=>'ministère de la Santé',
+'Bab Saadoun 1006 Tunisia'=>'Bab Saadoun 1006 Tunisia',
+
+
+/*--9--*/
+
+'Ministry of Local Affairs and Environment'=>'Ministère des affaires locales et de l"environnement',
+'Al Omrani North Center, 1080 Land Street Tunis'=>'Al Omrani North Centre, 1080, rue Land Tunis',
 ];
