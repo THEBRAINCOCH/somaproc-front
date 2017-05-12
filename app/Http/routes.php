@@ -14,9 +14,11 @@
 
 Route::auth();
 
+Route::get('/home', 'HomeController@index');
+
 Route::get ("/","clientcontroller@index");
 
-Route::get ("/contact","clientcontroller@contact");
+Route::get ("/contact","clientcontroller@contact")->name('client.getContact');
 Route::post ("/contact","clientcontroller@store")->name('client.contact');
 
 Route::get ("/about","clientcontroller@about");
@@ -55,10 +57,5 @@ Route::get('/language-chooser/{lang}',['as' =>'language-choose','uses' =>'client
 
 
 
-Route::auth();
 
-Route::get('/home', 'HomeController@index');
 
-Route::auth();
-
-Route::get('/home', 'HomeController@index');

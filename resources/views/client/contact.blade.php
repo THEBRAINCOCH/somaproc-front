@@ -1,12 +1,7 @@
 @extends('master1')
-@if (Session::has('success'))
-<div class="clearfix"></div>
-<div class="alert alert-success" role="alert">
-    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-    {!! Session::get('success') !!}
-</div>
-@endif
+
 @section('content')
+
  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcPr8-cPFViW2XMU82Yi5MalOoi__IrMc"></script>
 <!-- breadcrumbs -->
 
@@ -33,9 +28,19 @@
 			<div class="w3_agile_image">
 				<img src="{{asset('images/1.png')}}" alt=" " class="img-responsive" />
 			</div>
+
+
 			
 			<div class="w3ls_news_grids">
 				<div class="col-md-8 w3_agile_mail_left">
+	@if (session()->has('success'))
+
+	<div class="clearfix"></div>
+	<div class="alert alert-success" role="alert">
+    <a href="#" class="close pull-left" data-dismiss="alert" aria-label="close">&times;</a>
+    {!! session('success') !!}
+	</div>
+	@endif
 					<div class="agileits_mail_grid_right1 agile_mail_grid_right1">
 						<form action="{{route('client.contact')}}" method="post">
 
@@ -142,9 +147,18 @@
 			<div class="w3_agile_image">
 				<img src="{{asset('images/1.png')}}" alt=" " class="img-responsive" />
 			</div>
+
 			
 			<div class="w3ls_news_grids">
 				<div class="col-md-8 w3_agile_mail_left">
+		@if (session()->has('success'))
+
+	<div class="clearfix"></div>
+	<div class="alert alert-success" role="alert">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    {!! session('success') !!}
+	</div>
+	@endif
 					<div class="agileits_mail_grid_right1 agile_mail_grid_right1">
 						<form action="{{route('client.contact')}}" method="post">
 

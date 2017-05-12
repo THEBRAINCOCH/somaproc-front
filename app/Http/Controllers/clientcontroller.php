@@ -10,6 +10,7 @@ use App\Product;
 use App\Contact;
 use App\Gallerie;
 use App\Topic;
+use Mail;
 
 class clientcontroller extends Controller
 {
@@ -135,11 +136,11 @@ class clientcontroller extends Controller
     {
         //Store contact message
         $this->validate($request,[
-            'Name' => 'required|min:3|max:255',
-            'Lname'=>'required|min:3|max:255',
+            'Name' => 'required|max:255',
+            'Lname'=>'required|max:255',
             'Email' => 'required|email|max:255',
-            'Subject' => 'required|min:6|max:255',
-            'Message' => 'required|min:10',
+            'Subject' => 'required|max:255',
+            'Message' => 'required',
         ]);
 
         $contact=new Contact;
@@ -149,8 +150,13 @@ class clientcontroller extends Controller
         $contact->email=$request->Email;
         $contact->message=$request->Message;
         $contact->save();
+        Mail::raw($contact->message, function ($m) use ($contact) {
+            $m->from($contact->email, $contact->first_name.' '.$contact->last_name);
 
-      return view("client.contact")->with('success', "message envoyé avec succès.");
+            $m->to('info@somaproc.com.tn')->subject($contact->subject);
+        });
+
+      return redirect()->route('client.getContact')->withSuccess(trans('contact.success'));
         
     }
 

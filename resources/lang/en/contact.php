@@ -20,4 +20,5 @@ Sidi Bouzid 9100',
 'Address'=>'Address',
 'Société des Marchés de Production Du Centre SOMAPROC Avenu Habib bourguiba -Immeuble de l’entreprise - 3 ème étage Sidi Bouzid 9100'=>'Company of the Markets of Production of the Center SOMAPROC Aven Habib bourguiba -Immeuble of the company - 3 rd floor Sidi Bouzid 9100.',
 'Téléphone'=>'Phone',
+'success'=>'your message has been sent with success.',
 ];

@@ -22,4 +22,5 @@ return [
 'Address'=>'العنوان',
 'Société des Marchés de Production Du Centre SOMAPROC Avenu Habib bourguiba -Immeuble de l’entreprise - 3 ème étage Sidi Bouzid 9100'=>'شركة أسوق الإنتاج بالوسط سومابرك شارع الحبيب بورقيبة  عمارة المؤسسة الطابق الثالث سيدي  بوزيد .9100',
 'Téléphone'=>'الهاتف',
+'success'=>'تم ارسال الرسالة بنجاح  ',
 ];
