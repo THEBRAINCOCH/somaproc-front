@@ -1,7 +1,7 @@
 <?php
 
 return [
-'why'=>'why',
+'why'=>'why', 
 'Choose'=>'Choose',
 'Us'=>' Us ?',
 
@@ -51,21 +51,30 @@ return [
 
  ' Rencontrez'=>' Meet',
  
- ' notre'=>' Our',
+ ' notre'=>' Our', 
 
  ' équipe'=>' Team',
 
  'Hamdi Lotfi'=>'Hamdi Lotfi',
 
- ' président de la direction générale '=>' President of the Directorate-General ',
+ ' président dirécteur générale '=>' President of the General-Directorate ',
 
- ' Du '=>' Of ',
+ ' De '=>' Of ',
 
  '’SOMAPROC’'=>'’SOMAPROC’',
 
- 'Vétérinaire et chef de la direction des marchés de la société de production Du centre'=>'Veterinarian and Chief Marketing Officer of the Production Company Of Center',
+ 'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre'=>'Veterinarian and President of the production company',
 
 
+'Assistance De'=>'Assistance Of',
+
+'Direction'=>'Direction',
+
+'Badri Isslam '=>'Badri Isslam ',
+
+'Achouri Hamadi'=>'Achouri Hamadi',
+
+'Résponsable Téchnique'=>'Responsible Technical',
 
  ' Actionnaires '=>' Shareholders ',
 ];

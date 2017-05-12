@@ -77,7 +77,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         					  <li><a href="{{url('/services')}}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.services')}}</a></li>
         					   <li><a href="{{url('/about')}}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.about')}}</a></li>
         					    <li><a href="{{url('/company')}}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.Company')}}</a></li>
-
+                                <li><a href="{{url('/Usefulllink')}}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.Usefulllink')}}</a></li>
 						
 				
 						<li><a href="contact"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.contact')}}</a></li>

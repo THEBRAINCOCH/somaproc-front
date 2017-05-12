@@ -25,7 +25,7 @@ Route::get ("/Company","clientcontroller@Company");
 
 Route::get ("/Statistics","clientcontroller@Statistics");
 
-Route::get ("/blog","clientcontroller@blog");
+Route::get ("/Usefulllink","clientcontroller@Usefulllink");
 
 Route::get ("/gallery","clientcontroller@gallery");
 
@@ -39,6 +39,7 @@ Route::get ("/services","clientcontroller@services");
 Route::get ("/typography","clientcontroller@typography");
 
 Route::get ("/News","clientcontroller@News");
+
 Route::get ("/News/{id}","clientcontroller@topic");
 
 

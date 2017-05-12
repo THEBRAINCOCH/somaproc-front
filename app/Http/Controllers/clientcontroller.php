@@ -51,9 +51,9 @@ class clientcontroller extends Controller
       return view("client.Statistics");
     }
 
-     public function blog()
+     public function Usefulllink()
     {
-      return view("client.blog");
+      return view("client.Usefulllink");
     }
 
 

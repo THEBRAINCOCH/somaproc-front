@@ -131,6 +131,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
          </ul>
       <ul   class = "nav navbar-nav  pull-right">
       <li><a href="{{url('/contact')}}">{{trans('menus.contact')}}</a></li>
+      <li><a href="{{url('/Usefulllink')}}">{{trans('menus.Usefulllink')}}</a></li>
       <li><a href="{{url('/News')}}">{{trans('menus.news')}}</a></li>
       <li><a href="{{url('/gallery')}}">{{trans('menus.gallery')}}</a></li>
       <li class = "dropdown">
@@ -155,7 +156,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                <li><a href="{{url('Statistics')}}">{{trans('menus.Statistics')}}</a></li>
             </ul>
          </li>
-         <li  ><a  href="{{url('/')}}">{{trans('menus.home')}}</a></li>    
+         <li  ><a  href="{{url('/')}}">{{trans('menus.home')}}</a></li>   
+           <li><span><img src="{{asset('images/21.png')}}"  style="position: relative; width: 35px; height: 35px; top: 7px;" ></span></li>
       </ul>
      
     
@@ -165,6 +167,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div  class = "collapse navbar-collapse" id = "example-navbar-collapse">
 	
       <ul   class = "nav navbar-nav" >
+          <li><span><img src="{{asset('images/21.png')}}"  style="position: relative; width: 35px; height: 35px; top: 7px;" ></span></li>
          <li  ><a  href="{{url('/')}}">{{trans('menus.home')}}</a></li>
          <li class = "dropdown">
                <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.about')}}
@@ -190,6 +193,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
          </li>
          <li><a href="{{url('/gallery')}}">{{trans('menus.gallery')}}</a></li>
          <li><a href="{{url('/News')}}">{{trans('menus.news')}}</a></li>
+         <li><a href="{{url('/Usefulllink')}}">{{trans('menus.Usefulllink')}}</a></li>
          <li><a href="{{url('/contact')}}">{{trans('menus.contact')}}</a></li>
            
       </ul>
@@ -280,7 +284,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         					  <li><a href="{{url('/services')}}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.services')}}</a></li>
         					   <li><a href="{{url('/about')}}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.about')}}</a></li>
         					    <li><a href="{{url('/company')}}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.Company')}}</a></li>
-
+                                <li><a href="{{url('/Usefulllink')}}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.Usefulllink')}}</a></li>
 						
 				
 						<li><a href="contact"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.contact')}}</a></li>

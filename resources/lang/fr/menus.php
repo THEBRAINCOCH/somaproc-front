@@ -10,6 +10,7 @@ return
 'news'=>'Actualités',
 'gallery'=>'Gallerie',
 'contact'=>'Contacts',
+'Usefulllink'=>'Liens utiles',
 'products.redMeat'=>'viande rouge',
 'products.whiteMeat'=>'viande blanche',
 'products.fish'=>'poisson',

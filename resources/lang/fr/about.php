@@ -1,6 +1,6 @@
 <?php
 
-return [
+return [ 
 'why'=>'Pourquoi',
 'Choose'=>'Vous choisir',
 'Us'=>' nous ?',
@@ -56,14 +56,23 @@ return [
 
  'Hamdi Lotfi'=>'Hamdi Lotfi',
 
- ' président de la direction générale '=>' président de la direction générale ',
+ ' président dirécteur générale '=>' président dirécteur générale ',
 
- ' Du '=>' Du ',
+ ' De '=>' De ',
 
  '’SOMAPROC’'=>'’SOMAPROC’',
 
- 'Vétérinaire et chef de la direction des marchés de la société de production Du centre'=>'Vétérinaire et chef de la direction des marchés de la société de production Du centre',
+'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre'=>'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre',
 
+'Assistance De'=>'Assistance De ',
+
+'Direction'=>'Direction',
+
+'Badri Isslam '=>'Badri Isslam ',
+
+'Achouri Hamadi'=>'Achouri Hamadi',
+
+'Résponsable Téchnique'=>'Résponsable Téchnique',
 
 
  ' Actionnaires '=>' Actionnaires ',

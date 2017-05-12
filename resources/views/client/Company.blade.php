@@ -284,8 +284,129 @@
 	                </p>
 				</div>
 				@endif
-            <br><br>
-            <h1 style=" 
+				
+
+				<div class="col-md-12 w3_agile_about_grid_left">
+			                   <h3 class="agileits_w3layouts_head"><span> {{trans('Company.Mission')}}</span></h3>
+			                     <div class="w3_agile_image">
+				                     <img src="{{asset('images/1.png')}}" alt=" " class="img-responsive" />
+			                     </div><br><br>
+			                            <h3 style=" font-size:20px;
+	                                       color:#312F2F;
+	                                       font-weight:400;
+	                                       line-height: 1.8em;
+	                                       margin-bottom: 1em;
+	                                       text-align: justify;" >
+	                                      <center> <span >{{trans('Company.Intervention de Somaproc')}}</span></center>
+	                                    </h3>
+	                </div>
+@if (session()->get('locale')=="ar")
+	<div class="col-md-4 w3_agile_about_grid_left" dir="rtl">
+                    <p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                   {{trans('Company.- Pilotage et orientation des biens immobiliers des moyens d’exploitation.')}}<br>{{trans('Company.- Controle de santé animale, végétale, la qualité et la prèvention des irrégularités.')}}<br>{{trans('Company.- Conduite et réglementation des marchés d’intéret national.')}}<br>{{trans('Company.- Facilitation du Commerce distingue (export).')}}<br>
+	                </p>
+</div>
+<div class="col-md-4 w3_agile_about_grid_left">
+
+				  <p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                  {{trans('Company.- Simplification et modernisation des procédures douanières.')}}<br>{{trans('Company.- Mise à niveau physique des infrastructures de distribution conformément aux normes technique d’hygiène et d’hygiène et d’envirennement.')}}<br>{{trans('Company.- Amélioration des modes de gestion et de suivi des activités de distribution.')}}
+	                  <br>         
+	              </p>
+</div>
+<div class="col-md-4 w3_agile_about_grid_left" >
+				  <p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                   {{trans('Company.- Aide à la Constitution des Organisations professionnelles pour structurer les  agriculteurs.')}}<br>{{trans('Company.- Appuis à la création des petites et moyennes entreprises dans le domaine liées au projet.')}}<br>{{trans('Company.- Assistance technique aux agriculteurs.')}}<br>{{trans('Company.- L’accompagnement à la réinsertion professionnelle des agriculteurs en complétant les dispositifs de l’état.')}}<br>{{trans('Company.- Traçabilité des produits agricoles.')}}         
+	                      
+	              </p>
+</div>
+@else
+<div class="col-md-4 w3_agile_about_grid_left" >
+				  <p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                   {{trans('Company.- Aide à la Constitution des Organisations professionnelles pour structurer les  agriculteurs.')}}<br>{{trans('Company.- Appuis à la création des petites et moyennes entreprises dans le domaine liées au projet.')}}<br>{{trans('Company.- Assistance technique aux agriculteurs.')}}<br>{{trans('Company.- L’accompagnement à la réinsertion professionnelle des agriculteurs en complétant les dispositifs de l’état.')}}<br>{{trans('Company.- Traçabilité des produits agricoles.')}}         
+	                      
+	              </p>
+</div>
+<div class="col-md-4 w3_agile_about_grid_left">
+
+				  <p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                  {{trans('Company.- Simplification et modernisation des procédures douanières.')}}<br>{{trans('Company.- Mise à niveau physique des infrastructures de distribution conformément aux normes technique d’hygiène et d’hygiène et d’envirennement.')}}<br>{{trans('Company.- Amélioration des modes de gestion et de suivi des activités de distribution.')}}
+	                  <br>         
+	              </p>
+</div>
+<div class="col-md-4 w3_agile_about_grid_left" >
+                    <p style=" font-size:14px;
+	                           color:#312F2F;
+	                           font-weight:400;
+	                           line-height: 1.8em;
+	                           margin-bottom: 1em;
+	                           text-align: justify;">
+	                   {{trans('Company.- Pilotage et orientation des biens immobiliers des moyens d’exploitation.')}}<br>{{trans('Company.- Controle de santé animale, végétale, la qualité et la prèvention des irrégularités.')}}<br>{{trans('Company.- Conduite et réglementation des marchés d’intéret national.')}}<br>{{trans('Company.- Facilitation du Commerce distingue (export).')}}<br>
+	                </p>
+</div>
+@endif
+<br>
+@if (session()->get('locale')=="ar")
+<div class="col-md-12 w3_agile_about_grid_left" dir="rtl">
+					<div class="skillbar" data-percent="4">
+					  <span class="skillbar-title" style="background: #f1703a; width:300px;">{{trans('Company.Fourniture de Fonds pour le projet')}}</span>
+					  <p class="skillbar-bar" style="background: #f88c5e;"></p>
+					  <span class="skill-bar-percent"></span>
+					</div>
+					<!-- End Skill Bar -->
+				
+					<div class="skillbar" data-percent="2">
+					  <span class="skillbar-title" style="background: #2980b9; width:300px;">{{trans('Company.Fourniture fonds FODECAP')}}</span>
+					  <p class="skillbar-bar" style="background: #3498db;"></p>
+					  <span class="skill-bar-percent"></span>
+					</div>
+					<!-- End Skill Bar -->
+					
+</div>
+@else
+<div class="col-md-12 w3_agile_about_grid_left">
+					<div class="skillbar" data-percent="4" >
+					  <span class="skillbar-title" style="background: #f1703a; width:300px;">{{trans('Company.Fourniture de Fonds pour le projet')}}</span>
+					  <p class="skillbar-bar" style="background: #f88c5e;"></p>
+					  <span class="skill-bar-percent"></span>
+					</div>
+					<!-- End Skill Bar -->
+				
+					<div class="skillbar" data-percent="2" >
+					  <span class="skillbar-title" style="background: #2980b9; width:300px;">{{trans('Company.Fourniture fonds FODECAP')}}</span>
+					  <p class="skillbar-bar" style="background: #3498db;"></p>
+					  <span class="skill-bar-percent"></span>
+					</div>
+					<!-- End Skill Bar -->
+					
+</div>
+@endif
+<div class="col-md-12 w3_agile_about_grid_left" >
+<h1 style=" 
 	                           color:#312F2F;
 	                           font-weight:400;
 	                           line-height: 1.8em;
@@ -295,12 +416,19 @@
 	         </h1>
 		    <div class="w3_agile_image">
 				<img src="{{asset('images/plan.png')}}" alt=" " class="img-responsive" />
-			</div>
-				
-			</div>
-		</div>
-	</div>
+			</div><br>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 <!-- //about -->
+
 
 <!-- skills -->
 	<script src="{{asset('js/skill.bars.jquery.js')}}"></script>

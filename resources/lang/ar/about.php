@@ -1,7 +1,7 @@
 <?php
 
 return [
-'why'=>'لماذا',
+'why'=>'لماذا', 
 'Choose'=>'تختارنا',
 'Us'=>'نحن ؟',
 
@@ -55,19 +55,29 @@ return [
  
  ' notre'=>' على',
 
- ' équipe'=>' فريقنا',
+ ' équipe'=>' فريقنا', 
 
  'Hamdi Lotfi'=>'حامدي لطفي',
 
- ' président de la direction générale '=>' رئيس مدير عام ',
+ ' président dirécteur générale '=>' رئيس مدير عام ',
 
- ' Du '=>' ل ',
+ ' De '=>' ل ',
 
  '’SOMAPROC’'=>'سومابروك',
 
- 'Vétérinaire et chef de la direction des marchés de la société de production Du centre'=>'طبيب بيطري و رئيس مدير عام شركة أسواق الإنتاج بالوسط',
+ 'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre'=>'طبيب بيطري ورئيس شركة أسواق الإنتاج بالوسط',
 
 
+
+'Assistance De'=>'مساعدة ',
+
+'Direction'=>'إدارية',
+
+'Badri Isslam '=>'بدري إسلام ',
+  
+'Achouri Hamadi'=>'حمادي عاشوري ',
+
+'Résponsable Téchnique'=>'مسؤول تقني',
 
  ' Actionnaires '=>' المساهمين ',
 ];

@@ -10,6 +10,7 @@ return
 'gallery'=>'Gallery',
 'contact'=>'Contact',
 'news'=>'News',
+'Usefulllink'=>'Useful Link',
 'products.redMeat'=>'red meat',
 'products.whiteMeat'=>'white meat',
 'products.fish'=>'fish',

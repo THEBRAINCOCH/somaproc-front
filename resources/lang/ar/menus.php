@@ -10,6 +10,7 @@ return
 'gallery'=>'الصور',
 'contact'=>'اتصل بنا',
 'news'=>'المستجدات',
+'Usefulllink'=>'روابط مفيدة',
 
 
 'products.redMeat'=>'لحم أحمر',

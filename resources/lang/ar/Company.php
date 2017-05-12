@@ -1,5 +1,5 @@
 <?php
-
+  
 return [
 
 'Le projet'=>'المشروع',
@@ -42,6 +42,42 @@ return [
 'La zone prévue pour l’extension sera aménagée en zone verte. Une voie de 10 mètres ceinture le bâtiment et les halles pour assurer la fluidité de la circulation véhiculaire, facilitera l’approvisionnement et le chargement des fruits et légumes et sera nécessaires pour répondre aux exigences de la sécurité incendie.'=>'سيتم إنشاء المنطقة المزمع تمديدها كمنطقة خضراء. إن المسار الذي يبلغ طوله 10 أمتار يحمي المبنى والقاعات لضمان التدفق السلس لحركة المرور، ويسهل توريد وتحميل الفواكه والخضروات وسيكون مطلوبا لتلبية متطلبات السلامة من الحرائق',
 /*--5--*/
 'L’implantation des voieries et des bâtiments permet d’envisager la construction de futures extensions dans la zone laissée verte.'=>'تخطيط الطرق والمباني يسمح للنظر في بناء التوسع المستقبلي في المنطقة الخضراء اليسار',
+/*--Mission--*/
+'Mission'=>'المهمة',
+
+'Intervention de Somaproc'=>'تدخل سومابروك',
+
+'- Aide à la Constitution des Organisations professionnelles pour structurer les  agriculteurs.'=>'- مساعدة مع المنظمات المهنية الدستور لهيكلة المزارعين.',
+
+'- Appuis à la création des petites et moyennes entreprises dans le domaine liées au projet.'=>'- دعم إنشاء المؤسسات الصغيرة والمتوسطة في مجال المتعلقة بالمشروع.',
+
+'- Assistance technique aux agriculteurs.'=>'- المساعدة التقنية للمزارعين.',
+
+'- L’accompagnement à la réinsertion professionnelle des agriculteurs en complétant les dispositifs de l’état.'=>'- الدعم لإعادة إدماج المزارعين استكمال الدولة الأجهزة.',
+
+'- Traçabilité des produits agricoles.'=>'- التتبع للمنتجات الزراعية.',
+
+'- Pilotage et orientation des biens immobiliers des moyens d’exploitation.'=>'',
+
+'- Controle de santé animale, végétale, la qualité et la prèvention des irrégularités.'=>'- التوجيه والتوجه وسائل التشغيل الممتلكات.',
+
+'- Conduite et réglementation des marchés d’intéret national.'=>'- التنظيمية وسلوك الأسواق المصلحة الوطنية.',
+
+'- Facilitation du Commerce distingue (export).'=>'-  تسهيل التجارة (التصدير).',
+
+'- Simplification et modernisation des procédures douanières.'=>'- تبسيط وتحديث الإجراءات الجمركية.',
+
+'- Mise à niveau physique des infrastructures de distribution conformément aux normes technique d’hygiène et d’hygiène et d’envirennement.'=>'- جعل البنية التحتية لتوزيع مستوى البدنية وفقا للمعايير الفنية النظافة والصرف الصحي والبيئة.
+   ',
+
+'- Amélioration des modes de gestion et de suivi des activités de distribution.'=>'- تحسين أساليب الإدارة ومراقبة أعمال التوزيع.',
+
+'- Valorisation des produits agricoles.'=>'- الترويج للمنتجات الزراعية.',
+
+/*--skills--*/
+'Fourniture de Fonds pour le projet'=>'توفير الأموال اللازمة للمشروع',
+'Fourniture fonds FODECAP'=>' FODECAP توفير الأموال',
+
 /*--plan--*/
 'Plan'=>'الخريطة',
 ];

@@ -23,7 +23,7 @@
 		<div class="container">
 			<h3 class="agileits_w3layouts_head">{{trans('about.why')}} <span> {{trans('about.Choose')}}</span> {{trans('about.Us')}}</h3>
 			<div class="w3_agile_image">
-				<img src="images/1.png" alt=" " class="img-responsive" />
+				<img src="{{asset('images/1.png')}}" alt=" " class="img-responsive" />
 			</div>
 			
 			<div class="w3ls_news_grids"> 
@@ -252,40 +252,7 @@
 	                </p>
 				</div>
 @endif				
-				<div class="col-md-12 w3_agile_about_grid_right">
-					<div class="skillbar" data-percent="78">
-					  <span class="skillbar-title" style="background: #f1703a;">Des graines</span>
-					  <p class="skillbar-bar" style="background: #f88c5e;"></p>
-					  <span class="skill-bar-percent"></span>
-					</div>
-					<!-- End Skill Bar -->
-					<div class="skillbar" data-percent="99">
-					  <span class="skillbar-title" style="background: #2980b9;">Croissance</span>
-					  <p class="skillbar-bar" style="background: #3498db;"></p>
-					  <span class="skill-bar-percent"></span>
-					</div>
-					<!-- End Skill Bar -->
-					<div class="skillbar" data-percent="54">
-					  <span class="skillbar-title" style="background: #2980b9;">Croissance</span>
-					  <p class="skillbar-bar" style="background: #3498db;"></p>
-					  <span class="skill-bar-percent"></span>
-					</div>
-					<!-- End Skill Bar -->
-					
-					<div class="skillbar" data-percent="76">
-					  <span class="skillbar-title" style="background: #a0d034;">Économie</span>
-					  <p class="skillbar-bar" style="background: #b2ec2f;"></p>
-					  <span class="skill-bar-percent"></span>
-					</div>
-					<!-- End Skill Bar -->
-					
-					<div class="skillbar" data-percent="80">
-					  <span class="skillbar-title" style="background: #e7cc2c;">Plantation</span>
-					  <p class="skillbar-bar" style="background: #f5d410;"></p>
-					  <span class="skill-bar-percent"></span>
-					</div>
-					<!-- End Skill Bar -->
-				</div>
+				
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -309,11 +276,8 @@
 <!-- //skills -->
 <!-- about-bottom -->
 	<div class="about-bottom" dir="rtl">
-		<div class="container">
+		<div class="container"><br><br>
 			<h3><span>{{trans('about.SOMAPROC ')}}</span>{{trans('about. Est La Solution La Plus Appropriée Pour La Valorisation Produits Agricoles en')}}<span>{{trans('about. Tunisie ')}}</span></h3>
-			<div class="agileits_w3layouts_learn_more agileits_learn_more hvr-radial-out">
-				<a href="#" data-toggle="modal" data-target="#myModal">{{trans('about.Read More')}}</a>
-			</div>
 		</div>
 	</div>
 <!-- //about-bottom -->
@@ -323,7 +287,7 @@
 		<div class="container">
 			<h3 class="agileits_w3layouts_head">{{trans('about. Rencontrez')}} <span>{{trans('about. notre')}}</span>{{trans('about. équipe')}}</h3>
 			<div class="w3_agile_image">
-				<img src="images/1.png" alt=" " class="img-responsive" />
+				<img src="{{asset('images/1.png')}}" alt=" " class="img-responsive" />
 			</div>
 			<div class="w3ls_news_grids">
 				<section class="slider">
@@ -332,10 +296,10 @@
 							<li>
 								<div class="agile_testimonials_grid">
 									<div class="col-md-4 agile_testimonials_grid_left">
-										<img src="images/team/PDG.jpg" alt=" " class="img-responsive" />
+										<img src="{{asset('images/team/PDG.jpg')}}" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-8 agile_testimonials_grid_right">
-										<h5>{{trans('about.Hamdi Lotfi')}}<span>{{trans('about. président de la direction générale ')}}</span>{{trans('about. Du ')}}<i>{{trans('about.’SOMAPROC’')}}</i></h5>
+                                      <h5>{{trans('about.Hamdi Lotfi')}}<span>{{trans('about. président dirécteur générale ')}}</span>{{trans('about. De ')}}<i>{{trans('about.’SOMAPROC’')}}</i></h5>
 										<div class="wthree_stars">
 											<ul>
 												<li><i class="fa fa-star"></i></li>
@@ -345,7 +309,7 @@
 												<li><i class="fa fa-star-o"></i></li>
 											</ul>
 										</div>
-										<p>{{trans('about.Vétérinaire et chef de la direction des marchés de la société de production Du centre')}}</p><br>
+										<p><h3>{{trans('about.Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre')}}</h3></p><br>
 										
 									</div>
 									<div class="clearfix"> </div>
@@ -354,10 +318,10 @@
 							<li>
 								<div class="agile_testimonials_grid">
 									<div class="col-md-4 agile_testimonials_grid_left">
-										<img src="images/team/PDG.jpg" alt=" " class="img-responsive" />
+										<img src="{{asset('images/team/islem.jpg')}}" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-8 agile_testimonials_grid_right">
-										<h5>{{trans('about.Hamdi Lotfi')}}<span>{{trans('about. président de la direction générale ')}}</span>{{trans('about. Du ')}}<i>{{trans('about.’SOMAPROC’')}}</i></h5>
+										<h5>{{trans('about.Badri Isslam ')}}</h5>
 										<div class="wthree_stars">
 											<ul>
 												<li><i class="fa fa-star"></i></li>
@@ -367,8 +331,7 @@
 												<li><i class="fa fa-star-o"></i></li>
 											</ul>
 										</div>
-										<p>{{trans('about.Vétérinaire et chef de la direction des marchés de la société de production Du centre')}}</p><br>
-										
+										<p><h3>{{trans('about.Assistance De')}}{{trans('about.Direction')}}</h3></p><br>
 									</div>
 									<div class="clearfix"> </div>
 								</div>
@@ -376,10 +339,10 @@
 							<li>
 								<div class="agile_testimonials_grid">
 									<div class="col-md-4 agile_testimonials_grid_left">
-										<img src="images/team/PDG.jpg" alt=" " class="img-responsive" />
+										<img src="{{asset('images/team/PDG.jpg')}}" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-8 agile_testimonials_grid_right">
-										<h5>{{trans('about.Hamdi Lotfi')}}<span>{{trans('about. président de la direction générale ')}}</span>{{trans('about. Du ')}}<i>{{trans('about.’SOMAPROC’')}}</i></h5>
+										<h5>{{trans('about.Achouri Hamadi')}}</h5>
 										<div class="wthree_stars">
 											<ul>
 												<li><i class="fa fa-star"></i></li>
@@ -389,7 +352,7 @@
 												<li><i class="fa fa-star-o"></i></li>
 											</ul>
 										</div>
-										<p>{{trans('about.Vétérinaire et chef de la direction des marchés de la société de production Du centre')}}</p><br>
+										<p><h3>{{trans('about.Résponsable Téchnique')}}</h3></p><br>
 										
 									</div>
 									<div class="clearfix"> </div>
@@ -417,13 +380,13 @@
 		<div class="container">
 			<h3 class="agileits_w3layouts_head">{{trans('about. Rencontrez')}} <span> {{trans('about. notre')}} </span>  {{trans('about. Actionnaires ')}}</h3>
 			<div class="w3_agile_image">                                      
-				<img src="images/1.png" alt=" " class="img-responsive" />
+				<img src="{{asset('images/1.png')}}" alt=" " class="img-responsive" />
 	        </div>
   <div class="project-section wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">	
 			<div class="w3ls_news_grids w3_agileits_team_grids" style="background-color: rgb(0, 0, 0, 0.75);"> 
 				<div class="col-md-3 w3_agileits_team_grid"> 
 					<div class="w3layouts_news_grid">
-						<img src="images/a10.jpg" alt=" " class="img-responsive" />
+						<img src="{{asset('images/a10.jpg')}}" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
 							<div class="wthree_text agileinfo_about_text">
 								<ul class="agileits_social_list">
@@ -437,7 +400,7 @@
 				</div>
 				<div class="col-md-3 w3_agileits_team_grid"> 
 					<div class="w3layouts_news_grid">
-						<img src="images/10.jpg" alt=" " class="img-responsive" />
+						<img src="{{asset('images/10.jpg')}}" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
 							<div class="wthree_text agileinfo_about_text">
 								<ul class="agileits_social_list">
@@ -451,7 +414,7 @@
 				</div>
 				<div class="col-md-3 w3_agileits_team_grid"> 
 					<div class="w3layouts_news_grid">
-						<img src="images/a11.jpg" alt=" " class="img-responsive" />
+						<img src="{{asset('images/a11.jpg')}}" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
 							<div class="wthree_text agileinfo_about_text">
 								<ul class="agileits_social_list">
@@ -465,7 +428,7 @@
 				</div>
 				<div class="col-md-3 w3_agileits_team_grid"> 
 					<div class="w3layouts_news_grid">
-						<img src="images/a12.jpg" alt=" " class="img-responsive" />
+						<img src="{{asset('images/a12.jpg')}}" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
 							<div class="wthree_text agileinfo_about_text">
 								<ul class="agileits_social_list">
@@ -481,7 +444,7 @@
 				<br>
 				<div class="col-md-3 w3_agileits_team_grid"> 
 					<div class="w3layouts_news_grid">
-						<img src="images/a13.jpg" alt=" " class="img-responsive" />
+						<img src="{{asset('images/a13.jpg')}}" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
 							<div class="wthree_text agileinfo_about_text">
 								<ul class="agileits_social_list">
@@ -495,7 +458,7 @@
 				</div>
 				<div class="col-md-3 w3_agileits_team_grid"> 
 					<div class="w3layouts_news_grid">
-						<img src="images/a14.jpg" alt=" " class="img-responsive" />
+						<img src="{{asset('images/a14.jpg')}}" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
 							<div class="wthree_text agileinfo_about_text">
 								<ul class="agileits_social_list">
@@ -508,7 +471,7 @@
 				</div>
 				<div class="col-md-3 w3_agileits_team_grid"> 
 					<div class="w3layouts_news_grid">
-						<img src="images/a15.jpg" alt=" " class="img-responsive" />
+						<img src="{{asset('images/a15.jpg')}}" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
 							<div class="wthree_text agileinfo_about_text">
 								<ul class="agileits_social_list">
@@ -521,7 +484,7 @@
 				</div>
 				<div class="col-md-3 w3_agileits_team_grid"> 
 					<div class="w3layouts_news_grid">
-						<img src="images/a16.jpg" alt=" " class="img-responsive" />
+						<img src="{{asset('images/a16.jpg')}}" alt=" " class="img-responsive" />
 						<div class="w3layouts_news_grid_pos">
 							<div class="wthree_text agileinfo_about_text">
 								<ul class="agileits_social_list">

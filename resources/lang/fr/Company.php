@@ -1,8 +1,8 @@
 <?php
-
+ 
 
 return [
-
+ 
 'Le projet'=>'Le projet',
 
 'L’objectif du projet'=>'L’objectif du projet',
@@ -51,6 +51,42 @@ return [
 'La zone prévue pour l’extension sera aménagée en zone verte. Une voie de 10 mètres ceinture le bâtiment et les halles pour assurer la fluidité de la circulation véhiculaire, facilitera l’approvisionnement et le chargement des fruits et légumes et sera nécessaires pour répondre aux exigences de la sécurité incendie.'=>'La zone prévue pour l’extension sera aménagée en zone verte. Une voie de 10 mètres ceinture le bâtiment et les halles pour assurer la fluidité de la circulation véhiculaire, facilitera l’approvisionnement et le chargement des fruits et légumes et sera nécessaires pour répondre aux exigences de la sécurité incendie.',
 /*--5--*/
 'L’implantation des voieries et des bâtiments permet d’envisager la construction de futures extensions dans la zone laissée verte.'=>'L’implantation des voieries et des bâtiments permet d’envisager la construction de futures extensions dans la zone laissée verte.',
+
+/*--Mission--*/
+'Mission'=>'Mission',
+
+'Intervention de Somaproc'=>'Intervention de Somaproc',
+
+'- Aide à la Constitution des Organisations professionnelles pour structurer les  agriculteurs.'=>'- Aide à la Constitution des Organisations professionnelles pour structurer les  agriculteurs.',
+
+'- Appuis à la création des petites et moyennes entreprises dans le domaine liées au projet.'=>'- Appuis à la création des petites et moyennes entreprises dans le domaine liées au projet.',
+
+'- Assistance technique aux agriculteurs.'=>'- Assistance technique aux agriculteurs.',
+
+'- L’accompagnement à la réinsertion professionnelle des agriculteurs en complétant les dispositifs de l’état.'=>'- L’accompagnement à la réinsertion professionnelle des agriculteurs en complétant les dispositifs de l’état.',
+
+'- Traçabilité des produits agricoles.'=>'- Traçabilité des produits agricoles.',
+
+'- Pilotage et orientation des biens immobiliers des moyens d’exploitation.'=>'- Pilotage et orientation des biens immobiliers des moyens d’exploitation.',
+
+'- Controle de santé animale, végétale, la qualité et la prèvention des irrégularités.'=>'- Controle de santé animale, végétale, la qualité et la prèvention des irrégularités.',
+
+'- Conduite et réglementation des marchés d’intéret national.'=>'- Conduite et réglementation des marchés d’intéret national.',
+
+'- Facilitation du Commerce distingue (export).'=>'- Facilitation du Commerce distingue (export).',
+
+'- Simplification et modernisation des procédures douanières.'=>'- Simplification et modernisation des procédures douanières.',
+
+'- Mise à niveau physique des infrastructures de distribution conformément aux normes technique d’hygiène et d’hygiène et d’envirennement.'=>'- Mise à niveau physique des infrastructures de distribution conformément aux normes technique d’hygiène et d’hygiène et d’envirennement.',
+
+'- Amélioration des modes de gestion et de suivi des activités de distribution.'=>'- Amélioration des modes de gestion et de suivi des activités de distribution.',
+
+'- Valorisation des produits agricoles.'=>'- Valorisation des produits agricoles.',
+/*--skills--*/
+'Fourniture de Fonds pour le projet'=>'Fourniture de Fonds pour le projet',
+'Fourniture fonds FODECAP'=>'Fourniture fonds FODECAP',
+
+
 /*--plan--*/
 'Plan'=>'La Carte',
 ];

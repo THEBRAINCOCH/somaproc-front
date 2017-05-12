@@ -2,19 +2,20 @@
 
 
 @section('content')
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.js"></script>
 <script>
 
 
     var data ={
     labels: [
-        "{{trans('statistics.Autre')}}",
-        "{{trans('statistics.Pommes de terres')}}",
-        "{{trans('statistics.Tomates')}}",
-        "{{trans('statistics.Artichauts')}}",
-        "{{trans('statistics.Piments')}}",
-        "{{trans('statistics.Melons-Pastèques')}}",
-        "{{trans('statistics.Oignons')}}",
+        "Autre",
+        "Pommes de terres",
+        "Tomates",
+        "Artichauts",
+        "Piments",
+        "Melons-Pastèques",
+        "Oignons",
     ],
     datasets: [
         {
@@ -102,20 +103,97 @@
       <div class="clearfix"> </div>
     </div>
   </div>
+  <br>
+
+<div class="container">
+<div class="w3ls_news_grids">
+  <h3 class="agileits_w3layouts_head"><span> {{trans('Company.Statistics')}}</span></h3>
+      <div class="w3_agile_image">
+        <img src="{{asset('images/1.png')}}" alt=" " class="img-responsive" />
+      </div><br><br>
+  <div class="col-md-6 w3_agile_about_grid_left" >
+<h1 style=" 
+                             color:#312F2F;
+                             font-weight:200;
+                             line-height: 1.8em;
+                             margin-bottom: 1em;
+                             text-align: justify;" >
+                            <h4>{{trans('Company.STRUCTURE DES VENTES DES PRODUITS AGRICOLES')}}</h4>
+           </h1>
+        <div class="w3_agile_image">
+        <img src="{{asset('images/organi.png')}}" alt=" " class="img-responsive" />
+      </div><br>
+</div>
+<div class="col-md-6 w3_agile_about_grid_left" >
+ <table class="table table-bordered" >
+
+        <thead>
+            <tr style="background-color: #a4dd25">
+              <th  style="color: #000;"></th>
+              <th  style="color: #000;"><center>%</center></th>
+              <th  style="color: #000;"></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Destination')}}</center></th>
+            </tr>
+          </thead>
+          <tbody>
+             <tr>
+             <td rowspan="2"  align="center">Marché de gros de Sidi Bouzid</td>
+             <td rowspan="2"  align="center">7.40%</td>
+             <td  align="center">5.20%</td>
+             <td  align="center">Grossistes hors gouvernorat Sidi Bouzid</td>
+             </tr>
+             <tr>
+             <td align="center">2.20%</td>
+             <td align="center">Détaillants à Sidi Bouzid</td>
+             
+             </tr>
+             <tr>
+             <td rowspan="2"  align="center">Exportations</td>
+             <td rowspan="2"  align="center">5.10%</td>
+             <td  align="center">1.30%</td>
+             <td  align="center">Exportations Controlées</td>
+             </tr>
+             <tr>
+             <td align="center">3.80%</td>
+             <td align="center">Exportations anarchiques</td>
+             
+             </tr>
+             <tr>
+             <td  align="center">Ventes sur pieds ou directementà la transformation<br>Autres marchés de gros et Marchés anarchiques</td>
+             <td  align="center">87.50%</td>
+             <td align="center"></td>
+             <td align="center"></td>
+             </tr>
+             <thead>
+                                <tr>
+                                    <th  style="color: #000;" align="center">Total</th>
+                                    <th  style="color: #000;"><center>100%</center></th>
+                                    <th  style="color: #000;"></th>
+                                    <th  style="color: #000;" align="center"><center></center></th>
+                                 </tr>
+                              </thead>
+            
+
+                              
+</tbody>
+</table>
+</div>
+</div>
+</div>
 <div class="container">
 <div class="w3ls_news_grids">
 @if (session()->get('locale')=="ar")
  <div class="col-md-5 w3_agile_about_grid_left" dir="rtl">
            <div class="bs-docs-example"  style="max-width: 850px;">
-              <h2 style="font-family: "Times New Roman", Times, serif;" align="center">{{trans('statistics.Distribution of market gardening production in Tunisia by product')}}</h2>
-                 <canvas id="canvas" ></canvas>
+              <h4 style="font-family: "Times New Roman", Times, serif;" align="center">{{trans('statistics.Distribution of market gardening production in Tunisia by product')}}</h4>
+                 <canvas id="canvas" class="img-responsive"></canvas>
           </div>
  </div>
 @else
 <div class="col-md-5 w3_agile_about_grid_left" >
            <div class="bs-docs-example"  style="max-width: 850px;">
-              <h2 style="font-family: "Times New Roman", Times, serif;" align="center">{{trans('statistics.Distribution of market gardening production in Tunisia by product')}}</h2>
-                 <canvas id="canvas" ></canvas>
+              <h4 style="font-family: "Times New Roman", Times, serif;" align="center">{{trans('statistics.Distribution of market gardening production in Tunisia by product')}}</h4>
+                 <canvas id="canvas" class="img-responsive"></canvas>
           </div>
  </div>
 @endif
@@ -126,7 +204,7 @@
   <div class="table-responsive">
 
 @if (session()->get('locale')=="ar")
-<h2 style="font-family: "Times New Roman", Times, serif;" align="center">{{trans('statistics.DEVELOPMENT PROGRAM')}}</h3><br><br>
+<h4 style="font-family: "Times New Roman", Times, serif;" align="center">{{trans('statistics.DEVELOPMENT PROGRAM')}}</h4><br><br>
         <table class="table table-bordered" dir="rtl">
           <thead>
             <tr style="background-color: #a4dd25">
@@ -180,16 +258,20 @@
                                  <td align="center">5650</td>
                                  <td align="center">5650</td>
                               </tr>
-                              <tr>
-                                 <th style="color: #000;" style="color: #000;"><center>{{trans('statistics.TOTAL')}}</center></th>
-                                 <th style="color: #000;"><center>-</center></th>
-                                 <th style="color: #000;"><center>-</center></th>
-                                 <th style="color: #000;"><center>80000</center></th>
-                              </tr>
+                              <thead>
+                                <tr >
+                                    <th  style="color: #000;" align="center">Total</th>
+                                    <th  style="color: #000;"><center>-</center></th>
+                                    <th  style="color: #000;">-</th>
+                                    <th  style="color: #000;" align="center"><center>80000</center></th>
+                                  </tr>
+                              </thead>
+                                  
+                             
           </tbody>
         </table>
 @else
-<h2 style="font-family: "Times New Roman", Times, serif;" align="center">{{trans('statistics.DEVELOPMENT PROGRAM')}}</h3><br>
+<h4 style="font-family: "Times New Roman", Times, serif;" align="center">{{trans('statistics.DEVELOPMENT PROGRAM')}}</h4><br>
 <table class="table table-bordered" >
           <thead>
             <tr style="background-color: #a4dd25">
@@ -265,7 +347,7 @@
 @else
 <div class="col-md-6 content-row-column" >
 @endif
-   <h2 style="font-family: "Times New Roman", Times, serif;"><center><br><br>{{trans('statistics.In terms of impacts, we distinguish the following impacts')}}: <br><br></center></h2>
+   <h4 style="font-family: "Times New Roman", Times, serif;"><center><br><br>{{trans('statistics.In terms of impacts, we distinguish the following impacts')}}: <br><br></center></h4>
                         <div class="thumbnail" style="background-color: #a4dd25;">
                             <div class="plus">
                              <h4><br>

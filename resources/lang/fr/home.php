@@ -25,7 +25,7 @@ return [
     'Classification of products approved in the Tunisian national market.'=>'Classification des produits approuvés sur le marché national tunisien.',
     'Provide the necessary information to the farmer in order to develop the product.'=>'Fournir les informations nécessaires à l"agriculteur afin de développer le produit.',
     'We Work Hard to Make our country the'=>'Nous travaillons dur pour faire de notre pays le',
-    'first'=>'le premier',
+    'first'=>'premier',
     'We do our utmost to improve the product. We are happy to offer you the best.'=>'Nous faisons tout notre possible pour améliorer le produit. Nous sommes heureux de vous offrir le meilleur.',
     'Somaproc'=>'Somaproc',
     'For Future Growth'=>'Pour une croissance future',

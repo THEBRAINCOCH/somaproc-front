@@ -23,7 +23,7 @@
 					</div>
 				</section>
 			</div>
-		</div>
+		</div> 
 	</div>
 <!-- //bootstrap-pop-up -->
 <!-- breadcrumbs -->

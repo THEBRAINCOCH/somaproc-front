@@ -1,6 +1,6 @@
 <?php
-
-return [
+  
+return [ 
 
 'Le projet'=>'the project',
 
@@ -45,6 +45,41 @@ return [
 'La zone prévue pour l’extension sera aménagée en zone verte. Une voie de 10 mètres ceinture le bâtiment et les halles pour assurer la fluidité de la circulation véhiculaire, facilitera l’approvisionnement et le chargement des fruits et légumes et sera nécessaires pour répondre aux exigences de la sécurité incendie.'=>'The area planned for the extension will be set up as a green zone. A 10-meter track girdles the building and halls to ensure smooth traffic flow, will facilitate the supply and loading of fruits and vegetables and will be required to meet the requirements of fire safety',
 /*--5--*/
 'L’implantation des voieries et des bâtiments permet d’envisager la construction de futures extensions dans la zone laissée verte.'=>'The installation of the roads and the buildings makes it possible to envisage the construction of future extensions in the zone left green.',
+
+/*--Mission--*/
+'Mission'=>'The Mission',
+
+'Intervention de Somaproc'=>'Intervention by Somaproc',
+
+'- Aide à la Constitution des Organisations professionnelles pour structurer les  agriculteurs.'=>'- Support for the constitution of professional organizations to structure farmers.',
+
+'- Appuis à la création des petites et moyennes entreprises dans le domaine liées au projet.'=>'- Support for the creation of small and medium-sized enterprises in the field related to the project.',
+
+'- Assistance technique aux agriculteurs.'=>'- Technical assistance to farmers.',
+
+'- L’accompagnement à la réinsertion professionnelle des agriculteurs en complétant les dispositifs de l’état.'=>'- Support for the professional reintegration of farmers by supplementing the state’s machinery.',
+
+'- Traçabilité des produits agricoles.'=>'- Traceability of agricultural products.',
+
+'- Pilotage et orientation des biens immobiliers des moyens d’exploitation.'=>'- Steering and orientation of the real estate assets of the means of exploitation.',
+
+'- Controle de santé animale, végétale, la qualité et la prèvention des irrégularités.'=>'- Animal health, plant health control, quality and prevention of irregularities.',
+
+'- Conduite et réglementation des marchés d’intéret national.'=>'- Conduct and regulation of markets of national interest.',
+
+'- Facilitation du Commerce distingue (export).'=>'- Distinguished trade facilitation (export).',
+
+'- Simplification et modernisation des procédures douanières.'=>'- Simplification and modernization of customs procedures.',
+
+'- Mise à niveau physique des infrastructures de distribution conformément aux normes technique d’hygiène et d’hygiène et d’envirennement.'=>'- Physical upgrading of distribution infrastructures in accordance with hygiene, hygiene and environmental standards.',
+
+'- Amélioration des modes de gestion et de suivi des activités de distribution.'=>'- Improved management and monitoring of distribution activities.',
+
+'- Valorisation des produits agricoles.'=>'- Valorization of agricultural products.',
+
+/*--skills--*/
+'Fourniture de Fonds pour le projet'=>'Provide funds for the project',
+'Fourniture fonds FODECAP'=>'Supply of FODECAP funds',
 /*--plan--*/
 'Plan'=>'the map',
 ];

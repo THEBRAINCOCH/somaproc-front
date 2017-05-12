@@ -60,7 +60,9 @@
          </ul>
 
       <ul class = "nav navbar-nav pull-right">
+           
            <li><a href="contact">{{trans('menus.contact')}}</a></li>
+           <li><a href="{{url('/Usefulllink')}}">{{trans('menus.Usefulllink')}}</a></li>
            <li><a href="{{url('/News')}}">{{trans('menus.news')}}</a></li>
            <li><a href="gallery">{{trans('menus.gallery')}}</a></li>
            <li class = "dropdown">
@@ -90,6 +92,7 @@
             </ul>
          </li>
          <li ><a href="/">{{trans('menus.home')}}</a></li>
+        <img src="{{asset('images/21.png')}}"  style="position: relative; width: 35px; height: 35px; top: 7px;" >
       </ul>
        
    </div>
@@ -98,6 +101,7 @@
    <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
 	
       <ul class = "nav navbar-nav">
+         <li><span><img src="{{asset('images/21.png')}}"  style="position: relative; width: 35px; height: 35px; top: 7px;" ></span></li>
          <li ><a href="/">{{trans('menus.home')}}</a></li>
          <li class = "dropdown">
                <a href="about" class = "dropdown-toggle" data-toggle = "dropdown">{{trans('menus.about')}}
@@ -127,8 +131,9 @@
          </li>
          <li><a href="gallery">{{trans('menus.gallery')}}</a></li>
          <li><a href="{{url('/News')}}">{{trans('menus.news')}}</a></li>
-
+         <li><a href="{{url('/Usefulllink')}}">{{trans('menus.Usefulllink')}}</a></li>
          <li><a href="contact">{{trans('menus.contact')}}</a></li>
+
       </ul>
        <ul class = "nav navbar-nav pull-right" >
        @if(Auth::check())
