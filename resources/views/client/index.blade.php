@@ -319,7 +319,7 @@
 					<img src="images/8.png" alt=" " class="img-responsive" />
 				</div>
 				<div class="w3l_social_icon_gridr">
-					<h4 class="counter">23,536</h4>
+					<h4 class="counter">257,510</h4>
 				</div>
 				<div class="clearfix"> </div>
 				<div class="w3l_social_icon_grid_pos">
@@ -331,7 +331,7 @@
 					<img src="images/9.png" alt=" " class="img-responsive" />
 				</div>
 				<div class="w3l_social_icon_gridr">
-					<h4 class="counter">53,234</h4>
+					<h4 class="counter">145,000</h4>
 				</div>
 				<div class="clearfix"> </div>
 				<div class="w3l_social_icon_grid_pos">
@@ -343,7 +343,7 @@
 					<img src="images/10.png" alt=" " class="img-responsive" />
 				</div>
 				<div class="w3l_social_icon_gridr">
-					<h4 class="counter">43,568</h4>
+					<h4 class="counter">37,000</h4>
 				</div>
 				<div class="clearfix"> </div>
 				<div class="w3l_social_icon_grid_pos">
@@ -355,7 +355,7 @@
 					<img src="images/11.png" alt=" " class="img-responsive" />
 				</div>
 				<div class="w3l_social_icon_gridr">
-					<h4 class="counter">12,432</h4>
+					<h4 class="counter">743,729</h4>
 				</div>
 				<div class="clearfix"> </div>
 				<div class="w3l_social_icon_grid_pos">

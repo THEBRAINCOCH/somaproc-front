@@ -1,6 +1,20 @@
  <?php
 
-return [
+return [ 
+
+'Statistics'=>'Statistics',
+
+'STRUCTURE DES VENTES DES PRODUITS AGRICOLES'=>'STRUCTURE DES VENTES DES PRODUITS AGRICOLES',
+'Destination'=>'Destination',
+'Marché de gros de Sidi Bouzid'=>'Marché de gros de Sidi Bouzid',
+'Grossistes hors gouvernorat Sidi Bouzid'=>'Marché de gros de Sidi Bouzid',
+'Détaillants à Sidi Bouzid'=>'Détaillants à Sidi Bouzid',
+'Exportations'=>'Exportations',
+'Exportations Controlées'=>'Exportations Controlées',
+'Exportations anarchiques'=>'Exportations anarchiques',
+'Ventes sur pieds ou directementà la transformation'=>'Ventes sur pieds ou directementà la transformation',
+'Autres marchés de gros et Marchés anarchiques'=>'Autres marchés de gros et Marchés anarchiques',
+'Total'=>'Total',
 
 
 'Space'=>'Espace',

@@ -64,11 +64,11 @@ return [
 
 'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre'=>'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre',
 
-'Assistance De'=>'Assistance De ',
+'Assistance De'=>'Assistante De ',
 
 'Direction'=>'Direction',
 
-'Badri Isslam '=>'Badri Isslam ',
+'Badri Isslam '=>'Badri Isslem ',
 
 'Achouri Hamadi'=>'Achouri Hamadi',
 

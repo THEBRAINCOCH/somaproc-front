@@ -1,6 +1,21 @@
-<?php
+<?php  
 
 return [
+
+'Statistics'=>'الإحصاء',
+
+'STRUCTURE DES VENTES DES PRODUITS AGRICOLES'=>'هيكل مبيعات المنتجات الزراعية',
+'Destination'=>'المكان المقصود',
+'Marché de gros de Sidi Bouzid'=>'سوق الجملة بسيدي بوزيد ',
+'Grossistes hors gouvernorat Sidi Bouzid'=>'تجار الجملة سيدي بوزيد',
+'Détaillants à Sidi Bouzid'=>'تجار التجزئة في سيدي بوزيد',
+'Exportations'=>'صادرات',
+'Exportations Controlées'=>'الصادرات الخاضعة للرقابة',
+'Exportations anarchiques'=>'الصادرات الفوضوية',
+'Ventes sur pieds ou directementà la transformation'=>'مبيعات سيرا على الأقدام أو مباشرة للمعالجة',
+'Autres marchés de gros et Marchés anarchiques'=>'أسواق الجملة و المهربة الأخرى',
+'Total'=>'المجموع',
+
 'Space'=>'الفضاء',
 
 'Number'=>'عدد',

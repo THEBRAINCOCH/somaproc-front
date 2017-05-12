@@ -1,6 +1,6 @@
 <?php
 
-return [
+return [  
 'why'=>'why', 
 'Choose'=>'Choose',
 'Us'=>' Us ?',
@@ -66,11 +66,11 @@ return [
  'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre'=>'Veterinarian and President of the production company',
 
 
-'Assistance De'=>'Assistance Of',
+'Assistance De'=>'Assistant Of',
 
 'Direction'=>'Direction',
 
-'Badri Isslam '=>'Badri Isslam ',
+'Badri Isslam '=>'Badri Isslem ',
 
 'Achouri Hamadi'=>'Achouri Hamadi',
 

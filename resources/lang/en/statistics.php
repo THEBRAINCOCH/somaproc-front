@@ -3,6 +3,20 @@
 return [
 
 
+'Statistics'=>'Statistics',
+
+'STRUCTURE DES VENTES DES PRODUITS AGRICOLES'=>'STRUCTURE OF SALES IN AGRICULTURAL PRODUCTS',
+'Destination'=>'Destination',
+'Marché de gros de Sidi Bouzid'=>'Sidi Bouzid Wholesale Market',
+'Grossistes hors gouvernorat Sidi Bouzid'=>'Wholesalers Sidi Bouzid',
+'Détaillants à Sidi Bouzid'=>'Retailers in Sidi Bouzid',
+'Exportations'=>'exports',
+'Exportations Controlées'=>'Controlled Exports',
+'Exportations anarchiques'=>'Anarchic Exports',
+'Ventes sur pieds ou directementà la transformation'=>'Sales walk or directly for processing',
+'Autres marchés de gros et Marchés anarchiques'=>'Other Wholesale and Contraband Markets',
+'Total'=>'Total',
+
 'Space'=>'Space',
 
 'Number'=>'',

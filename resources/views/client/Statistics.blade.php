@@ -104,10 +104,10 @@
     </div>
   </div>
   <br>
-
-<div class="container">
+@if (session()->get('locale')=="ar")
+<div class="container" dir="rtl">
 <div class="w3ls_news_grids">
-  <h3 class="agileits_w3layouts_head"><span> {{trans('Company.Statistics')}}</span></h3>
+  <h3 class="agileits_w3layouts_head"><span> {{trans('statistics.Statistics')}}</span></h3>
       <div class="w3_agile_image">
         <img src="{{asset('images/1.png')}}" alt=" " class="img-responsive" />
       </div><br><br>
@@ -118,7 +118,7 @@
                              line-height: 1.8em;
                              margin-bottom: 1em;
                              text-align: justify;" >
-                            <h4>{{trans('Company.STRUCTURE DES VENTES DES PRODUITS AGRICOLES')}}</h4>
+                            <h4><center>{{trans('statistics.STRUCTURE DES VENTES DES PRODUITS AGRICOLES')}}</center></h4>
            </h1>
         <div class="w3_agile_image">
         <img src="{{asset('images/organi.png')}}" alt=" " class="img-responsive" />
@@ -137,36 +137,112 @@
           </thead>
           <tbody>
              <tr>
-             <td rowspan="2"  align="center">Marché de gros de Sidi Bouzid</td>
+             <td rowspan="2"  align="center">{{trans('statistics.Marché de gros de Sidi Bouzid')}}</td>
              <td rowspan="2"  align="center">7.40%</td>
              <td  align="center">5.20%</td>
-             <td  align="center">Grossistes hors gouvernorat Sidi Bouzid</td>
+             <td  align="center">{{trans('statistics.Grossistes hors gouvernorat Sidi Bouzid')}}</td>
              </tr>
              <tr>
              <td align="center">2.20%</td>
-             <td align="center">Détaillants à Sidi Bouzid</td>
+             <td align="center">{{trans('statistics.Détaillants à Sidi Bouzid')}}</td>
              
              </tr>
              <tr>
-             <td rowspan="2"  align="center">Exportations</td>
+             <td rowspan="2"  align="center">{{trans('statistics.Exportations')}}</td>
              <td rowspan="2"  align="center">5.10%</td>
              <td  align="center">1.30%</td>
-             <td  align="center">Exportations Controlées</td>
+             <td  align="center">{{trans('statistics.Exportations Controlées')}}</td>
              </tr>
              <tr>
              <td align="center">3.80%</td>
-             <td align="center">Exportations anarchiques</td>
+             <td align="center">{{trans('statistics.Exportations anarchiques')}}</td>
              
              </tr>
              <tr>
-             <td  align="center">Ventes sur pieds ou directementà la transformation<br>Autres marchés de gros et Marchés anarchiques</td>
+             <td  align="center">{{trans('statistics.Ventes sur pieds ou directementà la transformation')}}<br>{{trans('statistics.Autres marchés de gros et Marchés anarchiques')}}</td>
              <td  align="center">87.50%</td>
              <td align="center"></td>
              <td align="center"></td>
              </tr>
              <thead>
                                 <tr>
-                                    <th  style="color: #000;" align="center">Total</th>
+                                    <td  style="color: #000;" align="center"><center>{{trans('statistics.Total')}}</center></td>
+                                    <td  style="color: #000;" align="center"><center>100%</center></td>
+                                    <td  style="color: #000;"></td>
+                                    <td  style="color: #000;" align="center"><center></center></td>
+                                 </tr>
+                              </thead>
+            
+
+                              
+</tbody>
+</table>
+</div>
+</div>
+</div>
+@else
+<div class="container">
+<div class="w3ls_news_grids">
+  <h3 class="agileits_w3layouts_head"><span> {{trans('statistics.Statistics')}}</span></h3>
+      <div class="w3_agile_image">
+        <img src="{{asset('images/1.png')}}" alt=" " class="img-responsive" />
+      </div><br><br>
+  <div class="col-md-6 w3_agile_about_grid_left" >
+<h1 style=" 
+                             color:#312F2F;
+                             font-weight:200;
+                             line-height: 1.8em;
+                             margin-bottom: 1em;
+                             text-align: justify;" >
+                            <h4>{{trans('statistics.STRUCTURE DES VENTES DES PRODUITS AGRICOLES')}}</h4>
+           </h1>
+        <div class="w3_agile_image">
+        <img src="{{asset('images/organi.png')}}" alt=" " class="img-responsive" />
+      </div><br>
+</div>
+<div class="col-md-6 w3_agile_about_grid_left" >
+ <table class="table table-bordered" >
+
+        <thead>
+            <tr style="background-color: #a4dd25">
+              <th  style="color: #000;"></th>
+              <th  style="color: #000;"><center>%</center></th>
+              <th  style="color: #000;"></th>
+              <th  style="color: #000;"><center>{{trans('statistics.Destination')}}</center></th>
+            </tr>
+          </thead>
+          <tbody>
+             <tr>
+             <td rowspan="2"  align="center">{{trans('statistics.Marché de gros de Sidi Bouzid')}}</td>
+             <td rowspan="2"  align="center">7.40%</td>
+             <td  align="center">5.20%</td>
+             <td  align="center">{{trans('statistics.Grossistes hors gouvernorat Sidi Bouzid')}}</td>
+             </tr>
+             <tr>
+             <td align="center">2.20%</td>
+             <td align="center">{{trans('statistics.Détaillants à Sidi Bouzid')}}</td>
+             
+             </tr>
+             <tr>
+             <td rowspan="2"  align="center">{{trans('statistics.Exportations')}}</td>
+             <td rowspan="2"  align="center">5.10%</td>
+             <td  align="center">1.30%</td>
+             <td  align="center">{{trans('statistics.Exportations Controlées')}}</td>
+             </tr>
+             <tr>
+             <td align="center">3.80%</td>
+             <td align="center">{{trans('statistics.Exportations anarchiques')}}</td>
+             
+             </tr>
+             <tr>
+             <td  align="center">{{trans('statistics.Ventes sur pieds ou directementà la transformation')}}<br>{{trans('statistics.Autres marchés de gros et Marchés anarchiques')}}</td>
+             <td  align="center">87.50%</td>
+             <td align="center"></td>
+             <td align="center"></td>
+             </tr>
+             <thead>
+                                <tr>
+                                    <th  style="color: #000;" align="center">{{trans('statistics.Total')}}</th>
                                     <th  style="color: #000;"><center>100%</center></th>
                                     <th  style="color: #000;"></th>
                                     <th  style="color: #000;" align="center"><center></center></th>
@@ -180,6 +256,9 @@
 </div>
 </div>
 </div>
+@endif
+
+
 <div class="container">
 <div class="w3ls_news_grids">
 @if (session()->get('locale')=="ar")
