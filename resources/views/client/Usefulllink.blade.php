@@ -34,7 +34,7 @@
 <div class="well"> 
   <div class="container">
 		<div class="footer-grids">
-			<div class="col-md-6 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
+			<div class="col-md-4 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
 	              <h3>{{trans('uselink.Prime minister')}}</h3>
 	              <br><br>
 	                <div class="up1">
@@ -44,7 +44,7 @@
 		                  <div class="clearfix"></div>
                     </div>
              </div>
-		 <div class="col-md-6 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; left: 50px;" >
+		 <div class="col-md-4 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; left: " >
 		         <center><h3>{{trans('uselink.Means of communication and addresses')}}</h3></center><br><br><br><br>
 		         <div class="w3_agileits_mail_right_grid_main">
 						<div class="w3layouts_mail_grid_left">
@@ -107,7 +107,7 @@
 <div class="well"> 
   <div class="container">
 		<div class="footer-grids">
-			<div class="col-md-6 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
+			<div class="col-md-4 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
 	              <h3>{{trans('uselink.Ministry of Interior')}}</h3>
 	              <br><br>
 	                <div class="up1">
@@ -117,7 +117,7 @@
 		                  <div class="clearfix"></div>
                     </div>
              </div>
-		 <div class="col-md-6 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; left: 50px;" >
+		 <div class="col-md-4 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; " >
 		         <center><h3>{{trans('uselink.Means of communication and addresses')}}</h3></center><br><br><br><br>
 		         <div class="w3_agileits_mail_right_grid_main">
 						<div class="w3layouts_mail_grid_left">
@@ -183,7 +183,7 @@
 <div class="well"> 
   <div class="container">
 		<div class="footer-grids">
-			<div class="col-md-6 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
+			<div class="col-md-4 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
 	              <h3>{{trans('uselink.Ministry of Finance')}}</h3>
 	              <br><br>
 	                <div class="up1">
@@ -193,7 +193,7 @@
 		                  <div class="clearfix"></div>
                     </div>
              </div>
-		 <div class="col-md-6 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; left: 50px;" >
+		 <div class="col-md-4 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; " >
 		         <center><h3>{{trans('uselink.Means of communication and addresses')}}</h3></center><br><br><br><br>
 		         <div class="w3_agileits_mail_right_grid_main">
 						<div class="w3layouts_mail_grid_left">
@@ -258,7 +258,7 @@
 <div class="well"> 
   <div class="container">
 		<div class="footer-grids">
-			<div class="col-md-6 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
+			<div class="col-md-4 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
 	              <h3>{{trans('uselink.Ministry of Development, Investment and International Cooperation')}}</h3>
 	              <br><br>
 	                <div class="up1">
@@ -268,7 +268,7 @@
 		                  <div class="clearfix"></div>
                     </div>
              </div>
-		 <div class="col-md-6 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; left: 50px;" >
+		 <div class="col-md-4 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; " >
 		         <center><h3>{{trans('uselink.Means of communication and addresses')}}</h3></center><br><br><br><br>
 		         <div class="w3_agileits_mail_right_grid_main">
 						<div class="w3layouts_mail_grid_left">
@@ -336,7 +336,7 @@
 <div class="well"> 
   <div class="container">
 		<div class="footer-grids">
-			<div class="col-md-6 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
+			<div class="col-md-4 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
 	              <h3>{{trans('uselink.Ministry of Industry and Trade')}}</h3>
 	              <br><br>
 	                <div class="up1">
@@ -346,7 +346,7 @@
 		                  <div class="clearfix"></div>
                     </div>
              </div>
-		 <div class="col-md-6 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; left: 50px;" >
+		 <div class="col-md-4 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; " >
 		         <center><h3>{{trans('uselink.Means of communication and addresses')}}</h3></center><br><br><br><br>
 		         <div class="w3_agileits_mail_right_grid_main">
 						<div class="w3layouts_mail_grid_left">
@@ -413,7 +413,7 @@
 <div class="well"> 
   <div class="container">
 		<div class="footer-grids">
-			<div class="col-md-6 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
+			<div class="col-md-4 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
 	              <h3>{{trans('uselink.Ministry of Agriculture, Water Resources and Fisheries')}}</h3>
 	              <br><br>
 	                <div class="up1">
@@ -423,7 +423,7 @@
 		                  <div class="clearfix"></div>
                     </div>
              </div>
-		 <div class="col-md-6 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; left: 50px;" >
+		 <div class="col-md-4 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; " >
 		         <center><h3>{{trans('uselink.Means of communication and addresses')}}</h3></center><br><br><br><br>
 		         <div class="w3_agileits_mail_right_grid_main">
 						<div class="w3layouts_mail_grid_left">
@@ -491,7 +491,7 @@
 <div class="well"> 
   <div class="container">
 		<div class="footer-grids">
-			<div class="col-md-6 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
+			<div class="col-md-4 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
 	              <h3>{{trans('uselink.Ministry of Equipment, Housing and Urban Planning')}}</h3>
 	              <br><br>
 	                <div class="up1">
@@ -501,7 +501,7 @@
 		                  <div class="clearfix"></div>
                     </div>
              </div>
-		 <div class="col-md-6 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; left: 50px;" >
+		 <div class="col-md-4 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; " >
 		         <center><h3>{{trans('uselink.Means of communication and addresses')}}</h3></center><br><br><br><br>
 		         <div class="w3_agileits_mail_right_grid_main">
 						<div class="w3layouts_mail_grid_left">
@@ -569,7 +569,7 @@
 <div class="well"> 
   <div class="container">
 		<div class="footer-grids">
-			<div class="col-md-6 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
+			<div class="col-md-4 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
 	              <h3>{{trans('uselink.Ministry of Health')}}</h3>
 	              <br><br>
 	                <div class="up1">
@@ -579,7 +579,7 @@
 		                  <div class="clearfix"></div>
                     </div>
              </div>
-		 <div class="col-md-6 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; left: 50px;" >
+		 <div class="col-md-4 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; " >
 		         <center><h3>{{trans('uselink.Means of communication and addresses')}}</h3></center><br><br><br><br>
 		         <div class="w3_agileits_mail_right_grid_main">
 						<div class="w3layouts_mail_grid_left">
@@ -648,7 +648,7 @@
 <div class="well"> 
   <div class="container">
 		<div class="footer-grids">
-			<div class="col-md-6 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
+			<div class="col-md-4 up wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;" align="center">
 	              <h3>{{trans('uselink.Ministry of Local Affairs and Environment')}}</h3>
 	              <br><br>
 	                <div class="up1">
@@ -658,7 +658,7 @@
 		                  <div class="clearfix"></div>
                     </div>
              </div>
-		 <div class="col-md-6 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; left: 50px;" >
+		 <div class="col-md-4 cont wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; " >
 		         <center><h3>{{trans('uselink.Means of communication and addresses')}}</h3></center><br><br><br><br>
 		         <div class="w3_agileits_mail_right_grid_main">
 						<div class="w3layouts_mail_grid_left">

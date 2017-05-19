@@ -318,49 +318,41 @@
 				<div class="w3l_social_icon_gridl">
 					<img src="images/8.png" alt=" " class="img-responsive" />
 				</div>
-				<div class="w3l_social_icon_gridr">
-					<h4 class="counter">257,510</h4>
-				</div>
-				<div class="clearfix"> </div>
-				<div class="w3l_social_icon_grid_pos">
-					<label>-</label>
-				</div>
+				    <br><br>
+					<h2 class="counter" style="font:bold; color: #000;" >&nbsp;&nbsp;257,510</h2>
+				
+				
+				
 			</div>
 			<div class="col-md-6 wthree_welcome_bottom_left_grid">
 				<div class="w3l_social_icon_gridl">
 					<img src="images/9.png" alt=" " class="img-responsive" />
 				</div>
-				<div class="w3l_social_icon_gridr">
-					<h4 class="counter">145,000</h4>
-				</div>
-				<div class="clearfix"> </div>
-				<div class="w3l_social_icon_grid_pos">
-					<label>-</label>
-				</div>
+				    <br><br>
+					<h2 class="counter" style="font:bold; color: #000;">&nbsp;&nbsp;145,000</h2>
+				
+				
+				
 			</div>
 			<div class="col-md-6 wthree_welcome_bottom_left_grid">
 				<div class="w3l_social_icon_gridl">
 					<img src="images/10.png" alt=" " class="img-responsive" />
 				</div>
-				<div class="w3l_social_icon_gridr">
-					<h4 class="counter">37,000</h4>
-				</div>
-				<div class="clearfix"> </div>
-				<div class="w3l_social_icon_grid_pos">
-					<label>-</label>
-				</div>
+				     <br><br>
+					<h2 class="counter" style="font:bold; color: #000;">&nbsp;&nbsp;37,000</h2>
+				
+				
+				
 			</div>
 			<div class="col-md-6 wthree_welcome_bottom_left_grid">
 				<div class="w3l_social_icon_gridl">
 					<img src="images/11.png" alt=" " class="img-responsive" />
 				</div>
-				<div class="w3l_social_icon_gridr">
-					<h4 class="counter">743,729</h4>
-				</div>
-				<div class="clearfix"> </div>
-				<div class="w3l_social_icon_grid_pos">
-					<label>-</label>
-				</div>
+				     <br><br>
+					<h2 class="counter" style="font:bold; color: #000;">&nbsp;&nbsp;743,729</h2>
+				
+				
+				
 			</div>
 			<div class="clearfix"> </div>
 		</div>

@@ -166,9 +166,10 @@ class clientcontroller extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function landing()
     {
         //
+        return view('home');
     }
 
    
@@ -179,4 +180,9 @@ class clientcontroller extends Controller
         return redirect()->back();
     }
 
+  public function languageChooser1($lang)
+    {
+        Session::set('locale', $lang);
+        return redirect()->route('client.home');
+    }
 }

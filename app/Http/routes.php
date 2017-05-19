@@ -14,9 +14,9 @@
 
 Route::auth();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/home', 'clientcontroller@index')->name('client.home');
 
-Route::get ("/","clientcontroller@index");
+Route::get ("/","clientcontroller@landing");
 
 Route::get ("/contact","clientcontroller@contact")->name('client.getContact');
 Route::post ("/contact","clientcontroller@store")->name('client.contact');
@@ -50,6 +50,9 @@ Route::get ("/News/{id}","clientcontroller@topic");
 
 
 
+//************************* Change Language route ***************//
+Route::get('/language-landing/{lang}',['as' =>'language-landing','uses' =>'clientcontroller@languageChooser1'
+]);
 
 //************************* Change Language route ***************//
 Route::get('/language-chooser/{lang}',['as' =>'language-choose','uses' =>'clientcontroller@languageChooser'

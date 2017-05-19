@@ -1,5 +1,5 @@
  @extends('master1')
-
+ 
 @section('content')
 <!-- breadcrumbs -->
 	<div class="breadcrumbs">
@@ -60,9 +60,9 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
-	                          {{trans('about.Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid.')}}
-                               {{trans('about.Il pourra etre transféré à tout autre endroit par décision de l’Assmblée Générale Extraordinaire des actionnaires.')}}
+	                           {{trans('about.Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid:Il pourra etre transféré à tout autre endroit par décision de l’Assmblée Générale Extraordinaire des actionnaires.')}}
 	                </p>
+	             
 				</div>
 				
 				<div class="col-md-12 w3_agile_about_grid_left" dir="rtl">
@@ -158,7 +158,7 @@
 	                           {{trans('about.La SOMAPROC est une Société Anonyme qui opére dans le domaine de l’agroalimentaire et qui  à pour objectif la valorisation des produits agricoles et l’organisation de leurs circuits de distribution.')}}<br>
                                {{trans('about.Cette société publique à été creée en 2016 a Sidi Bouzid.')}}
 	                </p>
-	                <h3 style=" font-size:20px;
+	                <h3 style=" font-size:45px;
 	                           color:#312F2F;
 	                           font-weight:400;
 	                           line-height: 1.8em;
@@ -166,14 +166,13 @@
 	                           text-align: justify;" >
 	                           <span >{{trans('about.SIEGE SOCIAL')}}</span>
 	                </h3>
-	                <p style=" font-size:14px;
+	                  <p style=" font-size:14px;
 	                           color:#312F2F;
 	                           font-weight:400;
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
-	                          {{trans('about.Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid.')}}
-                               {{trans('about.Il pourra etre transféré à tout autre endroit par déscision de l’Assmblée Générale Extraordinaire des actionnaires.')}}
+	                           {{trans('about.Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid:Il pourra etre transféré à tout autre endroit par décision de l’Assmblée Générale Extraordinaire des actionnaires.')}}
 	                </p>
 				</div>
 				
@@ -339,7 +338,7 @@
 							<li>
 								<div class="agile_testimonials_grid">
 									<div class="col-md-4 agile_testimonials_grid_left">
-										<img src="{{asset('images/team/PDG.jpg')}}" alt=" " class="img-responsive" />
+										<img src="{{asset('images/team/hamadi.png')}}" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-8 agile_testimonials_grid_right">
 										<h5>{{trans('about.Achouri Hamadi')}}</h5>

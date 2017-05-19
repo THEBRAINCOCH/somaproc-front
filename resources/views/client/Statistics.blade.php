@@ -111,20 +111,23 @@
       <div class="w3_agile_image">
         <img src="{{asset('images/1.png')}}" alt=" " class="img-responsive" />
       </div><br><br>
-  <div class="col-md-6 w3_agile_about_grid_left" >
+  <div class="col-md-12 w3_agile_about_grid_left" >
 <h1 style=" 
                              color:#312F2F;
                              font-weight:200;
                              line-height: 1.8em;
                              margin-bottom: 1em;
-                             text-align: justify;" >
-                            <h4><center>{{trans('statistics.STRUCTURE DES VENTES DES PRODUITS AGRICOLES')}}</center></h4>
+                             text-align: justify;
+                             text-align: center;" >
+                            {{trans('statistics.STRUCTURE DES VENTES DES PRODUITS AGRICOLES')}}</</
            </h1>
         <div class="w3_agile_image">
         <img src="{{asset('images/organi.png')}}" alt=" " class="img-responsive" />
       </div><br>
 </div>
-<div class="col-md-6 w3_agile_about_grid_left" >
+
+<div class="col-md-12 w3_agile_about_grid_left" >
+<h4 style="font-family: "Times New Roman", Times, serif;" align="center">{{trans('statistics.CIRCUITS DE DISTRIBUTION (TOUT PRODUIT HORS OLIVES) (ESTIMATION 2012))')}}</h4><br><br>
  <table class="table table-bordered" >
 
         <thead>
@@ -166,10 +169,10 @@
              </tr>
              <thead>
                                 <tr>
-                                    <td  style="color: #000;" align="center"><center>{{trans('statistics.Total')}}</center></td>
-                                    <td  style="color: #000;" align="center"><center>100%</center></td>
-                                    <td  style="color: #000;"></td>
-                                    <td  style="color: #000;" align="center"><center></center></td>
+                                    <th  style="color: #000;" align="center"><center>{{trans('statistics.Total')}}</center></th>
+                                    <th  style="color: #000;" align="center"><center>100%</center></th>
+                                    <th  style="color: #000;"></th>
+                                    <th  style="color: #000;" align="center"><center></center></th>
                                  </tr>
                               </thead>
             
@@ -187,20 +190,22 @@
       <div class="w3_agile_image">
         <img src="{{asset('images/1.png')}}" alt=" " class="img-responsive" />
       </div><br><br>
-  <div class="col-md-6 w3_agile_about_grid_left" >
-<h1 style=" 
+  <div class="col-md-12 w3_agile_about_grid_left" >
+<h4 style=" 
                              color:#312F2F;
                              font-weight:200;
                              line-height: 1.8em;
                              margin-bottom: 1em;
-                             text-align: justify;" >
-                            <h4>{{trans('statistics.STRUCTURE DES VENTES DES PRODUITS AGRICOLES')}}</h4>
-           </h1>
+                             text-align: justify;
+                             text-align: center;" >
+                            {{trans('statistics.STRUCTURE DES VENTES DES PRODUITS AGRICOLES')}}</</
+           </h4>
         <div class="w3_agile_image">
-        <img src="{{asset('images/organi.png')}}" alt=" " class="img-responsive" />
+        <center><img src="{{asset('images/organi.png')}}" alt=" " class="img-responsive" /></center>
       </div><br>
 </div>
-<div class="col-md-6 w3_agile_about_grid_left" >
+<div class="col-md-12 w3_agile_about_grid_left" >
+<h4 style="font-family: "Times New Roman", Times, serif;" align="center">{{trans('statistics.CIRCUITS DE DISTRIBUTION (TOUT PRODUIT HORS OLIVES) (ESTIMATION 2012))')}}</h4><br><br>
  <table class="table table-bordered" >
 
         <thead>
@@ -240,14 +245,14 @@
              <td align="center"></td>
              <td align="center"></td>
              </tr>
-             <thead>
+                          <thead>
                                 <tr>
-                                    <th  style="color: #000;" align="center">{{trans('statistics.Total')}}</th>
-                                    <th  style="color: #000;"><center>100%</center></th>
+                                    <th  style="color: #000;" align="center"><center>{{trans('statistics.Total')}}</center></th>
+                                    <th  style="color: #000;" align="center"><center>100%</center></th>
                                     <th  style="color: #000;"></th>
                                     <th  style="color: #000;" align="center"><center></center></th>
                                  </tr>
-                              </thead>
+                          </thead>
             
 
                               
@@ -339,9 +344,9 @@
                               </tr>
                               <thead>
                                 <tr >
-                                    <th  style="color: #000;" align="center">Total</th>
-                                    <th  style="color: #000;"><center>-</center></th>
-                                    <th  style="color: #000;">-</th>
+                                    <th  style="color: #000;" align="center"><center>{{trans('statistics.Total')}}</center></th>
+                                    <th  style="color: #000;" align="center">-</th>
+                                    <th  style="color: #000;" align="center">-</th>
                                     <th  style="color: #000;" align="center"><center>80000</center></th>
                                   </tr>
                               </thead>
@@ -419,8 +424,8 @@
 
 
 </div>
-
-<div class="w3ls_news_grids"> 
+<br><br><br>
+<div class="w3ls_news_grids"> <hr>
 @if (session()->get('locale')=="ar")
    <div class="col-md-6 content-row-column" dir="rtl">
 @else
@@ -441,8 +446,8 @@
 <div class="col-md-6 w3_agile_about_grid_left">
  <div class="bs-docs-example"  style="max-width: 850px;">
               <div class="table-responsive">
-@if (session()->get('locale')=="ar")              
-        <table class="table table-bordered" dir="rtl">
+@if (session()->get('locale')=="ar")            
+        <table class="table table-bordered" dir="rtl" align="center">
 
         <thead>
             <tr style="background-color: #a4dd25">
@@ -487,7 +492,7 @@
           </tbody>
           </table>
 @else
- <table class="table table-bordered" >
+ <table class="table table-bordered" align="center" >
 
         <thead>
             <tr style="background-color: #a4dd25">
@@ -530,7 +535,7 @@
                               </tr>
                               
 </tbody>
-          </table>
+          </table></center> 
 @endif
           </div>
 

@@ -3,10 +3,10 @@
 return [
  
 
-    'Société' =>'Company', 
-    'des Marchés' =>'Of Markets',
-    'de production' =>'Of production',
-    'du centre' => 'centre',
+    'Société' =>'Markets', 
+    'des Marchés' =>'Of ',
+    'de production' =>'production',
+    'du centre' => 'Of  centre',
     'votre' => 'Your',
     'meilleur' =>'Better',
     'choix' => 'Choice',

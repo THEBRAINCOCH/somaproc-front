@@ -14,7 +14,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //custom-theme -->
-<link href="{{asset('css/bootstrap.cs')}}s" rel="stylesheet" type="text/css" media="all" />
+<link href="{{asset('css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
 <link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="{{asset('css/flexslider.css')}}" type="text/css" media="screen" property="" />
 <link href="{{ asset('css/NewsCarousel.css') }}" rel="stylesheet" type="text/css" media="all" />
@@ -75,7 +75,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	 <div class="w3_agileits_banner_main_grid" style="margin-top:-20px;">
 				<div class="w3_agile_logo">
-					<a href="/"><img src="{{asset('images/logo.png')}}"  style="position: relative; width: 200px; height: 200px;"></a>
+					<a href="{{route('client.home')}}"><img src="{{asset('images/logo.png')}}"  style="position: relative; width: 200px; height: 200px;"></a>
 				</div>
 	</div>	
 		<div class="container">
@@ -261,7 +261,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3agile_footer_grids">
 				<div class="col-md-4 agileinfo_footer_grid">
 					<div class="agileits_w3layouts_footer_logo">
-						<a href="/"><img src="{{asset('images/logo.png')}}"  style="position: relative;  width: 200px; height: 200px; left: 10; right: 0px; float: left;"></a>
+						<a href="{{route('client.home')}}"><img src="{{asset('images/logo.png')}}"  style="position: relative;  width: 200px; height: 200px; left: 10; right: 0px; float: left;"></a>
 					</div>
 				</div>
 				<div class="col-md-4 agileinfo_footer_grid">
@@ -277,7 +277,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-4 agileinfo_footer_grid agileinfo_footer_grid1">
 					<h3>{{trans('menus.navigation')}}</h3>
 					<ul class="w3layouts_footer_nav">
-						<li><a href="/"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.home')}}</a></li>
+						<li><a href="{{route('client.home')}}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.home')}}</a></li>
 						       <li><a href="{{url('/gallery')}}">
 						       <i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.gallery')}}</a></li>
         					 <li><a href="{{url('/News')}}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>{{trans('menus.news')}}</a></li>

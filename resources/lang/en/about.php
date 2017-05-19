@@ -15,9 +15,8 @@ return [
 /*-p2-*/
 'SIEGE SOCIAL'=>'HEAD OFFICE',
 
-'Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid.'=>'The head office of the company is fixed at the Headquarters of the Governorate of Sidi-Bouzid - Habib Bourguiba - 9100 Sidi Bouzid',
+'Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid:Il pourra etre transféré à tout autre endroit par décision de l’Assmblée Générale Extraordinaire des actionnaires.'=>'Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid.Il pourra etre transféré à tout autre endroit par décision de l’Assmblée Générale Extraordinaire des actionnaires.',
 
-'Il pourra etre transféré à tout autre endroit par décision de l’Assmblée Générale Extraordinaire des actionnaires.'=>'It may be transferred to any other place by decision of the Extraordinary General Meeting of Shareholders.',
 
 /*-p3-*/
 'OBJET'=>'OBJECT',
@@ -43,9 +42,9 @@ return [
 
  'SOMAPROC '=>'SOMAPROC ',
 
- ' Est La Solution La Plus Appropriée Pour La Valorisation Produits Agricoles en'=>' Is The Most Suitable Solution For Valorization',
+ ' Est La Solution La Plus Appropriée Pour La Valorisation Produits Agricoles en'=>' Is the most suitable solution for estimating agricultural products in ',
 
- ' Tunisie '=>' Tunisie ',
+ ' Tunisie '=>' Tunisia ',
 
  'Read More'=>'Read More',
 
@@ -55,7 +54,7 @@ return [
 
  ' équipe'=>' Team',
 
- 'Hamdi Lotfi'=>'Hamdi Lotfi',
+ 'Hamdi Lotfi'=>'dr.Hamdi Lotfi',
 
  ' président dirécteur générale '=>' President of the General-Directorate ',
 
@@ -63,7 +62,7 @@ return [
 
  '’SOMAPROC’'=>'’SOMAPROC’',
 
- 'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre'=>'Veterinarian and President of the production company',
+ 'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre'=>'Veterinarian inspector and President of the production company',
 
 
 'Assistance De'=>'Assistant Of',
@@ -76,5 +75,5 @@ return [
 
 'Résponsable Téchnique'=>'Responsible Technical',
 
- ' Actionnaires '=>' Shareholders ',
+ ' Actionnaires '=>' Shareholders ', 
 ];

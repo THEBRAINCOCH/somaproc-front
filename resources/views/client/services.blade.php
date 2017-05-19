@@ -104,6 +104,19 @@
 					</div>
 					<div class="clearfix"> </div>
 				</div>
+
+				<div class="col-md-6 w3_agile_services_grid"> 
+					<div class="col-xs-4 w3_agile_services_grid_left"> 
+						<div class="agile_services_grid_left1 hvr-radial-out"> 
+							<img src="images/22.png" alt=" " class="img-responsive" />
+						</div>
+					</div>
+					<div class="col-xs-8 w3_agile_services_grid_right"> 
+						<h4><center>{{trans('services.L’export')}}<center></h4>
+						<p>{{trans('services.l’export des produits agricoles des cette régions.')}}</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>

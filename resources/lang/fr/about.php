@@ -2,8 +2,8 @@
 
 return [ 
 'why'=>'Pourquoi',
-'Choose'=>'Vous choisir',
-'Us'=>' nous ?',
+'Choose'=>'Vous ',
+'Us'=>'Nous-choisissez',
 'Somaproc'=>'Somaproc',
 
 /*-p1-*/
@@ -14,9 +14,9 @@ return [
 /*-p2-*/
 'SIEGE SOCIAL'=>'SIEGE SOCIAL',
 
-'Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid.'=>'Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid',
+'Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid:Il pourra etre transféré à tout autre endroit par décision de l’Assmblée Générale Extraordinaire des actionnaires.'=>'Le siège sociale de la société est fixé au Siège du Gouvernorat de Sidi-Bouzid - Avenu Habib Bourguiba - 9100 Sidi Bouzid. Il pourra etre transféré à tout autre endroit par décision de l’Assmblée Générale Extraordinaire des actionnaires.',
 
-'Il pourra etre transféré à tout autre endroit par décision de l’Assmblée Générale Extraordinaire des actionnaires.'=>'Il pourra etre transféré à tout autre endroit par décision de l’Assmblée Générale Extraordinaire des actionnaires.',
+
 
 /*-p3-*/
 'OBJET'=>'OBJET',
@@ -54,7 +54,7 @@ return [
 
  ' équipe'=>' équipe',
 
- 'Hamdi Lotfi'=>'Hamdi Lotfi',
+ 'Hamdi Lotfi'=>' Dr.Hamdi Lotfi',
 
  ' président dirécteur générale '=>' président dirécteur générale ',
 
@@ -62,7 +62,7 @@ return [
 
  '’SOMAPROC’'=>'’SOMAPROC’',
 
-'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre'=>'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre',
+'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre'=>'Vétérinaire inspecteur et  président dirécteur générale des marchés de la société de production Du centre',
 
 'Assistance De'=>'Assistante De ',
 

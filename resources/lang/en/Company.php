@@ -1,6 +1,6 @@
 <?php
   
-return [ 
+return [   
 
 'Le projet'=>'the project',
 

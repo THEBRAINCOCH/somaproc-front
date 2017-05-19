@@ -80,7 +80,7 @@ return [
 
 
 
-
+'CIRCUITS DE DISTRIBUTION (TOUT PRODUIT HORS OLIVES) (ESTIMATION 2012))'=>'دوائر التوزيع (أي منتج من الزيتون) (تقدير 2012)',
 
 
 

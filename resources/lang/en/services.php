@@ -19,14 +19,18 @@ Valorisation of the agricultural products of the region of the Tunisian center.'
 
 'La transformation des produits agricoles. ces services est inclus dans notre future services.'=>'Processing of agricultural products. These services are included in our future services.',
 
-'La formation des prix'=>'Price formation',
+'La formation des prix'=>'Determining prices',
 
-'La formation des prix et l’export des produits agricoles des cette régions.'=>'The formation of prices and export of agricultural products of this region.',
+'La formation des prix et l’export des produits agricoles des cette régions.'=>'Determining prices and securing the movement of goods in the areas concerned.',
 
 'La standardisation & la conservation'=>'
 Standardization & conservation',
 
 'La standardisation, la conservation et le conditionnement des produits agricoles.'=>'
 Standardization, conservation and packaging of agricultural products.',
+
+'L’export'=>'Export ',
+'l’export des produits agricoles des cette régions.'=>'Export of agricultural products in this region.',
+
 
 ]; 

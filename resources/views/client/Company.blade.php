@@ -103,7 +103,7 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" >
-	                          <center> <span >3</span></center>
+	                          <center><hr> <span >3</span></center>
 	                </h3>
 					<p style=" font-size:14px;
 	                           color:#312F2F;
@@ -112,7 +112,7 @@
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
 	                    {{trans('Company.Plusieurs parkings sont prévus, à l’intérieur du site. Ils seront destinés au personnel administratif, aux différents opérateurs et clients du marché.')}}
-	                </p>
+	                </p><hr>
 				</div>
 				
 				<div class="col-md-4 w3_agile_about_grid_left" dir="rtl">
@@ -122,7 +122,7 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" >
-	                          <center> <span >2</span></center>
+	                          <center> <hr><span >2</span></center>
 	                </h3>
 					<p style=" font-size:14px;
 	                           color:#312F2F;
@@ -131,7 +131,7 @@
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
 	                   {{trans('Company.Une entrée et sortie avec poste de contrôle sera destinée à tous les véhicules et piétons, celle-ci sera prévue à l’entrée du marché.')}}
-	                </p>
+	                </p><hr>
 				</div>
 				
 				<div class="col-md-4 w3_agile_about_grid_left" dir="rtl">
@@ -141,7 +141,7 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" >
-	                          <center> <span >1</span></center>
+	                          <center> <hr><span >1</span></center>
 	                </h3>
 					<p style=" font-size:14px;
 	                           color:#312F2F;
@@ -150,7 +150,7 @@
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
 	                    {{trans('Company.Le bâtiment est implanté sur le terrain de manière à laisser un retrait suffisant par apport aux voiries pour protéger le voisinage des nuisances, le bâtiment s’implante d’une manière idéale.')}}
-	                </p>
+	                </p><hr>
 				</div>
 				
 				<div class="col-md-8 w3_agile_about_grid_left" dir="rtl">
@@ -160,7 +160,7 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" >
-	                          <center> <span >4</span></center>
+	                          <center><hr> <span >4</span></center>
 	                </h3>
 					<p style=" font-size:14px;
 	                           color:#312F2F;
@@ -169,7 +169,7 @@
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
 	                    {{trans('Company.La zone prévue pour l’extension sera aménagée en zone verte. Une voie de 10 mètres ceinture le bâtiment et les halles pour assurer la fluidité de la circulation véhiculaire, facilitera l’approvisionnement et le chargement des fruits et légumes et sera nécessaires pour répondre aux exigences de la sécurité incendie.')}}.
-	                </p>
+	                </p><hr>
 				</div>
 <div class="col-md-4 w3_agile_about_grid_left" dir="rtl">
 					<h3 style=" font-size:20px;
@@ -178,7 +178,7 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" >
-	                          <center> <span >5</span></center>
+	                          <center><hr> <span >5</span></center>
 	                </h3>
 					<p style=" font-size:14px;
 	                           color:#312F2F;
@@ -187,7 +187,7 @@
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
 	                   {{trans('Company.L’implantation des voieries et des bâtiments permet d’envisager la construction de futures extensions dans la zone laissée verte.')}}
-	                </p>
+	                </p><hr>
 				</div>
 				<div class="clearfix"> </div>
 				
@@ -199,7 +199,7 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" >
-	                          <center> <span >1</span></center>
+	                          <center><hr> <span >1</span></center>
 	                </h3>
 					<p style=" font-size:14px;
 	                           color:#312F2F;
@@ -208,7 +208,7 @@
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
 	                    {{trans('Company.Le bâtiment est implanté sur le terrain de manière à laisser un retrait suffisant par apport aux voiries pour protéger le voisinage des nuisances, le bâtiment s’implante d’une manière idéale.')}}
-	                </p>
+	                </p><hr>
 				</div>
 				<div class="col-md-4 w3_agile_about_grid_left">
 					<h3 style=" font-size:20px;
@@ -217,7 +217,7 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" >
-	                          <center> <span >2</span></center>
+	                          <center><hr> <span >2</span></center>
 	                </h3>
 					<p style=" font-size:14px;
 	                           color:#312F2F;
@@ -226,7 +226,7 @@
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
 	                   {{trans('Company.Une entrée et sortie avec poste de contrôle sera destinée à tous les véhicules et piétons, celle-ci sera prévue à l’entrée du marché.')}}
-	                </p>
+	                </p><hr>
 				</div>
 				<div class="col-md-4 w3_agile_about_grid_left">
 					<h3 style=" font-size:20px;
@@ -235,7 +235,7 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" >
-	                          <center> <span >3</span></center>
+	                          <center> <hr><span >3</span></center>
 	                </h3>
 					<p style=" font-size:14px;
 	                           color:#312F2F;
@@ -244,7 +244,7 @@
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
 	                    {{trans('Company.Plusieurs parkings sont prévus, à l’intérieur du site. Ils seront destinés au personnel administratif, aux différents opérateurs et clients du marché.')}}
-	                </p>
+	                </p><hr>
 				</div>
 				<div class="clearfix"> </div>
 				<div class="col-md-8 w3_agile_about_grid_left">
@@ -254,7 +254,7 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" >
-	                          <center> <span >4</span></center>
+	                          <center> <hr><span >4</span></center>
 	                </h3>
 					<p style=" font-size:14px;
 	                           color:#312F2F;
@@ -263,7 +263,7 @@
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
 	                    {{trans('Company.La zone prévue pour l’extension sera aménagée en zone verte. Une voie de 10 mètres ceinture le bâtiment et les halles pour assurer la fluidité de la circulation véhiculaire, facilitera l’approvisionnement et le chargement des fruits et légumes et sera nécessaires pour répondre aux exigences de la sécurité incendie.')}}
-	                </p>
+	                </p><hr>
 				</div>
 				<div class="col-md-4 w3_agile_about_grid_left">
 					<h3 style=" font-size:20px;
@@ -272,7 +272,7 @@
 	                           line-height: 1.8em;
 	                           margin-bottom: 1em;
 	                           text-align: justify;" >
-	                          <center> <span >5</span></center>
+	                          <center><hr> <span >5</span></center>
 	                </h3>
 					<p style=" font-size:14px;
 	                           color:#312F2F;
@@ -281,11 +281,11 @@
 	                           margin-bottom: 1em;
 	                           text-align: justify;">
 	                   {{trans('Company.L’implantation des voieries et des bâtiments permet d’envisager la construction de futures extensions dans la zone laissée verte.')}}
-	                </p>
+	                </p><hr>
 				</div>
 				@endif
 				
-
+<br><br><br>
 				<div class="col-md-12 w3_agile_about_grid_left">
 			                   <h3 class="agileits_w3layouts_head"><span> {{trans('Company.Mission')}}</span></h3>
 			                     <div class="w3_agile_image">
