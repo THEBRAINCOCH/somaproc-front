@@ -62,7 +62,8 @@ return [
 
  '’SOMAPROC’'=>'’SOMAPROC’',
 
- 'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre'=>'Veterinarian inspector and President of the production company',
+ 'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre'=>'
+Doctor Veterinary Inspector',
 
 
 'Assistance De'=>'Assistant Of',

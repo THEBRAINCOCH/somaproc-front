@@ -56,13 +56,14 @@ return [
 
  'Hamdi Lotfi'=>' Dr.Hamdi Lotfi',
 
- ' président dirécteur générale '=>' président dirécteur général ',
+ ' président dirécteur générale '=>' Président Dirécteur Général ',
 
  ' De '=>' De ',
 
  '’SOMAPROC’'=>'’SOMAPROC’',
 
-'Vétérinaire et  président dirécteur général des marchés de la société de production Du centre'=>' Médecin Vétérinaire inspecteu',
+  'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre'=>'Médecin Vétérinaire inspecteur',
+
 
 'Assistance De'=>'Assistante De ',
 
