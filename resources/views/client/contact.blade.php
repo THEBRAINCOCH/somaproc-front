@@ -2,6 +2,7 @@
 
 @section('content')
 
+
  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcPr8-cPFViW2XMU82Yi5MalOoi__IrMc"></script>
 <!-- breadcrumbs -->
 
@@ -20,6 +21,8 @@
 		</div>
 	</div>
 <!-- //breadcrumbs -->
+
+
 <!-- contact -->
 @if (session()->get('locale')=="ar")
 	<div class="welcome" dir="rtl">
