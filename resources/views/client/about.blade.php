@@ -47,7 +47,7 @@
 	                           {{trans('about.La SOMAPROC est une Société Anonyme qui opére dans le domaine de l’agroalimentaire et qui  à pour objectif la valorisation des produits agricoles et l’organisation de leurs circuits de distribution.')}}<br>
                                {{trans('about.Cette société publique à été creée en 2016 a Sidi Bouzid.')}}
 	                </p>
-	                <h3 style=" font-size:20px;
+	               <h3 style=" font-size:20px;
 	                           color:#312F2F;
 	                           font-weight:400;
 	                           line-height: 1.8em;

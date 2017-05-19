@@ -42,7 +42,7 @@ return [
 
  'SOMAPROC '=>'SOMAPROC ',
 
- ' Est La Solution La Plus Appropriée Pour La Valorisation Produits Agricoles en'=>' Est La Solution La Plus Appropriée Pour La Valorisation Produits Agricoles en',
+ ' Est La Solution La Plus Appropriée Pour La Valorisation Produits Agricoles en'=>' Est La Solution La Plus Appropriée Pour La Valorisation Des Produits Agricoles en',
 
  ' Tunisie '=>' Tunisie ',
 
@@ -56,13 +56,13 @@ return [
 
  'Hamdi Lotfi'=>' Dr.Hamdi Lotfi',
 
- ' président dirécteur générale '=>' président dirécteur générale ',
+ ' président dirécteur générale '=>' président dirécteur général ',
 
  ' De '=>' De ',
 
  '’SOMAPROC’'=>'’SOMAPROC’',
 
-'Vétérinaire et  président dirécteur générale des marchés de la société de production Du centre'=>'Vétérinaire inspecteur et  président dirécteur générale des marchés de la société de production Du centre',
+'Vétérinaire et  président dirécteur général des marchés de la société de production Du centre'=>' Médecin Vétérinaire inspecteu',
 
 'Assistance De'=>'Assistante De ',
 
