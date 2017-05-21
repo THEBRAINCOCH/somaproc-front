@@ -10,7 +10,7 @@
 @endif
 	 <div class="w3_agileits_banner_main_grid" style="margin-top:-20px;">
 				<div class="w3_agile_logo">
-					<a href="/"><img src="{{asset('images/logo.png')}}"  style="position: relative; width: 200px; height: 200px;"></a>
+					<a href="{{url('/home')}}"><img src="{{asset('images/logo.png')}}"  style="position: relative; width: 200px; height: 200px;"></a>
 				</div>
 	</div>
    <div class="container">
@@ -91,7 +91,7 @@
                <li><a href="Statistics">{{trans('menus.Statistics')}}</a></li>
             </ul>
          </li>
-         <li ><a href="/">{{trans('menus.home')}}</a></li>
+         <li ><a href="{{url('/home')}}">{{trans('menus.home')}}</a></li>
         <img src="{{asset('images/21.png')}}"  style="position: relative; width: 35px; height: 35px; top: 7px;" >
       </ul>
        

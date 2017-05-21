@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
+    'host' => env('MAIL_HOST', 'ssl0.ovh.net'),
 
     /*
     |--------------------------------------------------------------------------
@@ -81,7 +81,7 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME','naciri1938@gmail.com'),
+    'username' => env('MAIL_USERNAME','administration@somaproc.com.tn'),
 
     /*
     |--------------------------------------------------------------------------
@@ -94,7 +94,7 @@ return [
     |
     */
 
-    'password' => env('MAIL_PASSWORD','bomaybypzaalvqzj'),
+    'password' => env('MAIL_PASSWORD','Nn21760436'),
 
     /*
     |--------------------------------------------------------------------------
