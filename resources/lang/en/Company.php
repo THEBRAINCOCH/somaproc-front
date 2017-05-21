@@ -4,14 +4,14 @@ return [
 
 'Le projet'=>'the project',
 
-'L’objectif du projet'=>'The aim of the project',
+'L’objectif du projet'=>'The objective of the project',
 
 
-'Pour permettre à la région de SIDI BOUZID de maitriser l’écoulement de sa production agricole et aussi celle des régions limitrophe'=>'To enable the SIDI BOUZID region to control the flow of its agricultural production and also that of the neighboring regions,',
+'Pour permettre à la région de SIDI BOUZID de maitriser l’écoulement de sa production agricole et aussi celle des régions limitrophe'=>'To enable the region of Sidi Bouzid to control the flow of its agricultural production and also that of the regions bordering,',
 
-'il a été décidé lors d’un conseil ministériel tenu le 30 aout 2012, de créer un marché de production à sidi Bouzid'=>'It was decided at a ministerial council held on 30 August 2012, to create a production market in sidi Bouzid',
+'il a été décidé lors d’un conseil ministériel tenu le 30 aout 2012, de créer un marché de production à sidi Bouzid'=>'It was decided at a ministerial council Held on 30 August 2012, to create a production market n Sidi Bouzid.',
 
-'Une étude de faisabilité technique et financière du projet a été réalisée en 2013 et a permis de dimensionner le projet et de définir le site d implantation et le programme d’aménagement'=>'A technical and financial feasibility study of the project was carried out in 2013 and allowed to dimension the project and to define the site and the development program',
+'Une étude de faisabilité technique et financière du projet a été réalisée en 2013 et a permis de dimensionner le projet et de définir le site d implantation et le programme d’aménagement'=>'A technical and financial feasibility study of the project was carried out in 2013 and allowed the rightsizing of the project and the identification of the installation site and the development program.',
 
 /*-DESCRIPTION OF THE PROJECT COMPONENTS--*/
 

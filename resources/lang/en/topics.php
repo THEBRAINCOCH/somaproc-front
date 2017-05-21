@@ -1,4 +1,4 @@
 <?php
 return [
 
-'lastTopics'=>'Last news'];
+'lastTopics'=>'Latest news on Somaproc'];
