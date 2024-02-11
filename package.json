@@ -10,7 +10,7 @@
     "compile": "NODE_ENV=production webpack -p --config ./webpack.config.babel.js --progress",
     "start": "npm run clean && npm run compile && cross-env NODE_ENV=production babel-node src/server/server.js --ignore ./node_modules"
   },
-  },
+  
   "devDependencies": {
     "gulp": "^3.9.1",
     "laravel-elixir": "^5.0.0",
